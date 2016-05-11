@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Tc-mM-CXp">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhN-4v-bma">
+                                        <rect key="frame" x="560" y="10" width="30" height="30"/>
+                                        <state key="normal" title="选择"/>
+                                        <connections>
+                                            <action selector="selectCell:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WIT-al-W8c"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wcr-Ux-aKl">
+                                        <rect key="frame" x="10" y="10" width="30" height="30"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="en5-AA-ZmH">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8bn-97-ZLg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsc-Pq-N5a">
+                                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="30" id="CcQ-ic-N67"/>
+                                                                    <constraint firstAttribute="height" constant="30" id="fsB-5x-wD1"/>
+                                                                </constraints>
+                                                                <state key="normal" title="删除"/>
+                                                                <connections>
+                                                                    <action selector="removeCell:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hjs-qk-axh"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="RhN-4v-bma" secondAttribute="trailing" constant="10" id="dZ0-fp-O6E"/>
+                                    <constraint firstItem="Wcr-Ux-aKl" firstAttribute="leading" secondItem="3Tc-mM-CXp" secondAttribute="leading" constant="10" id="fDG-JI-pBW"/>
+                                    <constraint firstItem="Wcr-Ux-aKl" firstAttribute="top" secondItem="3Tc-mM-CXp" secondAttribute="top" constant="10" id="otN-OC-o0X"/>
+                                    <constraint firstAttribute="height" constant="50" id="rqU-o8-Jtg"/>
+                                    <constraint firstAttribute="bottom" secondItem="RhN-4v-bma" secondAttribute="bottom" constant="10" id="sDf-vx-wEK"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XbG-SR-dyQ">
+                                <rect key="frame" x="0.0" y="50" width="600" height="550"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5Eb-qM-zG6">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="550"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="Bxg-tg-tLV"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="NVl-74-DKi"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XbG-SR-dyQ" secondAttribute="trailing" id="1ST-MX-XHd"/>
+                            <constraint firstAttribute="trailing" secondItem="3Tc-mM-CXp" secondAttribute="trailing" id="CyW-Rc-YIX"/>
+                            <constraint firstItem="XbG-SR-dyQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FDX-Gu-vQt"/>
+                            <constraint firstItem="3Tc-mM-CXp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NKA-lq-Ido"/>
+                            <constraint firstItem="XbG-SR-dyQ" firstAttribute="top" secondItem="3Tc-mM-CXp" secondAttribute="bottom" id="mwE-UI-b5b"/>
+                            <constraint firstItem="3Tc-mM-CXp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pRf-wI-vKd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XbG-SR-dyQ" secondAttribute="bottom" id="v78-dK-ao9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="5Eb-qM-zG6" id="I4w-X3-1RN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

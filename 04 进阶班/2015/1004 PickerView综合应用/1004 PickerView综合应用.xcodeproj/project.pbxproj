@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665AD1511BC15FAB00596F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 665AD1501BC15FAB00596F06 /* main.m */; };
+		665AD1541BC15FAB00596F06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 665AD1531BC15FAB00596F06 /* AppDelegate.m */; };
+		665AD1571BC15FAB00596F06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665AD1561BC15FAB00596F06 /* ViewController.m */; };
+		665AD15A1BC15FAB00596F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665AD1581BC15FAB00596F06 /* Main.storyboard */; };
+		665AD15C1BC15FAB00596F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665AD15B1BC15FAB00596F06 /* Assets.xcassets */; };
+		665AD15F1BC15FAB00596F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665AD15D1BC15FAB00596F06 /* LaunchScreen.storyboard */; };
+		665AD16A1BC15FAC00596F06 /* _004_PickerView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 665AD1691BC15FAC00596F06 /* _004_PickerView____Tests.m */; };
+		665AD1751BC15FAC00596F06 /* _004_PickerView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 665AD1741BC15FAC00596F06 /* _004_PickerView____UITests.m */; };
+		668F29031BC9FBDB00829866 /* NationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F29021BC9FBDB00829866 /* NationTextField.m */; settings = {ASSET_TAGS = (); }; };
+		668F29061BCA000C00829866 /* NationDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F29051BCA000C00829866 /* NationDataModel.m */; settings = {ASSET_TAGS = (); }; };
+		668F29091BCA00B000829866 /* NationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F29081BCA00B000829866 /* NationView.m */; settings = {ASSET_TAGS = (); }; };
+		668F290B1BCA00CA00829866 /* NationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668F290A1BCA00CA00829866 /* NationView.xib */; settings = {ASSET_TAGS = (); }; };
+		668F291B1BCA020200829866 /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F290D1BCA020200829866 /* agt.gif */; settings = {ASSET_TAGS = (); }; };
+		668F291C1BCA020200829866 /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F290E1BCA020200829866 /* baxi.gif */; settings = {ASSET_TAGS = (); }; };
+		668F291D1BCA020200829866 /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F290F1BCA020200829866 /* deguo.gif */; settings = {ASSET_TAGS = (); }; };
+		668F291E1BCA020200829866 /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29101BCA020200829866 /* faguo.gif */; settings = {ASSET_TAGS = (); }; };
+		668F291F1BCA020200829866 /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29111BCA020200829866 /* hanguo.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29201BCA020200829866 /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29121BCA020200829866 /* helan.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29211BCA020200829866 /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29131BCA020200829866 /* putaoya.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29221BCA020200829866 /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29141BCA020200829866 /* ruidian.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29231BCA020200829866 /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29151BCA020200829866 /* ruishi.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29241BCA020200829866 /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29161BCA020200829866 /* wlgui.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29251BCA020200829866 /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29171BCA020200829866 /* xiby.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29261BCA020200829866 /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29181BCA020200829866 /* ydl.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29271BCA020200829866 /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = 668F29191BCA020200829866 /* ying.gif */; settings = {ASSET_TAGS = (); }; };
+		668F29281BCA020200829866 /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668F291A1BCA020200829866 /* zhongguo.jpg */; settings = {ASSET_TAGS = (); }; };
+		668F292A1BCA024500829866 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 668F29291BCA024500829866 /* flags.plist */; settings = {ASSET_TAGS = (); }; };
+		668F292E1BCA4AC300829866 /* DateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F292D1BCA4AC300829866 /* DateTextField.m */; settings = {ASSET_TAGS = (); }; };
+		668F29321BCA63AE00829866 /* LocationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F29311BCA63AE00829866 /* LocationTextField.m */; settings = {ASSET_TAGS = (); }; };
+		668F29341BCA66A900829866 /* provinces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 668F29331BCA66A900829866 /* provinces.plist */; settings = {ASSET_TAGS = (); }; };
+		668F293A1BCA729200829866 /* ProvincesDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F29391BCA729200829866 /* ProvincesDateModel.m */; settings = {ASSET_TAGS = (); }; };
+		668F293D1BCA7C6C00829866 /* UITextField+LoginText.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F293C1BCA7C6C00829866 /* UITextField+LoginText.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		665AD1661BC15FAC00596F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665AD1441BC15FAB00596F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665AD14B1BC15FAB00596F06;
+			remoteInfo = "1004 PickerView综合应用";
+		};
+		665AD1711BC15FAC00596F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665AD1441BC15FAB00596F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665AD14B1BC15FAB00596F06;
+			remoteInfo = "1004 PickerView综合应用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		665AD14C1BC15FAB00596F06 /* 1004 PickerView综合应用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1004 PickerView综合应用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665AD1501BC15FAB00596F06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		665AD1521BC15FAB00596F06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		665AD1531BC15FAB00596F06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		665AD1551BC15FAB00596F06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		665AD1561BC15FAB00596F06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		665AD1591BC15FAB00596F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665AD15B1BC15FAB00596F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665AD15E1BC15FAB00596F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		665AD1601BC15FAB00596F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665AD1651BC15FAC00596F06 /* 1004 PickerView综合应用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1004 PickerView综合应用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665AD1691BC15FAC00596F06 /* _004_PickerView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_004_PickerView____Tests.m"; sourceTree = "<group>"; };
+		665AD16B1BC15FAC00596F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665AD1701BC15FAC00596F06 /* 1004 PickerView综合应用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1004 PickerView综合应用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665AD1741BC15FAC00596F06 /* _004_PickerView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_004_PickerView____UITests.m"; sourceTree = "<group>"; };
+		665AD1761BC15FAC00596F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668F29011BC9FBDB00829866 /* NationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NationTextField.h; sourceTree = "<group>"; };
+		668F29021BC9FBDB00829866 /* NationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NationTextField.m; sourceTree = "<group>"; };
+		668F29041BCA000C00829866 /* NationDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NationDataModel.h; sourceTree = "<group>"; };
+		668F29051BCA000C00829866 /* NationDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NationDataModel.m; sourceTree = "<group>"; };
+		668F29071BCA00B000829866 /* NationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NationView.h; sourceTree = "<group>"; };
+		668F29081BCA00B000829866 /* NationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NationView.m; sourceTree = "<group>"; };
+		668F290A1BCA00CA00829866 /* NationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NationView.xib; sourceTree = "<group>"; };
+		668F290D1BCA020200829866 /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		668F290E1BCA020200829866 /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		668F290F1BCA020200829866 /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		668F29101BCA020200829866 /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		668F29111BCA020200829866 /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		668F29121BCA020200829866 /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		668F29131BCA020200829866 /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		668F29141BCA020200829866 /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		668F29151BCA020200829866 /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		668F29161BCA020200829866 /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		668F29171BCA020200829866 /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		668F29181BCA020200829866 /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		668F29191BCA020200829866 /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		668F291A1BCA020200829866 /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		668F29291BCA024500829866 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		668F292C1BCA4AC300829866 /* DateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTextField.h; sourceTree = "<group>"; };
+		668F292D1BCA4AC300829866 /* DateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTextField.m; sourceTree = "<group>"; };
+		668F29301BCA63AE00829866 /* LocationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTextField.h; sourceTree = "<group>"; };
+		668F29311BCA63AE00829866 /* LocationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTextField.m; sourceTree = "<group>"; };
+		668F29331BCA66A900829866 /* provinces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces.plist; sourceTree = "<group>"; };
+		668F29381BCA729200829866 /* ProvincesDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvincesDateModel.h; sourceTree = "<group>"; };
+		668F29391BCA729200829866 /* ProvincesDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvincesDateModel.m; sourceTree = "<group>"; };
+		668F293B1BCA7C6C00829866 /* UITextField+LoginText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LoginText.h"; sourceTree = "<group>"; };
+		668F293C1BCA7C6C00829866 /* UITextField+LoginText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LoginText.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665AD1491BC15FAB00596F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665AD1621BC15FAC00596F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665AD16D1BC15FAC00596F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665AD1431BC15FAB00596F06 = {
+			isa = PBXGroup;
+			children = (
+				665AD14E1BC15FAB00596F06 /* 1004 PickerView综合应用 */,
+				665AD1681BC15FAC00596F06 /* 1004 PickerView综合应用Tests */,
+				665AD1731BC15FAC00596F06 /* 1004 PickerView综合应用UITests */,
+				665AD14D1BC15FAB00596F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		665AD14D1BC15FAB00596F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665AD14C1BC15FAB00596F06 /* 1004 PickerView综合应用.app */,
+				665AD1651BC15FAC00596F06 /* 1004 PickerView综合应用Tests.xctest */,
+				665AD1701BC15FAC00596F06 /* 1004 PickerView综合应用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665AD14E1BC15FAB00596F06 /* 1004 PickerView综合应用 */ = {
+			isa = PBXGroup;
+			children = (
+				668F292F1BCA639700829866 /* LocationGroup */,
+				668F292B1BCA4A7500829866 /* DateGroup */,
+				668F29001BC9FBA500829866 /* FlagGroup */,
+				665AD1521BC15FAB00596F06 /* AppDelegate.h */,
+				665AD1531BC15FAB00596F06 /* AppDelegate.m */,
+				668F293B1BCA7C6C00829866 /* UITextField+LoginText.h */,
+				668F293C1BCA7C6C00829866 /* UITextField+LoginText.m */,
+				665AD1551BC15FAB00596F06 /* ViewController.h */,
+				665AD1561BC15FAB00596F06 /* ViewController.m */,
+				665AD1581BC15FAB00596F06 /* Main.storyboard */,
+				665AD15B1BC15FAB00596F06 /* Assets.xcassets */,
+				665AD15D1BC15FAB00596F06 /* LaunchScreen.storyboard */,
+				665AD1601BC15FAB00596F06 /* Info.plist */,
+				665AD14F1BC15FAB00596F06 /* Supporting Files */,
+			);
+			path = "1004 PickerView综合应用";
+			sourceTree = "<group>";
+		};
+		665AD14F1BC15FAB00596F06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				665AD1501BC15FAB00596F06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		665AD1681BC15FAC00596F06 /* 1004 PickerView综合应用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				665AD1691BC15FAC00596F06 /* _004_PickerView____Tests.m */,
+				665AD16B1BC15FAC00596F06 /* Info.plist */,
+			);
+			path = "1004 PickerView综合应用Tests";
+			sourceTree = "<group>";
+		};
+		665AD1731BC15FAC00596F06 /* 1004 PickerView综合应用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				665AD1741BC15FAC00596F06 /* _004_PickerView____UITests.m */,
+				665AD1761BC15FAC00596F06 /* Info.plist */,
+			);
+			path = "1004 PickerView综合应用UITests";
+			sourceTree = "<group>";
+		};
+		668F29001BC9FBA500829866 /* FlagGroup */ = {
+			isa = PBXGroup;
+			children = (
+				668F290C1BCA020200829866 /* guoqi */,
+				668F29291BCA024500829866 /* flags.plist */,
+				668F29011BC9FBDB00829866 /* NationTextField.h */,
+				668F29021BC9FBDB00829866 /* NationTextField.m */,
+				668F29041BCA000C00829866 /* NationDataModel.h */,
+				668F29051BCA000C00829866 /* NationDataModel.m */,
+				668F29071BCA00B000829866 /* NationView.h */,
+				668F29081BCA00B000829866 /* NationView.m */,
+				668F290A1BCA00CA00829866 /* NationView.xib */,
+			);
+			name = FlagGroup;
+			sourceTree = "<group>";
+		};
+		668F290C1BCA020200829866 /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				668F290D1BCA020200829866 /* agt.gif */,
+				668F290E1BCA020200829866 /* baxi.gif */,
+				668F290F1BCA020200829866 /* deguo.gif */,
+				668F29101BCA020200829866 /* faguo.gif */,
+				668F29111BCA020200829866 /* hanguo.gif */,
+				668F29121BCA020200829866 /* helan.gif */,
+				668F29131BCA020200829866 /* putaoya.gif */,
+				668F29141BCA020200829866 /* ruidian.gif */,
+				668F29151BCA020200829866 /* ruishi.gif */,
+				668F29161BCA020200829866 /* wlgui.gif */,
+				668F29171BCA020200829866 /* xiby.gif */,
+				668F29181BCA020200829866 /* ydl.gif */,
+				668F29191BCA020200829866 /* ying.gif */,
+				668F291A1BCA020200829866 /* zhongguo.jpg */,
+			);
+			path = guoqi;
+			sourceTree = "<group>";
+		};
+		668F292B1BCA4A7500829866 /* DateGroup */ = {
+			isa = PBXGroup;
+			children = (
+				668F292C1BCA4AC300829866 /* DateTextField.h */,
+				668F292D1BCA4AC300829866 /* DateTextField.m */,
+			);
+			name = DateGroup;
+			sourceTree = "<group>";
+		};
+		668F292F1BCA639700829866 /* LocationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				668F29331BCA66A900829866 /* provinces.plist */,
+				668F29301BCA63AE00829866 /* LocationTextField.h */,
+				668F29311BCA63AE00829866 /* LocationTextField.m */,
+				668F29381BCA729200829866 /* ProvincesDateModel.h */,
+				668F29391BCA729200829866 /* ProvincesDateModel.m */,
+			);
+			name = LocationGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665AD14B1BC15FAB00596F06 /* 1004 PickerView综合应用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665AD1791BC15FAC00596F06 /* Build configuration list for PBXNativeTarget "1004 PickerView综合应用" */;
+			buildPhases = (
+				665AD1481BC15FAB00596F06 /* Sources */,
+				665AD1491BC15FAB00596F06 /* Frameworks */,
+				665AD14A1BC15FAB00596F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1004 PickerView综合应用";
+			productName = "1004 PickerView综合应用";
+			productReference = 665AD14C1BC15FAB00596F06 /* 1004 PickerView综合应用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		665AD1641BC15FAC00596F06 /* 1004 PickerView综合应用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665AD17C1BC15FAC00596F06 /* Build configuration list for PBXNativeTarget "1004 PickerView综合应用Tests" */;
+			buildPhases = (
+				665AD1611BC15FAC00596F06 /* Sources */,
+				665AD1621BC15FAC00596F06 /* Frameworks */,
+				665AD1631BC15FAC00596F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				665AD1671BC15FAC00596F06 /* PBXTargetDependency */,
+			);
+			name = "1004 PickerView综合应用Tests";
+			productName = "1004 PickerView综合应用Tests";
+			productReference = 665AD1651BC15FAC00596F06 /* 1004 PickerView综合应用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		665AD16F1BC15FAC00596F06 /* 1004 PickerView综合应用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665AD17F1BC15FAC00596F06 /* Build configuration list for PBXNativeTarget "1004 PickerView综合应用UITests" */;
+			buildPhases = (
+				665AD16C1BC15FAC00596F06 /* Sources */,
+				665AD16D1BC15FAC00596F06 /* Frameworks */,
+				665AD16E1BC15FAC00596F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				665AD1721BC15FAC00596F06 /* PBXTargetDependency */,
+			);
+			name = "1004 PickerView综合应用UITests";
+			productName = "1004 PickerView综合应用UITests";
+			productReference = 665AD1701BC15FAC00596F06 /* 1004 PickerView综合应用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665AD1441BC15FAB00596F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					665AD14B1BC15FAB00596F06 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					665AD1641BC15FAC00596F06 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 665AD14B1BC15FAB00596F06;
+					};
+					665AD16F1BC15FAC00596F06 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 665AD14B1BC15FAB00596F06;
+					};
+				};
+			};
+			buildConfigurationList = 665AD1471BC15FAB00596F06 /* Build configuration list for PBXProject "1004 PickerView综合应用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665AD1431BC15FAB00596F06;
+			productRefGroup = 665AD14D1BC15FAB00596F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665AD14B1BC15FAB00596F06 /* 1004 PickerView综合应用 */,
+				665AD1641BC15FAC00596F06 /* 1004 PickerView综合应用Tests */,
+				665AD16F1BC15FAC00596F06 /* 1004 PickerView综合应用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665AD14A1BC15FAB00596F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665AD15F1BC15FAB00596F06 /* LaunchScreen.storyboard in Resources */,
+				668F291F1BCA020200829866 /* hanguo.gif in Resources */,
+				668F29341BCA66A900829866 /* provinces.plist in Resources */,
+				665AD15C1BC15FAB00596F06 /* Assets.xcassets in Resources */,
+				668F29201BCA020200829866 /* helan.gif in Resources */,
+				668F29261BCA020200829866 /* ydl.gif in Resources */,
+				668F292A1BCA024500829866 /* flags.plist in Resources */,
+				665AD15A1BC15FAB00596F06 /* Main.storyboard in Resources */,
+				668F291B1BCA020200829866 /* agt.gif in Resources */,
+				668F291C1BCA020200829866 /* baxi.gif in Resources */,
+				668F29281BCA020200829866 /* zhongguo.jpg in Resources */,
+				668F29251BCA020200829866 /* xiby.gif in Resources */,
+				668F29271BCA020200829866 /* ying.gif in Resources */,
+				668F29241BCA020200829866 /* wlgui.gif in Resources */,
+				668F29211BCA020200829866 /* putaoya.gif in Resources */,
+				668F291D1BCA020200829866 /* deguo.gif in Resources */,
+				668F290B1BCA00CA00829866 /* NationView.xib in Resources */,
+				668F291E1BCA020200829866 /* faguo.gif in Resources */,
+				668F29231BCA020200829866 /* ruishi.gif in Resources */,
+				668F29221BCA020200829866 /* ruidian.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665AD1631BC15FAC00596F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665AD16E1BC15FAC00596F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665AD1481BC15FAB00596F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668F293D1BCA7C6C00829866 /* UITextField+LoginText.m in Sources */,
+				668F29321BCA63AE00829866 /* LocationTextField.m in Sources */,
+				665AD1571BC15FAB00596F06 /* ViewController.m in Sources */,
+				665AD1541BC15FAB00596F06 /* AppDelegate.m in Sources */,
+				668F292E1BCA4AC300829866 /* DateTextField.m in Sources */,
+				668F29061BCA000C00829866 /* NationDataModel.m in Sources */,
+				668F293A1BCA729200829866 /* ProvincesDateModel.m in Sources */,
+				668F29031BC9FBDB00829866 /* NationTextField.m in Sources */,
+				665AD1511BC15FAB00596F06 /* main.m in Sources */,
+				668F29091BCA00B000829866 /* NationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665AD1611BC15FAC00596F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665AD16A1BC15FAC00596F06 /* _004_PickerView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665AD16C1BC15FAC00596F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665AD1751BC15FAC00596F06 /* _004_PickerView____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		665AD1671BC15FAC00596F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665AD14B1BC15FAB00596F06 /* 1004 PickerView综合应用 */;
+			targetProxy = 665AD1661BC15FAC00596F06 /* PBXContainerItemProxy */;
+		};
+		665AD1721BC15FAC00596F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665AD14B1BC15FAB00596F06 /* 1004 PickerView综合应用 */;
+			targetProxy = 665AD1711BC15FAC00596F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		665AD1581BC15FAB00596F06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665AD1591BC15FAB00596F06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		665AD15D1BC15FAB00596F06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665AD15E1BC15FAB00596F06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665AD1771BC15FAC00596F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		665AD1781BC15FAC00596F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665AD17A1BC15FAC00596F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1004 PickerView综合应用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-004-PickerView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		665AD17B1BC15FAC00596F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1004 PickerView综合应用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-004-PickerView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		665AD17D1BC15FAC00596F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1004 PickerView综合应用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-004-PickerView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1004 PickerView综合应用.app/1004 PickerView综合应用";
+			};
+			name = Debug;
+		};
+		665AD17E1BC15FAC00596F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1004 PickerView综合应用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-004-PickerView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1004 PickerView综合应用.app/1004 PickerView综合应用";
+			};
+			name = Release;
+		};
+		665AD1801BC15FAC00596F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1004 PickerView综合应用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-004-PickerView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1004 PickerView综合应用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		665AD1811BC15FAC00596F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1004 PickerView综合应用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-004-PickerView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1004 PickerView综合应用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665AD1471BC15FAB00596F06 /* Build configuration list for PBXProject "1004 PickerView综合应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665AD1771BC15FAC00596F06 /* Debug */,
+				665AD1781BC15FAC00596F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665AD1791BC15FAC00596F06 /* Build configuration list for PBXNativeTarget "1004 PickerView综合应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665AD17A1BC15FAC00596F06 /* Debug */,
+				665AD17B1BC15FAC00596F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665AD17C1BC15FAC00596F06 /* Build configuration list for PBXNativeTarget "1004 PickerView综合应用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665AD17D1BC15FAC00596F06 /* Debug */,
+				665AD17E1BC15FAC00596F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665AD17F1BC15FAC00596F06 /* Build configuration list for PBXNativeTarget "1004 PickerView综合应用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665AD1801BC15FAC00596F06 /* Debug */,
+				665AD1811BC15FAC00596F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665AD1441BC15FAB00596F06 /* Project object */;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+    #icon{
+        display: none;
+    }
+    p[name] {
+        display: none;
+    }
+    .timer{
+        color: red;
+        font-size: 400px;
+    }
+
+    </style>
+
+
+</head>
+<body>
+<!--布局整个页面-->
+<img id="icon" src="images/flower.jpg" alt="图片">
+<p name="word">这是一个花</p>
+<div class="timer">3</div>
+
+<!--布局javaScript-->
+<script type="application/javascript">
+    //获取标签
+    var img = window.document.getElementById("icon");
+    var word = window.document.getElementsByName("word")[0];
+    var time = window.document.getElementsByClassName("timer")[0];
+
+//    设置计时器
+    var timer = setInterval("surprise()",1000);
+    function surprise(){
+        time.innerHTML -= 1;
+        if(time.innerHTML == "0"){
+//    清除计时器
+            clearInterval(timer);
+            img.style.display = "inline-block";
+            word.style.display = "block";
+
+            time.style.display = "none";
+        }
+    }
+
+</script>
+
+
+
+
+</body>
+</html>

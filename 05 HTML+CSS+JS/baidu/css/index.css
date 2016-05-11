@@ -1,0 +1,139 @@
+
+/*全局设置*/
+
+/*清除所有内置边距*/
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+
+}
+/*设置页面的字体颜色*/
+a{
+    color: black;
+}
+/*设置页面的字体类型*/
+body{
+    font-family: 'Arial';
+
+}
+/*body{*/
+    /*font-family: 'Arial';*/
+    /*background: url("../image/bg.jpg");*/
+    /*background-size: cover;*/
+/*}*/
+
+
+/*设置header的样式*/
+/*#header{*/
+    /*text-align: right;*/
+    /*margin-top: 15px;*/
+/*}*/
+
+#header{
+    text-align: right;
+    background-color: RGBA(0,0,0,0.3);
+    height: 40px;
+    line-height: 40px;
+}
+
+#header a{
+    color: black;
+    margin-right: 8px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+#header a.no-weight{
+    font-weight: normal;
+
+}
+
+#header a.more-product{
+    text-decoration: none;
+    color: white;
+    background-color: #38f;
+    /*a标签是inline类型的标签,其宽度高度由自身内容决定,此处必须转换为block-inline类型的标签*/
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    /*将文字居中*/
+    text-align: center;
+    line-height: 25px;
+}
+
+/*中部的内容*/
+#main{
+    margin-bottom: 300px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#main .logo img{
+    width:270px;
+    height: 129px;
+}
+
+/*设定other标签*/
+#main .other{
+    width: 600px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#main .other input{
+    width: 500px;
+    height: 35px;
+    border: 1px solid #ddd;
+    /*display: inline-block;*/
+
+    /*重新设定边框的计算方法*/
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/*改变点击输入框后的边框效果*/
+#main .other input:focus{
+    outline: none;
+    border: 1px solid #2d78f4;
+}
+
+/*设定百度一下*/
+#main .other a{
+    width: 100px;
+    height: 35px;
+    text-decoration: none;
+
+    background-color: #3385ff;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    /*a标签为行内标签,其高度宽度由自身决定,需要转换类型*/
+    display: inline-block;
+    float: right;
+
+}
+
+/*尾部的内容*/
+#footer{
+    text-align: center;
+    font-size: 13px;
+}
+
+#footer .footer-top{
+    margin-bottom: 10px;
+}
+
+#footer .footer-top a{
+    color: #00c;
+    margin: 0 5px;
+}
+
+#footer .footer-bottom{
+    color: #666;
+}
+
+#footer .footer-bottom a{
+    color: #666;
+}

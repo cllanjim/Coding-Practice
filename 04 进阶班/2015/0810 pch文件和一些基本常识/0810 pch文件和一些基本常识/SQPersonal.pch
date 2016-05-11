@@ -1,0 +1,47 @@
+//
+//  SQPersonal.pch
+//  0810 pch文件和一些基本常识
+//
+//  Created by 张思琦 on 15/8/12.
+//  Copyright (c) 2015年 SQ Software Group. All rights reserved.
+//
+
+
+
+
+
+
+#ifndef _810_pch__________SQPersonal_pch
+#define _810_pch__________SQPersonal_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//OC文件用的宏定义
+#ifdef __OBJC__
+
+
+//1.存放常用的宏
+#define SketchK @"ZhangSiQi"
+#define XIXI    @"ZhangXi"
+
+//2.存放常用的头文件
+#import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+
+//3.存放自定义的NSLog函数
+#ifdef DEBUG
+
+#define SQLog(...)  NSLog(__VA_ARGS__)
+
+#else
+
+#define SQLog(...)  
+
+#endif
+
+
+
+#endif
+
+#endif

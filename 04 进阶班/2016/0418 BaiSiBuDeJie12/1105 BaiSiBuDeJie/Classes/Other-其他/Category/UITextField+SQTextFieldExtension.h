@@ -1,0 +1,15 @@
+//
+//  UITextField+SQTextFieldExtension.h
+//  1105 BaiSiBuDeJie
+//
+//  Created by 张思琦 on 15/11/28.
+//  Copyright © 2015年 SQ Software Group. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UITextField (SQTextFieldExtension)
+
+@property (nonatomic, strong) UIColor *sq_placeholderColor;
+
+@end

@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6678D8ED1BB44FFF009CBB55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6678D8EC1BB44FFF009CBB55 /* main.m */; };
+		6678D8F01BB44FFF009CBB55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6678D8EF1BB44FFF009CBB55 /* AppDelegate.m */; };
+		6678D8F31BB44FFF009CBB55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6678D8F21BB44FFF009CBB55 /* ViewController.m */; };
+		6678D8F61BB44FFF009CBB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6678D8F41BB44FFF009CBB55 /* Main.storyboard */; };
+		6678D8F81BB44FFF009CBB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6678D8F71BB44FFF009CBB55 /* Assets.xcassets */; };
+		6678D8FB1BB44FFF009CBB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6678D8F91BB44FFF009CBB55 /* LaunchScreen.storyboard */; };
+		6678D9061BB44FFF009CBB55 /* _924______NSNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6678D9051BB44FFF009CBB55 /* _924______NSNotificationCenterTests.m */; };
+		6678D9111BB44FFF009CBB55 /* _924______NSNotificationCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6678D9101BB44FFF009CBB55 /* _924______NSNotificationCenterUITests.m */; };
+		6678D9201BB450AA009CBB55 /* SQPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6678D91F1BB450AA009CBB55 /* SQPerson.m */; settings = {ASSET_TAGS = (); }; };
+		6678D9231BB450B6009CBB55 /* SQCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 6678D9221BB450B6009CBB55 /* SQCompany.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6678D9021BB44FFF009CBB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6678D8E01BB44FFF009CBB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6678D8E71BB44FFF009CBB55;
+			remoteInfo = "0924 数据传递-NSNotificationCenter";
+		};
+		6678D90D1BB44FFF009CBB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6678D8E01BB44FFF009CBB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6678D8E71BB44FFF009CBB55;
+			remoteInfo = "0924 数据传递-NSNotificationCenter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6678D8E81BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0924 数据传递-NSNotificationCenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6678D8EC1BB44FFF009CBB55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6678D8EE1BB44FFF009CBB55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6678D8EF1BB44FFF009CBB55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6678D8F11BB44FFF009CBB55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6678D8F21BB44FFF009CBB55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6678D8F51BB44FFF009CBB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6678D8F71BB44FFF009CBB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6678D8FA1BB44FFF009CBB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6678D8FC1BB44FFF009CBB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6678D9011BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0924 数据传递-NSNotificationCenterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6678D9051BB44FFF009CBB55 /* _924______NSNotificationCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_924______NSNotificationCenterTests.m"; sourceTree = "<group>"; };
+		6678D9071BB44FFF009CBB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6678D90C1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0924 数据传递-NSNotificationCenterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6678D9101BB44FFF009CBB55 /* _924______NSNotificationCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_924______NSNotificationCenterUITests.m"; sourceTree = "<group>"; };
+		6678D9121BB44FFF009CBB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6678D91E1BB450AA009CBB55 /* SQPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPerson.h; sourceTree = "<group>"; };
+		6678D91F1BB450AA009CBB55 /* SQPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPerson.m; sourceTree = "<group>"; };
+		6678D9211BB450B6009CBB55 /* SQCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCompany.h; sourceTree = "<group>"; };
+		6678D9221BB450B6009CBB55 /* SQCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCompany.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6678D8E51BB44FFF009CBB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6678D8FE1BB44FFF009CBB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6678D9091BB44FFF009CBB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6678D8DF1BB44FFF009CBB55 = {
+			isa = PBXGroup;
+			children = (
+				6678D8EA1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter */,
+				6678D9041BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterTests */,
+				6678D90F1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterUITests */,
+				6678D8E91BB44FFF009CBB55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6678D8E91BB44FFF009CBB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6678D8E81BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter.app */,
+				6678D9011BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterTests.xctest */,
+				6678D90C1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6678D8EA1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6678D8EE1BB44FFF009CBB55 /* AppDelegate.h */,
+				6678D8EF1BB44FFF009CBB55 /* AppDelegate.m */,
+				6678D8F11BB44FFF009CBB55 /* ViewController.h */,
+				6678D8F21BB44FFF009CBB55 /* ViewController.m */,
+				6678D91E1BB450AA009CBB55 /* SQPerson.h */,
+				6678D91F1BB450AA009CBB55 /* SQPerson.m */,
+				6678D9211BB450B6009CBB55 /* SQCompany.h */,
+				6678D9221BB450B6009CBB55 /* SQCompany.m */,
+				6678D8F41BB44FFF009CBB55 /* Main.storyboard */,
+				6678D8F71BB44FFF009CBB55 /* Assets.xcassets */,
+				6678D8F91BB44FFF009CBB55 /* LaunchScreen.storyboard */,
+				6678D8FC1BB44FFF009CBB55 /* Info.plist */,
+				6678D8EB1BB44FFF009CBB55 /* Supporting Files */,
+			);
+			path = "0924 数据传递-NSNotificationCenter";
+			sourceTree = "<group>";
+		};
+		6678D8EB1BB44FFF009CBB55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6678D8EC1BB44FFF009CBB55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6678D9041BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6678D9051BB44FFF009CBB55 /* _924______NSNotificationCenterTests.m */,
+				6678D9071BB44FFF009CBB55 /* Info.plist */,
+			);
+			path = "0924 数据传递-NSNotificationCenterTests";
+			sourceTree = "<group>";
+		};
+		6678D90F1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6678D9101BB44FFF009CBB55 /* _924______NSNotificationCenterUITests.m */,
+				6678D9121BB44FFF009CBB55 /* Info.plist */,
+			);
+			path = "0924 数据传递-NSNotificationCenterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6678D8E71BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6678D9151BB44FFF009CBB55 /* Build configuration list for PBXNativeTarget "0924 数据传递-NSNotificationCenter" */;
+			buildPhases = (
+				6678D8E41BB44FFF009CBB55 /* Sources */,
+				6678D8E51BB44FFF009CBB55 /* Frameworks */,
+				6678D8E61BB44FFF009CBB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0924 数据传递-NSNotificationCenter";
+			productName = "0924 数据传递-NSNotificationCenter";
+			productReference = 6678D8E81BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6678D9001BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6678D9181BB44FFF009CBB55 /* Build configuration list for PBXNativeTarget "0924 数据传递-NSNotificationCenterTests" */;
+			buildPhases = (
+				6678D8FD1BB44FFF009CBB55 /* Sources */,
+				6678D8FE1BB44FFF009CBB55 /* Frameworks */,
+				6678D8FF1BB44FFF009CBB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6678D9031BB44FFF009CBB55 /* PBXTargetDependency */,
+			);
+			name = "0924 数据传递-NSNotificationCenterTests";
+			productName = "0924 数据传递-NSNotificationCenterTests";
+			productReference = 6678D9011BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6678D90B1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6678D91B1BB44FFF009CBB55 /* Build configuration list for PBXNativeTarget "0924 数据传递-NSNotificationCenterUITests" */;
+			buildPhases = (
+				6678D9081BB44FFF009CBB55 /* Sources */,
+				6678D9091BB44FFF009CBB55 /* Frameworks */,
+				6678D90A1BB44FFF009CBB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6678D90E1BB44FFF009CBB55 /* PBXTargetDependency */,
+			);
+			name = "0924 数据传递-NSNotificationCenterUITests";
+			productName = "0924 数据传递-NSNotificationCenterUITests";
+			productReference = 6678D90C1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6678D8E01BB44FFF009CBB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					6678D8E71BB44FFF009CBB55 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					6678D9001BB44FFF009CBB55 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 6678D8E71BB44FFF009CBB55;
+					};
+					6678D90B1BB44FFF009CBB55 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 6678D8E71BB44FFF009CBB55;
+					};
+				};
+			};
+			buildConfigurationList = 6678D8E31BB44FFF009CBB55 /* Build configuration list for PBXProject "0924 数据传递-NSNotificationCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6678D8DF1BB44FFF009CBB55;
+			productRefGroup = 6678D8E91BB44FFF009CBB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6678D8E71BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter */,
+				6678D9001BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterTests */,
+				6678D90B1BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6678D8E61BB44FFF009CBB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6678D8FB1BB44FFF009CBB55 /* LaunchScreen.storyboard in Resources */,
+				6678D8F81BB44FFF009CBB55 /* Assets.xcassets in Resources */,
+				6678D8F61BB44FFF009CBB55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6678D8FF1BB44FFF009CBB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6678D90A1BB44FFF009CBB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6678D8E41BB44FFF009CBB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6678D9231BB450B6009CBB55 /* SQCompany.m in Sources */,
+				6678D9201BB450AA009CBB55 /* SQPerson.m in Sources */,
+				6678D8F31BB44FFF009CBB55 /* ViewController.m in Sources */,
+				6678D8F01BB44FFF009CBB55 /* AppDelegate.m in Sources */,
+				6678D8ED1BB44FFF009CBB55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6678D8FD1BB44FFF009CBB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6678D9061BB44FFF009CBB55 /* _924______NSNotificationCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6678D9081BB44FFF009CBB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6678D9111BB44FFF009CBB55 /* _924______NSNotificationCenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6678D9031BB44FFF009CBB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6678D8E71BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter */;
+			targetProxy = 6678D9021BB44FFF009CBB55 /* PBXContainerItemProxy */;
+		};
+		6678D90E1BB44FFF009CBB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6678D8E71BB44FFF009CBB55 /* 0924 数据传递-NSNotificationCenter */;
+			targetProxy = 6678D90D1BB44FFF009CBB55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6678D8F41BB44FFF009CBB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6678D8F51BB44FFF009CBB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6678D8F91BB44FFF009CBB55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6678D8FA1BB44FFF009CBB55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6678D9131BB44FFF009CBB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6678D9141BB44FFF009CBB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6678D9161BB44FFF009CBB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0924 数据传递-NSNotificationCenter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-924------NSNotificationCenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6678D9171BB44FFF009CBB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0924 数据传递-NSNotificationCenter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-924------NSNotificationCenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6678D9191BB44FFF009CBB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0924 数据传递-NSNotificationCenterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-924------NSNotificationCenterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0924 数据传递-NSNotificationCenter.app/0924 数据传递-NSNotificationCenter";
+			};
+			name = Debug;
+		};
+		6678D91A1BB44FFF009CBB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0924 数据传递-NSNotificationCenterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-924------NSNotificationCenterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0924 数据传递-NSNotificationCenter.app/0924 数据传递-NSNotificationCenter";
+			};
+			name = Release;
+		};
+		6678D91C1BB44FFF009CBB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0924 数据传递-NSNotificationCenterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-924------NSNotificationCenterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0924 数据传递-NSNotificationCenter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6678D91D1BB44FFF009CBB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0924 数据传递-NSNotificationCenterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-924------NSNotificationCenterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0924 数据传递-NSNotificationCenter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6678D8E31BB44FFF009CBB55 /* Build configuration list for PBXProject "0924 数据传递-NSNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678D9131BB44FFF009CBB55 /* Debug */,
+				6678D9141BB44FFF009CBB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6678D9151BB44FFF009CBB55 /* Build configuration list for PBXNativeTarget "0924 数据传递-NSNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678D9161BB44FFF009CBB55 /* Debug */,
+				6678D9171BB44FFF009CBB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6678D9181BB44FFF009CBB55 /* Build configuration list for PBXNativeTarget "0924 数据传递-NSNotificationCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678D9191BB44FFF009CBB55 /* Debug */,
+				6678D91A1BB44FFF009CBB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6678D91B1BB44FFF009CBB55 /* Build configuration list for PBXNativeTarget "0924 数据传递-NSNotificationCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678D91C1BB44FFF009CBB55 /* Debug */,
+				6678D91D1BB44FFF009CBB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6678D8E01BB44FFF009CBB55 /* Project object */;
+}

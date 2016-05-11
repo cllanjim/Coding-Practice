@@ -1,0 +1,87 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var
+{
+    /*内边距*/
+    padding: 0;
+    /*外边距*/
+    margin: 0;
+}
+
+body{
+    /*设置整体的外边距*/
+    margin: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#tab{
+    /*98*5 + 2*4 +1*2 = 500 */
+    width: 500px;
+    height: 130px;
+    border: 1px solid #ddd;
+}
+
+#tab #header{
+    height: 33px;
+    position: relative;
+}
+
+#tab #header ul{
+    text-align: center;
+    position: absolute;
+}
+
+#tab #header ul li{
+    /*使列表变为以左边边框为对齐方式的排列形式*/
+    float:left;
+    /*设置每个标签的宽高*/
+    width:98px;
+    height: 33px;
+    /*设置当前标签垂直居中*/
+    background-color: #F7F7F7;
+    line-height: 33px;
+    /*设置底部边线*/
+    border-bottom: 1px solid #000;
+    padding: 0 1px;
+}
+
+#tab #header ul li.selected{
+    background-color: white;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 0;
+    padding:0;
+}
+
+#tab #header ul li:hover{
+    color: orange;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+/*设置主内容*/
+#tab #body .dom{
+    display: none;
+}
+
+#tab #body .dom ul li{
+    background-color: lightgray;
+    float:left;
+    width:225px;
+    margin:15px 0px 0px 10px;
+    text-align: center;
+}
+
+#tab #body .dom ul li a{
+    text-align: center;
+}
+
+#tab #body .dom ul li a:hover{
+    color: orange;
+}

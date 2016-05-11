@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+   <style>
+
+    .outter{
+        background-color: brown;
+        width: 1000px;
+        height: 1000px;
+        /*line-height: 400px;*/
+        /*text-align: center;*/
+        position: relative;
+
+    }
+
+    .inner{
+        background-color: chartreuse;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        margin-left: -200px;
+        margin-top: -200px;
+
+        /*水平居中*/
+        /*margin: 0 auto;*/
+        /*text-align: center;*/
+        /*竖直居中*/
+        /*line-height: 400px;*/
+    }
+
+    span{
+        background-color: chartreuse;
+        width: 400px;
+        height: 400px;
+
+    }
+
+    input{
+        background-color: chartreuse;
+        width: 400px;
+        height: 400px;
+    }
+
+   </style>
+
+
+</head>
+<body>
+
+    <!-- 外部标签-->
+    <div class="outter">
+        <!-- 块级标签-->
+        <div class="inner">这是一个块级标签</div>
+        <!--&lt;!&ndash; 行内标签&ndash;&gt;-->
+        <!--<span>这是一个行内标签</span>-->
+        <!--&lt;!&ndash; 行内-块级标签&ndash;&gt;-->
+        <!--<input>这是一个行内块级标签-->
+
+    </div>
+
+</body>
+</html>

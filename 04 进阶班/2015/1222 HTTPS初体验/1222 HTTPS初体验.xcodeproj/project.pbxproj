@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66EBD2351C286753006C96C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EBD2341C286753006C96C6 /* main.m */; };
+		66EBD2381C286753006C96C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EBD2371C286753006C96C6 /* AppDelegate.m */; };
+		66EBD23B1C286753006C96C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EBD23A1C286753006C96C6 /* ViewController.m */; };
+		66EBD23E1C286753006C96C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EBD23C1C286753006C96C6 /* Main.storyboard */; };
+		66EBD2401C286753006C96C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EBD23F1C286753006C96C6 /* Assets.xcassets */; };
+		66EBD2431C286753006C96C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EBD2411C286753006C96C6 /* LaunchScreen.storyboard */; };
+		66EBD24E1C286753006C96C6 /* _222_HTTPS___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EBD24D1C286753006C96C6 /* _222_HTTPS___Tests.m */; };
+		66EBD2591C286753006C96C6 /* _222_HTTPS___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EBD2581C286753006C96C6 /* _222_HTTPS___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66EBD24A1C286753006C96C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66EBD2281C286753006C96C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EBD22F1C286753006C96C6;
+			remoteInfo = "1222 HTTPS初体验";
+		};
+		66EBD2551C286753006C96C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66EBD2281C286753006C96C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EBD22F1C286753006C96C6;
+			remoteInfo = "1222 HTTPS初体验";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66EBD2301C286753006C96C6 /* 1222 HTTPS初体验.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1222 HTTPS初体验.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EBD2341C286753006C96C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66EBD2361C286753006C96C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66EBD2371C286753006C96C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66EBD2391C286753006C96C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66EBD23A1C286753006C96C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66EBD23D1C286753006C96C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66EBD23F1C286753006C96C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66EBD2421C286753006C96C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66EBD2441C286753006C96C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EBD2491C286753006C96C6 /* 1222 HTTPS初体验Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1222 HTTPS初体验Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EBD24D1C286753006C96C6 /* _222_HTTPS___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_222_HTTPS___Tests.m"; sourceTree = "<group>"; };
+		66EBD24F1C286753006C96C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EBD2541C286753006C96C6 /* 1222 HTTPS初体验UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1222 HTTPS初体验UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EBD2581C286753006C96C6 /* _222_HTTPS___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_222_HTTPS___UITests.m"; sourceTree = "<group>"; };
+		66EBD25A1C286753006C96C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66EBD22D1C286753006C96C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EBD2461C286753006C96C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EBD2511C286753006C96C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66EBD2271C286753006C96C6 = {
+			isa = PBXGroup;
+			children = (
+				66EBD2321C286753006C96C6 /* 1222 HTTPS初体验 */,
+				66EBD24C1C286753006C96C6 /* 1222 HTTPS初体验Tests */,
+				66EBD2571C286753006C96C6 /* 1222 HTTPS初体验UITests */,
+				66EBD2311C286753006C96C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66EBD2311C286753006C96C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66EBD2301C286753006C96C6 /* 1222 HTTPS初体验.app */,
+				66EBD2491C286753006C96C6 /* 1222 HTTPS初体验Tests.xctest */,
+				66EBD2541C286753006C96C6 /* 1222 HTTPS初体验UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66EBD2321C286753006C96C6 /* 1222 HTTPS初体验 */ = {
+			isa = PBXGroup;
+			children = (
+				66EBD2361C286753006C96C6 /* AppDelegate.h */,
+				66EBD2371C286753006C96C6 /* AppDelegate.m */,
+				66EBD2391C286753006C96C6 /* ViewController.h */,
+				66EBD23A1C286753006C96C6 /* ViewController.m */,
+				66EBD23C1C286753006C96C6 /* Main.storyboard */,
+				66EBD23F1C286753006C96C6 /* Assets.xcassets */,
+				66EBD2411C286753006C96C6 /* LaunchScreen.storyboard */,
+				66EBD2441C286753006C96C6 /* Info.plist */,
+				66EBD2331C286753006C96C6 /* Supporting Files */,
+			);
+			path = "1222 HTTPS初体验";
+			sourceTree = "<group>";
+		};
+		66EBD2331C286753006C96C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66EBD2341C286753006C96C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66EBD24C1C286753006C96C6 /* 1222 HTTPS初体验Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66EBD24D1C286753006C96C6 /* _222_HTTPS___Tests.m */,
+				66EBD24F1C286753006C96C6 /* Info.plist */,
+			);
+			path = "1222 HTTPS初体验Tests";
+			sourceTree = "<group>";
+		};
+		66EBD2571C286753006C96C6 /* 1222 HTTPS初体验UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66EBD2581C286753006C96C6 /* _222_HTTPS___UITests.m */,
+				66EBD25A1C286753006C96C6 /* Info.plist */,
+			);
+			path = "1222 HTTPS初体验UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66EBD22F1C286753006C96C6 /* 1222 HTTPS初体验 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66EBD25D1C286753006C96C6 /* Build configuration list for PBXNativeTarget "1222 HTTPS初体验" */;
+			buildPhases = (
+				66EBD22C1C286753006C96C6 /* Sources */,
+				66EBD22D1C286753006C96C6 /* Frameworks */,
+				66EBD22E1C286753006C96C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1222 HTTPS初体验";
+			productName = "1222 HTTPS初体验";
+			productReference = 66EBD2301C286753006C96C6 /* 1222 HTTPS初体验.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66EBD2481C286753006C96C6 /* 1222 HTTPS初体验Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66EBD2601C286753006C96C6 /* Build configuration list for PBXNativeTarget "1222 HTTPS初体验Tests" */;
+			buildPhases = (
+				66EBD2451C286753006C96C6 /* Sources */,
+				66EBD2461C286753006C96C6 /* Frameworks */,
+				66EBD2471C286753006C96C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66EBD24B1C286753006C96C6 /* PBXTargetDependency */,
+			);
+			name = "1222 HTTPS初体验Tests";
+			productName = "1222 HTTPS初体验Tests";
+			productReference = 66EBD2491C286753006C96C6 /* 1222 HTTPS初体验Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66EBD2531C286753006C96C6 /* 1222 HTTPS初体验UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66EBD2631C286753006C96C6 /* Build configuration list for PBXNativeTarget "1222 HTTPS初体验UITests" */;
+			buildPhases = (
+				66EBD2501C286753006C96C6 /* Sources */,
+				66EBD2511C286753006C96C6 /* Frameworks */,
+				66EBD2521C286753006C96C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66EBD2561C286753006C96C6 /* PBXTargetDependency */,
+			);
+			name = "1222 HTTPS初体验UITests";
+			productName = "1222 HTTPS初体验UITests";
+			productReference = 66EBD2541C286753006C96C6 /* 1222 HTTPS初体验UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66EBD2281C286753006C96C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					66EBD22F1C286753006C96C6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					66EBD2481C286753006C96C6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66EBD22F1C286753006C96C6;
+					};
+					66EBD2531C286753006C96C6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66EBD22F1C286753006C96C6;
+					};
+				};
+			};
+			buildConfigurationList = 66EBD22B1C286753006C96C6 /* Build configuration list for PBXProject "1222 HTTPS初体验" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66EBD2271C286753006C96C6;
+			productRefGroup = 66EBD2311C286753006C96C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66EBD22F1C286753006C96C6 /* 1222 HTTPS初体验 */,
+				66EBD2481C286753006C96C6 /* 1222 HTTPS初体验Tests */,
+				66EBD2531C286753006C96C6 /* 1222 HTTPS初体验UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66EBD22E1C286753006C96C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EBD2431C286753006C96C6 /* LaunchScreen.storyboard in Resources */,
+				66EBD2401C286753006C96C6 /* Assets.xcassets in Resources */,
+				66EBD23E1C286753006C96C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EBD2471C286753006C96C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EBD2521C286753006C96C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66EBD22C1C286753006C96C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EBD23B1C286753006C96C6 /* ViewController.m in Sources */,
+				66EBD2381C286753006C96C6 /* AppDelegate.m in Sources */,
+				66EBD2351C286753006C96C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EBD2451C286753006C96C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EBD24E1C286753006C96C6 /* _222_HTTPS___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EBD2501C286753006C96C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EBD2591C286753006C96C6 /* _222_HTTPS___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66EBD24B1C286753006C96C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66EBD22F1C286753006C96C6 /* 1222 HTTPS初体验 */;
+			targetProxy = 66EBD24A1C286753006C96C6 /* PBXContainerItemProxy */;
+		};
+		66EBD2561C286753006C96C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66EBD22F1C286753006C96C6 /* 1222 HTTPS初体验 */;
+			targetProxy = 66EBD2551C286753006C96C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66EBD23C1C286753006C96C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66EBD23D1C286753006C96C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66EBD2411C286753006C96C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66EBD2421C286753006C96C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66EBD25B1C286753006C96C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66EBD25C1C286753006C96C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66EBD25E1C286753006C96C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1222 HTTPS初体验/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-222-HTTPS---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66EBD25F1C286753006C96C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1222 HTTPS初体验/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-222-HTTPS---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66EBD2611C286753006C96C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1222 HTTPS初体验Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-222-HTTPS---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1222 HTTPS初体验.app/1222 HTTPS初体验";
+			};
+			name = Debug;
+		};
+		66EBD2621C286753006C96C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1222 HTTPS初体验Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-222-HTTPS---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1222 HTTPS初体验.app/1222 HTTPS初体验";
+			};
+			name = Release;
+		};
+		66EBD2641C286753006C96C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1222 HTTPS初体验UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-222-HTTPS---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1222 HTTPS初体验";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66EBD2651C286753006C96C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1222 HTTPS初体验UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-222-HTTPS---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1222 HTTPS初体验";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66EBD22B1C286753006C96C6 /* Build configuration list for PBXProject "1222 HTTPS初体验" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EBD25B1C286753006C96C6 /* Debug */,
+				66EBD25C1C286753006C96C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66EBD25D1C286753006C96C6 /* Build configuration list for PBXNativeTarget "1222 HTTPS初体验" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EBD25E1C286753006C96C6 /* Debug */,
+				66EBD25F1C286753006C96C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66EBD2601C286753006C96C6 /* Build configuration list for PBXNativeTarget "1222 HTTPS初体验Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EBD2611C286753006C96C6 /* Debug */,
+				66EBD2621C286753006C96C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66EBD2631C286753006C96C6 /* Build configuration list for PBXNativeTarget "1222 HTTPS初体验UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EBD2641C286753006C96C6 /* Debug */,
+				66EBD2651C286753006C96C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66EBD2281C286753006C96C6 /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>biaoqingdi</string>
+		<key>desc</key>
+		<string>表情神马的弱爆了</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>chiniupa</string>
+		<key>desc</key>
+		<string>牛扒这样吃是不是很吊</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>wangba</string>
+		<key>desc</key>
+		<string>我叫王八,我为自己代言</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>bingli</string>
+		<key>desc</key>
+		<string>菊花残</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>danteng</string>
+		<key>desc</key>
+		<string>有一种疼叫蛋疼......</string>
+	</dict>
+</array>
+</plist>

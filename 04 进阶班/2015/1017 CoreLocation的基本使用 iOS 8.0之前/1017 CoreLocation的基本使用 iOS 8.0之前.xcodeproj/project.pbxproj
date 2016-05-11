@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66C061EE1BD1DFAD00C27E6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C061ED1BD1DFAD00C27E6B /* main.m */; };
+		66C061F11BD1DFAD00C27E6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C061F01BD1DFAD00C27E6B /* AppDelegate.m */; };
+		66C061F41BD1DFAD00C27E6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C061F31BD1DFAD00C27E6B /* ViewController.m */; };
+		66C061F71BD1DFAD00C27E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C061F51BD1DFAD00C27E6B /* Main.storyboard */; };
+		66C061F91BD1DFAD00C27E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C061F81BD1DFAD00C27E6B /* Assets.xcassets */; };
+		66C061FC1BD1DFAD00C27E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C061FA1BD1DFAD00C27E6B /* LaunchScreen.storyboard */; };
+		66C062071BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C062061BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__Tests.m */; };
+		66C062121BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C062111BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C062031BD1DFAD00C27E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C061E11BD1DFAD00C27E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C061E81BD1DFAD00C27E6B;
+			remoteInfo = "1017 CoreLocation的基本使用 iOS 8.0之前";
+		};
+		66C0620E1BD1DFAD00C27E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C061E11BD1DFAD00C27E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C061E81BD1DFAD00C27E6B;
+			remoteInfo = "1017 CoreLocation的基本使用 iOS 8.0之前";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66C061E91BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1017 CoreLocation的基本使用 iOS 8.0之前.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C061ED1BD1DFAD00C27E6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66C061EF1BD1DFAD00C27E6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66C061F01BD1DFAD00C27E6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66C061F21BD1DFAD00C27E6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66C061F31BD1DFAD00C27E6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66C061F61BD1DFAD00C27E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66C061F81BD1DFAD00C27E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C061FB1BD1DFAD00C27E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66C061FD1BD1DFAD00C27E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C062021BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1017 CoreLocation的基本使用 iOS 8.0之前Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C062061BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_017_CoreLocation______iOS_8_0__Tests.m"; sourceTree = "<group>"; };
+		66C062081BD1DFAD00C27E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C0620D1BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1017 CoreLocation的基本使用 iOS 8.0之前UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C062111BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_017_CoreLocation______iOS_8_0__UITests.m"; sourceTree = "<group>"; };
+		66C062131BD1DFAD00C27E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C061E61BD1DFAD00C27E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C061FF1BD1DFAD00C27E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0620A1BD1DFAD00C27E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66C061E01BD1DFAD00C27E6B = {
+			isa = PBXGroup;
+			children = (
+				66C061EB1BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前 */,
+				66C062051BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前Tests */,
+				66C062101BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前UITests */,
+				66C061EA1BD1DFAD00C27E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66C061EA1BD1DFAD00C27E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C061E91BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前.app */,
+				66C062021BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前Tests.xctest */,
+				66C0620D1BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C061EB1BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前 */ = {
+			isa = PBXGroup;
+			children = (
+				66C061EF1BD1DFAD00C27E6B /* AppDelegate.h */,
+				66C061F01BD1DFAD00C27E6B /* AppDelegate.m */,
+				66C061F21BD1DFAD00C27E6B /* ViewController.h */,
+				66C061F31BD1DFAD00C27E6B /* ViewController.m */,
+				66C061F51BD1DFAD00C27E6B /* Main.storyboard */,
+				66C061F81BD1DFAD00C27E6B /* Assets.xcassets */,
+				66C061FA1BD1DFAD00C27E6B /* LaunchScreen.storyboard */,
+				66C061FD1BD1DFAD00C27E6B /* Info.plist */,
+				66C061EC1BD1DFAD00C27E6B /* Supporting Files */,
+			);
+			path = "1017 CoreLocation的基本使用 iOS 8.0之前";
+			sourceTree = "<group>";
+		};
+		66C061EC1BD1DFAD00C27E6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66C061ED1BD1DFAD00C27E6B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66C062051BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66C062061BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__Tests.m */,
+				66C062081BD1DFAD00C27E6B /* Info.plist */,
+			);
+			path = "1017 CoreLocation的基本使用 iOS 8.0之前Tests";
+			sourceTree = "<group>";
+		};
+		66C062101BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66C062111BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__UITests.m */,
+				66C062131BD1DFAD00C27E6B /* Info.plist */,
+			);
+			path = "1017 CoreLocation的基本使用 iOS 8.0之前UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C061E81BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C062161BD1DFAD00C27E6B /* Build configuration list for PBXNativeTarget "1017 CoreLocation的基本使用 iOS 8.0之前" */;
+			buildPhases = (
+				66C061E51BD1DFAD00C27E6B /* Sources */,
+				66C061E61BD1DFAD00C27E6B /* Frameworks */,
+				66C061E71BD1DFAD00C27E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1017 CoreLocation的基本使用 iOS 8.0之前";
+			productName = "1017 CoreLocation的基本使用 iOS 8.0之前";
+			productReference = 66C061E91BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66C062011BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C062191BD1DFAD00C27E6B /* Build configuration list for PBXNativeTarget "1017 CoreLocation的基本使用 iOS 8.0之前Tests" */;
+			buildPhases = (
+				66C061FE1BD1DFAD00C27E6B /* Sources */,
+				66C061FF1BD1DFAD00C27E6B /* Frameworks */,
+				66C062001BD1DFAD00C27E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C062041BD1DFAD00C27E6B /* PBXTargetDependency */,
+			);
+			name = "1017 CoreLocation的基本使用 iOS 8.0之前Tests";
+			productName = "1017 CoreLocation的基本使用 iOS 8.0之前Tests";
+			productReference = 66C062021BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66C0620C1BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C0621C1BD1DFAD00C27E6B /* Build configuration list for PBXNativeTarget "1017 CoreLocation的基本使用 iOS 8.0之前UITests" */;
+			buildPhases = (
+				66C062091BD1DFAD00C27E6B /* Sources */,
+				66C0620A1BD1DFAD00C27E6B /* Frameworks */,
+				66C0620B1BD1DFAD00C27E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C0620F1BD1DFAD00C27E6B /* PBXTargetDependency */,
+			);
+			name = "1017 CoreLocation的基本使用 iOS 8.0之前UITests";
+			productName = "1017 CoreLocation的基本使用 iOS 8.0之前UITests";
+			productReference = 66C0620D1BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C061E11BD1DFAD00C27E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					66C061E81BD1DFAD00C27E6B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					66C062011BD1DFAD00C27E6B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66C061E81BD1DFAD00C27E6B;
+					};
+					66C0620C1BD1DFAD00C27E6B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66C061E81BD1DFAD00C27E6B;
+					};
+				};
+			};
+			buildConfigurationList = 66C061E41BD1DFAD00C27E6B /* Build configuration list for PBXProject "1017 CoreLocation的基本使用 iOS 8.0之前" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C061E01BD1DFAD00C27E6B;
+			productRefGroup = 66C061EA1BD1DFAD00C27E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C061E81BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前 */,
+				66C062011BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前Tests */,
+				66C0620C1BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C061E71BD1DFAD00C27E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C061FC1BD1DFAD00C27E6B /* LaunchScreen.storyboard in Resources */,
+				66C061F91BD1DFAD00C27E6B /* Assets.xcassets in Resources */,
+				66C061F71BD1DFAD00C27E6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C062001BD1DFAD00C27E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0620B1BD1DFAD00C27E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C061E51BD1DFAD00C27E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C061F41BD1DFAD00C27E6B /* ViewController.m in Sources */,
+				66C061F11BD1DFAD00C27E6B /* AppDelegate.m in Sources */,
+				66C061EE1BD1DFAD00C27E6B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C061FE1BD1DFAD00C27E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C062071BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C062091BD1DFAD00C27E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C062121BD1DFAD00C27E6B /* _017_CoreLocation______iOS_8_0__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66C062041BD1DFAD00C27E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C061E81BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前 */;
+			targetProxy = 66C062031BD1DFAD00C27E6B /* PBXContainerItemProxy */;
+		};
+		66C0620F1BD1DFAD00C27E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C061E81BD1DFAD00C27E6B /* 1017 CoreLocation的基本使用 iOS 8.0之前 */;
+			targetProxy = 66C0620E1BD1DFAD00C27E6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66C061F51BD1DFAD00C27E6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C061F61BD1DFAD00C27E6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66C061FA1BD1DFAD00C27E6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C061FB1BD1DFAD00C27E6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C062141BD1DFAD00C27E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66C062151BD1DFAD00C27E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66C062171BD1DFAD00C27E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1017 CoreLocation的基本使用 iOS 8.0之前/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-017-CoreLocation------iOS-8-0--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66C062181BD1DFAD00C27E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1017 CoreLocation的基本使用 iOS 8.0之前/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-017-CoreLocation------iOS-8-0--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66C0621A1BD1DFAD00C27E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1017 CoreLocation的基本使用 iOS 8.0之前Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-017-CoreLocation------iOS-8-0--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1017 CoreLocation的基本使用 iOS 8.0之前.app/1017 CoreLocation的基本使用 iOS 8.0之前";
+			};
+			name = Debug;
+		};
+		66C0621B1BD1DFAD00C27E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1017 CoreLocation的基本使用 iOS 8.0之前Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-017-CoreLocation------iOS-8-0--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1017 CoreLocation的基本使用 iOS 8.0之前.app/1017 CoreLocation的基本使用 iOS 8.0之前";
+			};
+			name = Release;
+		};
+		66C0621D1BD1DFAD00C27E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1017 CoreLocation的基本使用 iOS 8.0之前UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-017-CoreLocation------iOS-8-0--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1017 CoreLocation的基本使用 iOS 8.0之前";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66C0621E1BD1DFAD00C27E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1017 CoreLocation的基本使用 iOS 8.0之前UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-017-CoreLocation------iOS-8-0--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1017 CoreLocation的基本使用 iOS 8.0之前";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C061E41BD1DFAD00C27E6B /* Build configuration list for PBXProject "1017 CoreLocation的基本使用 iOS 8.0之前" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C062141BD1DFAD00C27E6B /* Debug */,
+				66C062151BD1DFAD00C27E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C062161BD1DFAD00C27E6B /* Build configuration list for PBXNativeTarget "1017 CoreLocation的基本使用 iOS 8.0之前" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C062171BD1DFAD00C27E6B /* Debug */,
+				66C062181BD1DFAD00C27E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C062191BD1DFAD00C27E6B /* Build configuration list for PBXNativeTarget "1017 CoreLocation的基本使用 iOS 8.0之前Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C0621A1BD1DFAD00C27E6B /* Debug */,
+				66C0621B1BD1DFAD00C27E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C0621C1BD1DFAD00C27E6B /* Build configuration list for PBXNativeTarget "1017 CoreLocation的基本使用 iOS 8.0之前UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C0621D1BD1DFAD00C27E6B /* Debug */,
+				66C0621E1BD1DFAD00C27E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C061E11BD1DFAD00C27E6B /* Project object */;
+}

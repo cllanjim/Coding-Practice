@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #father{
+            background-color: brown;
+            width: 1000px;
+            height: 500px;
+            position: relative;
+        }
+        /*脱离标准流的方式1----float属性*/
+        /*.tag01{*/
+            /*background-color: chartreuse;*/
+            /*float: left;*/
+
+        /*}*/
+        /*.tag02{*/
+            /*background-color: aqua;*/
+            /*float: left;*/
+        /*}*/
+        /*脱离标准流的方式2-position属性*/
+        .tag01{
+            position: absolute;
+            background-color: chartreuse;
+            left: 20px;
+            bottom: 20px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="father">
+        <div class="tag01">Tag01</div>
+        <!--<div class="tag02">Tag02</div>-->
+    </div>
+</body>
+</html>

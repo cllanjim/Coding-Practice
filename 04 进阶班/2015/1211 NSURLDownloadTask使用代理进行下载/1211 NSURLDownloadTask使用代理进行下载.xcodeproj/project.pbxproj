@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662DB0231C1AA9B60083FF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DB0221C1AA9B60083FF29 /* main.m */; };
+		662DB0261C1AA9B60083FF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DB0251C1AA9B60083FF29 /* AppDelegate.m */; };
+		662DB0291C1AA9B60083FF29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DB0281C1AA9B60083FF29 /* ViewController.m */; };
+		662DB02C1C1AA9B60083FF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662DB02A1C1AA9B60083FF29 /* Main.storyboard */; };
+		662DB02E1C1AA9B60083FF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662DB02D1C1AA9B60083FF29 /* Assets.xcassets */; };
+		662DB0311C1AA9B60083FF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662DB02F1C1AA9B60083FF29 /* LaunchScreen.storyboard */; };
+		662DB03C1C1AA9B60083FF29 /* _211_NSURLDownloadTask________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DB03B1C1AA9B60083FF29 /* _211_NSURLDownloadTask________Tests.m */; };
+		662DB0471C1AA9B60083FF29 /* _211_NSURLDownloadTask________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DB0461C1AA9B60083FF29 /* _211_NSURLDownloadTask________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		662DB0381C1AA9B60083FF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662DB0161C1AA9B60083FF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662DB01D1C1AA9B60083FF29;
+			remoteInfo = "1211 NSURLDownloadTask使用代理进行下载";
+		};
+		662DB0431C1AA9B60083FF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662DB0161C1AA9B60083FF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662DB01D1C1AA9B60083FF29;
+			remoteInfo = "1211 NSURLDownloadTask使用代理进行下载";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		662DB01E1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1211 NSURLDownloadTask使用代理进行下载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662DB0221C1AA9B60083FF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		662DB0241C1AA9B60083FF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		662DB0251C1AA9B60083FF29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		662DB0271C1AA9B60083FF29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		662DB0281C1AA9B60083FF29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		662DB02B1C1AA9B60083FF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		662DB02D1C1AA9B60083FF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		662DB0301C1AA9B60083FF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		662DB0321C1AA9B60083FF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662DB0371C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1211 NSURLDownloadTask使用代理进行下载Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662DB03B1C1AA9B60083FF29 /* _211_NSURLDownloadTask________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_211_NSURLDownloadTask________Tests.m"; sourceTree = "<group>"; };
+		662DB03D1C1AA9B60083FF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662DB0421C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1211 NSURLDownloadTask使用代理进行下载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662DB0461C1AA9B60083FF29 /* _211_NSURLDownloadTask________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_211_NSURLDownloadTask________UITests.m"; sourceTree = "<group>"; };
+		662DB0481C1AA9B60083FF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662DB01B1C1AA9B60083FF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DB0341C1AA9B60083FF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DB03F1C1AA9B60083FF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662DB0151C1AA9B60083FF29 = {
+			isa = PBXGroup;
+			children = (
+				662DB0201C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载 */,
+				662DB03A1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载Tests */,
+				662DB0451C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载UITests */,
+				662DB01F1C1AA9B60083FF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662DB01F1C1AA9B60083FF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662DB01E1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载.app */,
+				662DB0371C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载Tests.xctest */,
+				662DB0421C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662DB0201C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载 */ = {
+			isa = PBXGroup;
+			children = (
+				662DB0241C1AA9B60083FF29 /* AppDelegate.h */,
+				662DB0251C1AA9B60083FF29 /* AppDelegate.m */,
+				662DB0271C1AA9B60083FF29 /* ViewController.h */,
+				662DB0281C1AA9B60083FF29 /* ViewController.m */,
+				662DB02A1C1AA9B60083FF29 /* Main.storyboard */,
+				662DB02D1C1AA9B60083FF29 /* Assets.xcassets */,
+				662DB02F1C1AA9B60083FF29 /* LaunchScreen.storyboard */,
+				662DB0321C1AA9B60083FF29 /* Info.plist */,
+				662DB0211C1AA9B60083FF29 /* Supporting Files */,
+			);
+			path = "1211 NSURLDownloadTask使用代理进行下载";
+			sourceTree = "<group>";
+		};
+		662DB0211C1AA9B60083FF29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				662DB0221C1AA9B60083FF29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		662DB03A1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载Tests */ = {
+			isa = PBXGroup;
+			children = (
+				662DB03B1C1AA9B60083FF29 /* _211_NSURLDownloadTask________Tests.m */,
+				662DB03D1C1AA9B60083FF29 /* Info.plist */,
+			);
+			path = "1211 NSURLDownloadTask使用代理进行下载Tests";
+			sourceTree = "<group>";
+		};
+		662DB0451C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载UITests */ = {
+			isa = PBXGroup;
+			children = (
+				662DB0461C1AA9B60083FF29 /* _211_NSURLDownloadTask________UITests.m */,
+				662DB0481C1AA9B60083FF29 /* Info.plist */,
+			);
+			path = "1211 NSURLDownloadTask使用代理进行下载UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662DB01D1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662DB04B1C1AA9B60083FF29 /* Build configuration list for PBXNativeTarget "1211 NSURLDownloadTask使用代理进行下载" */;
+			buildPhases = (
+				662DB01A1C1AA9B60083FF29 /* Sources */,
+				662DB01B1C1AA9B60083FF29 /* Frameworks */,
+				662DB01C1C1AA9B60083FF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1211 NSURLDownloadTask使用代理进行下载";
+			productName = "1211 NSURLDownloadTask使用代理进行下载";
+			productReference = 662DB01E1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载.app */;
+			productType = "com.apple.product-type.application";
+		};
+		662DB0361C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662DB04E1C1AA9B60083FF29 /* Build configuration list for PBXNativeTarget "1211 NSURLDownloadTask使用代理进行下载Tests" */;
+			buildPhases = (
+				662DB0331C1AA9B60083FF29 /* Sources */,
+				662DB0341C1AA9B60083FF29 /* Frameworks */,
+				662DB0351C1AA9B60083FF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662DB0391C1AA9B60083FF29 /* PBXTargetDependency */,
+			);
+			name = "1211 NSURLDownloadTask使用代理进行下载Tests";
+			productName = "1211 NSURLDownloadTask使用代理进行下载Tests";
+			productReference = 662DB0371C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		662DB0411C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662DB0511C1AA9B60083FF29 /* Build configuration list for PBXNativeTarget "1211 NSURLDownloadTask使用代理进行下载UITests" */;
+			buildPhases = (
+				662DB03E1C1AA9B60083FF29 /* Sources */,
+				662DB03F1C1AA9B60083FF29 /* Frameworks */,
+				662DB0401C1AA9B60083FF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662DB0441C1AA9B60083FF29 /* PBXTargetDependency */,
+			);
+			name = "1211 NSURLDownloadTask使用代理进行下载UITests";
+			productName = "1211 NSURLDownloadTask使用代理进行下载UITests";
+			productReference = 662DB0421C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662DB0161C1AA9B60083FF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					662DB01D1C1AA9B60083FF29 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					662DB0361C1AA9B60083FF29 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 662DB01D1C1AA9B60083FF29;
+					};
+					662DB0411C1AA9B60083FF29 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 662DB01D1C1AA9B60083FF29;
+					};
+				};
+			};
+			buildConfigurationList = 662DB0191C1AA9B60083FF29 /* Build configuration list for PBXProject "1211 NSURLDownloadTask使用代理进行下载" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662DB0151C1AA9B60083FF29;
+			productRefGroup = 662DB01F1C1AA9B60083FF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662DB01D1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载 */,
+				662DB0361C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载Tests */,
+				662DB0411C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662DB01C1C1AA9B60083FF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DB0311C1AA9B60083FF29 /* LaunchScreen.storyboard in Resources */,
+				662DB02E1C1AA9B60083FF29 /* Assets.xcassets in Resources */,
+				662DB02C1C1AA9B60083FF29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DB0351C1AA9B60083FF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DB0401C1AA9B60083FF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662DB01A1C1AA9B60083FF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DB0291C1AA9B60083FF29 /* ViewController.m in Sources */,
+				662DB0261C1AA9B60083FF29 /* AppDelegate.m in Sources */,
+				662DB0231C1AA9B60083FF29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DB0331C1AA9B60083FF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DB03C1C1AA9B60083FF29 /* _211_NSURLDownloadTask________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DB03E1C1AA9B60083FF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DB0471C1AA9B60083FF29 /* _211_NSURLDownloadTask________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		662DB0391C1AA9B60083FF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662DB01D1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载 */;
+			targetProxy = 662DB0381C1AA9B60083FF29 /* PBXContainerItemProxy */;
+		};
+		662DB0441C1AA9B60083FF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662DB01D1C1AA9B60083FF29 /* 1211 NSURLDownloadTask使用代理进行下载 */;
+			targetProxy = 662DB0431C1AA9B60083FF29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		662DB02A1C1AA9B60083FF29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662DB02B1C1AA9B60083FF29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		662DB02F1C1AA9B60083FF29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662DB0301C1AA9B60083FF29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662DB0491C1AA9B60083FF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		662DB04A1C1AA9B60083FF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662DB04C1C1AA9B60083FF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1211 NSURLDownloadTask使用代理进行下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-211-NSURLDownloadTask--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		662DB04D1C1AA9B60083FF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1211 NSURLDownloadTask使用代理进行下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-211-NSURLDownloadTask--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		662DB04F1C1AA9B60083FF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1211 NSURLDownloadTask使用代理进行下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-211-NSURLDownloadTask--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1211 NSURLDownloadTask使用代理进行下载.app/1211 NSURLDownloadTask使用代理进行下载";
+			};
+			name = Debug;
+		};
+		662DB0501C1AA9B60083FF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1211 NSURLDownloadTask使用代理进行下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-211-NSURLDownloadTask--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1211 NSURLDownloadTask使用代理进行下载.app/1211 NSURLDownloadTask使用代理进行下载";
+			};
+			name = Release;
+		};
+		662DB0521C1AA9B60083FF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1211 NSURLDownloadTask使用代理进行下载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-211-NSURLDownloadTask--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1211 NSURLDownloadTask使用代理进行下载";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		662DB0531C1AA9B60083FF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1211 NSURLDownloadTask使用代理进行下载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-211-NSURLDownloadTask--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1211 NSURLDownloadTask使用代理进行下载";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662DB0191C1AA9B60083FF29 /* Build configuration list for PBXProject "1211 NSURLDownloadTask使用代理进行下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DB0491C1AA9B60083FF29 /* Debug */,
+				662DB04A1C1AA9B60083FF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662DB04B1C1AA9B60083FF29 /* Build configuration list for PBXNativeTarget "1211 NSURLDownloadTask使用代理进行下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DB04C1C1AA9B60083FF29 /* Debug */,
+				662DB04D1C1AA9B60083FF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		662DB04E1C1AA9B60083FF29 /* Build configuration list for PBXNativeTarget "1211 NSURLDownloadTask使用代理进行下载Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DB04F1C1AA9B60083FF29 /* Debug */,
+				662DB0501C1AA9B60083FF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		662DB0511C1AA9B60083FF29 /* Build configuration list for PBXNativeTarget "1211 NSURLDownloadTask使用代理进行下载UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DB0521C1AA9B60083FF29 /* Debug */,
+				662DB0531C1AA9B60083FF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662DB0161C1AA9B60083FF29 /* Project object */;
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="Vhi-ID-REI" userLabel="Button - 点我呀">
+                                <rect key="frame" x="110" y="98" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="点我呀" backgroundImage="btn_01">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted" title="摸我干啥" backgroundImage="btn_02">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ceb-Mj-4fi" userLabel="Button - 左">
+                                <rect key="frame" x="16" y="320" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="left_disable">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="left_highlighted"/>
+                                <connections>
+                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NH2-mK-hVe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pD2-im-ucx" userLabel="Button - 上">
+                                <rect key="frame" x="56" y="269" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="top_disable">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="top_highlighted"/>
+                                <connections>
+                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lpn-bD-Gxo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vfo-Zf-bgk" userLabel="Button - 下">
+                                <rect key="frame" x="56" y="362" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bottom_disable">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="bottom_highlighted"/>
+                                <connections>
+                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eaT-5f-f9H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iWV-9p-5MD" userLabel="Button - 右">
+                                <rect key="frame" x="94" y="320" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="right_disable">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="right_highlighted"/>
+                                <connections>
+                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="w53-zE-IKC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZH2-dU-FFV" userLabel="Button - 缩小">
+                                <rect key="frame" x="240" y="269" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="minus_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="minus_highlighted"/>
+                                <connections>
+                                    <action selector="zoom:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0K7-M7-RdF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IDm-oY-EOh" userLabel="Button - 左旋">
+                                <rect key="frame" x="171" y="362" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="left_rotate_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="left_rotate_highlighted"/>
+                                <connections>
+                                    <action selector="rotate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VE5-fr-Fif"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TGz-l7-sC1" userLabel="Button - 右旋">
+                                <rect key="frame" x="240" y="362" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="right_rotate_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="right_rotate_highlighted"/>
+                                <connections>
+                                    <action selector="rotate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1IV-Ml-gsl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zFK-jB-0L6" userLabel="Button - 放大">
+                                <rect key="frame" x="160" y="279" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="plus_normal"/>
+                                <state key="highlighted" image="plus_highlighted"/>
+                                <connections>
+                                    <action selector="zoom:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="egW-WX-N6e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="picture" destination="Vhi-ID-REI" id="wbX-H0-62d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="202" y="301"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bottom_disable" width="96" height="96"/>
+        <image name="bottom_highlighted" width="96" height="96"/>
+        <image name="btn_01" width="100" height="100"/>
+        <image name="btn_02" width="100" height="100"/>
+        <image name="left_disable" width="96" height="96"/>
+        <image name="left_highlighted" width="96" height="96"/>
+        <image name="left_rotate_highlighted" width="96" height="96"/>
+        <image name="left_rotate_normal" width="96" height="96"/>
+        <image name="minus_highlighted" width="96" height="96"/>
+        <image name="minus_normal" width="96" height="96"/>
+        <image name="plus_highlighted" width="96" height="96"/>
+        <image name="plus_normal" width="96" height="96"/>
+        <image name="right_disable" width="96" height="96"/>
+        <image name="right_highlighted" width="96" height="96"/>
+        <image name="right_rotate_highlighted" width="96" height="96"/>
+        <image name="right_rotate_normal" width="96" height="96"/>
+        <image name="top_disable" width="96" height="96"/>
+        <image name="top_highlighted" width="96" height="96"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

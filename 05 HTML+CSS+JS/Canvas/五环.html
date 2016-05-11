@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<canvas id="canvas">浏览器记得升级哦</canvas>
+
+<script type="text/javascript">
+    var canvas = window.document.getElementById('canvas');
+    canvas.width = 1000;
+    canvas.height = 1000;
+
+    var context = canvas.getContext('2d');
+
+    var colorArray = ['red','green','orange','yellow','black'];
+
+    context.lineWidth = 10;
+
+    for(var i = 0; i < 5; i++){
+        context.beginPath();
+        context.strokeStyle = colorArray[i];
+        context.arc(150+100*i, 100, 80, 0, 2.0*Math.PI);
+        context.closePath();
+        context.stroke();
+    }
+</script>
+
+</body>
+</html>

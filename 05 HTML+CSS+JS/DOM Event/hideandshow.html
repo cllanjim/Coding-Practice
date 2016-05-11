@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--布局页面-->
+<img id="img" src="images/img_01.jpg" alt="图片1">
+<p class="word">这是一个空行</p>
+<p></p>
+<button>隐藏</button>
+
+
+<!--设计操作效果-->
+<script type="application/javascript">
+    //获取标签
+    var img = window.document.getElementById("img");
+    var word = window.document.getElementsByClassName("word")[0];
+    var btn = window.document.getElementsByTagName("button")[0];
+    //对标签的点击时间进行操作能够完成隐藏显示效果
+    btn.onclick = function(){
+        if(btn.innerHTML == "隐藏"){
+            img.style.display = "none";
+            word.style.display = "none";
+            btn.innerHTML = "显示";
+        }else{
+            img.style.display = "inline-block";
+            word.style.display = "block";
+            btn.innerHTML = "显示";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>1017 CoreLocation的使用 iOS 8.0.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>66CBAB521BD21DF5009E519C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66CBAB6B1BD21DF5009E519C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66CBAB761BD21DF5009E519C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

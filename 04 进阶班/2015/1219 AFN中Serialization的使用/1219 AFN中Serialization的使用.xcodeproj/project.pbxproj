@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66BD77991C257EB20023921C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD77981C257EB20023921C /* main.m */; };
+		66BD779C1C257EB20023921C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD779B1C257EB20023921C /* AppDelegate.m */; };
+		66BD779F1C257EB20023921C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD779E1C257EB20023921C /* ViewController.m */; };
+		66BD77A21C257EB20023921C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BD77A01C257EB20023921C /* Main.storyboard */; };
+		66BD77A41C257EB20023921C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BD77A31C257EB20023921C /* Assets.xcassets */; };
+		66BD77A71C257EB20023921C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BD77A51C257EB20023921C /* LaunchScreen.storyboard */; };
+		66BD77B21C257EB30023921C /* _219_AFN_Serialization___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD77B11C257EB30023921C /* _219_AFN_Serialization___Tests.m */; };
+		66BD77BD1C257EB30023921C /* _219_AFN_Serialization___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD77BC1C257EB30023921C /* _219_AFN_Serialization___UITests.m */; };
+		D99D1A885A780BE1F27C27AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D12799479C4DB82BECDB8C83 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BD77AE1C257EB30023921C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BD778C1C257EB20023921C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BD77931C257EB20023921C;
+			remoteInfo = "1219 AFN中Serialization的使用";
+		};
+		66BD77B91C257EB30023921C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BD778C1C257EB20023921C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BD77931C257EB20023921C;
+			remoteInfo = "1219 AFN中Serialization的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20A7AEECA4850B177FD23FA1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		66BD77941C257EB20023921C /* 1219 AFN中Serialization的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1219 AFN中Serialization的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BD77981C257EB20023921C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66BD779A1C257EB20023921C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66BD779B1C257EB20023921C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66BD779D1C257EB20023921C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66BD779E1C257EB20023921C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66BD77A11C257EB20023921C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66BD77A31C257EB20023921C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66BD77A61C257EB20023921C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66BD77A81C257EB20023921C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BD77AD1C257EB30023921C /* 1219 AFN中Serialization的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1219 AFN中Serialization的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BD77B11C257EB30023921C /* _219_AFN_Serialization___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_219_AFN_Serialization___Tests.m"; sourceTree = "<group>"; };
+		66BD77B31C257EB30023921C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BD77B81C257EB30023921C /* 1219 AFN中Serialization的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1219 AFN中Serialization的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BD77BC1C257EB30023921C /* _219_AFN_Serialization___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_219_AFN_Serialization___UITests.m"; sourceTree = "<group>"; };
+		66BD77BE1C257EB30023921C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AEBCBBB7AEF875D204BDA5D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D12799479C4DB82BECDB8C83 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66BD77911C257EB20023921C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D1A885A780BE1F27C27AD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD77AA1C257EB30023921C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD77B51C257EB30023921C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C4A5A8193352C2E09604A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20A7AEECA4850B177FD23FA1 /* Pods.debug.xcconfig */,
+				7AEBCBBB7AEF875D204BDA5D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52FB4D8A9BB22B0A307B008A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D12799479C4DB82BECDB8C83 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66BD778B1C257EB20023921C = {
+			isa = PBXGroup;
+			children = (
+				66BD77961C257EB20023921C /* 1219 AFN中Serialization的使用 */,
+				66BD77B01C257EB30023921C /* 1219 AFN中Serialization的使用Tests */,
+				66BD77BB1C257EB30023921C /* 1219 AFN中Serialization的使用UITests */,
+				66BD77951C257EB20023921C /* Products */,
+				44C4A5A8193352C2E09604A1 /* Pods */,
+				52FB4D8A9BB22B0A307B008A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66BD77951C257EB20023921C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BD77941C257EB20023921C /* 1219 AFN中Serialization的使用.app */,
+				66BD77AD1C257EB30023921C /* 1219 AFN中Serialization的使用Tests.xctest */,
+				66BD77B81C257EB30023921C /* 1219 AFN中Serialization的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66BD77961C257EB20023921C /* 1219 AFN中Serialization的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				66BD779A1C257EB20023921C /* AppDelegate.h */,
+				66BD779B1C257EB20023921C /* AppDelegate.m */,
+				66BD779D1C257EB20023921C /* ViewController.h */,
+				66BD779E1C257EB20023921C /* ViewController.m */,
+				66BD77A01C257EB20023921C /* Main.storyboard */,
+				66BD77A31C257EB20023921C /* Assets.xcassets */,
+				66BD77A51C257EB20023921C /* LaunchScreen.storyboard */,
+				66BD77A81C257EB20023921C /* Info.plist */,
+				66BD77971C257EB20023921C /* Supporting Files */,
+			);
+			path = "1219 AFN中Serialization的使用";
+			sourceTree = "<group>";
+		};
+		66BD77971C257EB20023921C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BD77981C257EB20023921C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66BD77B01C257EB30023921C /* 1219 AFN中Serialization的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66BD77B11C257EB30023921C /* _219_AFN_Serialization___Tests.m */,
+				66BD77B31C257EB30023921C /* Info.plist */,
+			);
+			path = "1219 AFN中Serialization的使用Tests";
+			sourceTree = "<group>";
+		};
+		66BD77BB1C257EB30023921C /* 1219 AFN中Serialization的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66BD77BC1C257EB30023921C /* _219_AFN_Serialization___UITests.m */,
+				66BD77BE1C257EB30023921C /* Info.plist */,
+			);
+			path = "1219 AFN中Serialization的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66BD77931C257EB20023921C /* 1219 AFN中Serialization的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BD77C11C257EB30023921C /* Build configuration list for PBXNativeTarget "1219 AFN中Serialization的使用" */;
+			buildPhases = (
+				B68E781FF48B2E1305443A5E /* Check Pods Manifest.lock */,
+				66BD77901C257EB20023921C /* Sources */,
+				66BD77911C257EB20023921C /* Frameworks */,
+				66BD77921C257EB20023921C /* Resources */,
+				633868A0B5794390FFA6179F /* Embed Pods Frameworks */,
+				26474757C80FB1CB09835642 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1219 AFN中Serialization的使用";
+			productName = "1219 AFN中Serialization的使用";
+			productReference = 66BD77941C257EB20023921C /* 1219 AFN中Serialization的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66BD77AC1C257EB30023921C /* 1219 AFN中Serialization的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BD77C41C257EB30023921C /* Build configuration list for PBXNativeTarget "1219 AFN中Serialization的使用Tests" */;
+			buildPhases = (
+				66BD77A91C257EB30023921C /* Sources */,
+				66BD77AA1C257EB30023921C /* Frameworks */,
+				66BD77AB1C257EB30023921C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BD77AF1C257EB30023921C /* PBXTargetDependency */,
+			);
+			name = "1219 AFN中Serialization的使用Tests";
+			productName = "1219 AFN中Serialization的使用Tests";
+			productReference = 66BD77AD1C257EB30023921C /* 1219 AFN中Serialization的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66BD77B71C257EB30023921C /* 1219 AFN中Serialization的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BD77C71C257EB30023921C /* Build configuration list for PBXNativeTarget "1219 AFN中Serialization的使用UITests" */;
+			buildPhases = (
+				66BD77B41C257EB30023921C /* Sources */,
+				66BD77B51C257EB30023921C /* Frameworks */,
+				66BD77B61C257EB30023921C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BD77BA1C257EB30023921C /* PBXTargetDependency */,
+			);
+			name = "1219 AFN中Serialization的使用UITests";
+			productName = "1219 AFN中Serialization的使用UITests";
+			productReference = 66BD77B81C257EB30023921C /* 1219 AFN中Serialization的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66BD778C1C257EB20023921C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					66BD77931C257EB20023921C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					66BD77AC1C257EB30023921C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66BD77931C257EB20023921C;
+					};
+					66BD77B71C257EB30023921C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66BD77931C257EB20023921C;
+					};
+				};
+			};
+			buildConfigurationList = 66BD778F1C257EB20023921C /* Build configuration list for PBXProject "1219 AFN中Serialization的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66BD778B1C257EB20023921C;
+			productRefGroup = 66BD77951C257EB20023921C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BD77931C257EB20023921C /* 1219 AFN中Serialization的使用 */,
+				66BD77AC1C257EB30023921C /* 1219 AFN中Serialization的使用Tests */,
+				66BD77B71C257EB30023921C /* 1219 AFN中Serialization的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66BD77921C257EB20023921C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD77A71C257EB20023921C /* LaunchScreen.storyboard in Resources */,
+				66BD77A41C257EB20023921C /* Assets.xcassets in Resources */,
+				66BD77A21C257EB20023921C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD77AB1C257EB30023921C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD77B61C257EB30023921C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26474757C80FB1CB09835642 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633868A0B5794390FFA6179F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68E781FF48B2E1305443A5E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66BD77901C257EB20023921C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD779F1C257EB20023921C /* ViewController.m in Sources */,
+				66BD779C1C257EB20023921C /* AppDelegate.m in Sources */,
+				66BD77991C257EB20023921C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD77A91C257EB30023921C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD77B21C257EB30023921C /* _219_AFN_Serialization___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD77B41C257EB30023921C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD77BD1C257EB30023921C /* _219_AFN_Serialization___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66BD77AF1C257EB30023921C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BD77931C257EB20023921C /* 1219 AFN中Serialization的使用 */;
+			targetProxy = 66BD77AE1C257EB30023921C /* PBXContainerItemProxy */;
+		};
+		66BD77BA1C257EB30023921C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BD77931C257EB20023921C /* 1219 AFN中Serialization的使用 */;
+			targetProxy = 66BD77B91C257EB30023921C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66BD77A01C257EB20023921C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BD77A11C257EB20023921C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66BD77A51C257EB20023921C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BD77A61C257EB20023921C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66BD77BF1C257EB30023921C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66BD77C01C257EB30023921C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66BD77C21C257EB30023921C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A7AEECA4850B177FD23FA1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1219 AFN中Serialization的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-219-AFN-Serialization---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66BD77C31C257EB30023921C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEBCBBB7AEF875D204BDA5D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1219 AFN中Serialization的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-219-AFN-Serialization---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66BD77C51C257EB30023921C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1219 AFN中Serialization的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-219-AFN-Serialization---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1219 AFN中Serialization的使用.app/1219 AFN中Serialization的使用";
+			};
+			name = Debug;
+		};
+		66BD77C61C257EB30023921C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1219 AFN中Serialization的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-219-AFN-Serialization---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1219 AFN中Serialization的使用.app/1219 AFN中Serialization的使用";
+			};
+			name = Release;
+		};
+		66BD77C81C257EB30023921C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1219 AFN中Serialization的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-219-AFN-Serialization---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1219 AFN中Serialization的使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66BD77C91C257EB30023921C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1219 AFN中Serialization的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-219-AFN-Serialization---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1219 AFN中Serialization的使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66BD778F1C257EB20023921C /* Build configuration list for PBXProject "1219 AFN中Serialization的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BD77BF1C257EB30023921C /* Debug */,
+				66BD77C01C257EB30023921C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BD77C11C257EB30023921C /* Build configuration list for PBXNativeTarget "1219 AFN中Serialization的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BD77C21C257EB30023921C /* Debug */,
+				66BD77C31C257EB30023921C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BD77C41C257EB30023921C /* Build configuration list for PBXNativeTarget "1219 AFN中Serialization的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BD77C51C257EB30023921C /* Debug */,
+				66BD77C61C257EB30023921C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BD77C71C257EB30023921C /* Build configuration list for PBXNativeTarget "1219 AFN中Serialization的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BD77C81C257EB30023921C /* Debug */,
+				66BD77C91C257EB30023921C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66BD778C1C257EB20023921C /* Project object */;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <p>123456789</p>
+    <div>
+        <img src="images/0.jpg">
+        <img src="images/1.jpg">
+        <img src="images/2.jpg">
+        <img src="images/3.jpg">
+        <img src="images/4.jpg">
+        <img src="images/5.jpg">
+        <img src="images/6.jpg">
+    </div>
+
+    <button>显示</button>
+    <button>隐藏</button>
+    <button>切换</button>
+</div>
+
+
+<!--导入jQuery-->
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<!--自行设定JS-->
+<script type="text/javascript">
+    //取对应的标签
+    console.log($('img'));
+    //取对应标签的属性
+    console.log($('img').attr('src'));
+    //改变对应标签的属性
+//    $('img').attr('src','images/1.jpg');
+
+    //取p标签里的内容
+    console.log($('p').text());
+    //更改p标签里的内容
+    $('p').text('好好学习,天天向上');
+
+    //统一修改宽度
+    $('img').attr('width','100px');
+
+    //处理按钮的事件
+    $('button').eq(0).on('click',function(){
+        $('img').show();
+    })
+    $('button').eq(1).on('click',function(){
+        $('img').hide();
+    })
+    $('button').eq(2).on('click',function(){
+        $('img').toggle(1000);
+    })
+
+    //数组
+    var arrNumber = ['kkk',23,54,545,'hhhhh'];
+    $.each(arrNumber,function(index,value){
+        console.log(index, value);
+    })
+    //根据数值确定其索引
+    console.log($.inArray(545,arrNumber));
+
+
+</script>
+
+</body>
+</html>

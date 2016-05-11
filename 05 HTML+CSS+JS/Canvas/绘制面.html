@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<canvas id="canvas">浏览器版本过低,记得升级哦</canvas>
+
+
+<script type="text/javascript">
+    //获取标签
+//    alert('0');
+    var canvas = window.document.getElementById('canvas');
+    canvas.width = 1000;
+    canvas.height = 1000;
+
+    //获取上下文
+    var context = canvas.getContext('2d');
+
+    //设置绘制参数
+    context.strokeStyle = 'red';
+    context.lineWidth = 10;
+    context.fillStyle = 'green';
+
+    //开始绘制
+    context.beginPath();
+    context.moveTo(100,100);
+    context.lineTo(200,400);
+    context.lineTo(400,600);
+    context.lineTo(100,100);
+    //结束绘制
+    context.closePath();
+    //绘制
+    context.stroke();
+    //填充
+    context.fill();
+
+    //设置绘制参数
+    context.strokeStyle = 'blue';
+    context.lineWidth = 5;
+    context.fillStyle = 'orange';
+
+    //开始绘制
+    context.beginPath();
+    context.moveTo(100,100);
+    context.lineTo(500,100);
+    context.lineTo(500,400);
+    context.lineTo(100,400);
+    context.lineTo(100,100);
+
+    context.closePath();
+    context.stroke();
+    context.fill();
+
+
+
+
+</script>
+
+
+</body>
+</html>

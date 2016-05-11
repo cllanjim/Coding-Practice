@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<input name="world" type="text" value="">
+<img id="icon" src="images/img_01.jpg">
+<button>小码哥</button>
+
+<script type="text/javascript">
+    window.onload = function(){
+//        alert('网页加载完毕');
+//对input标签进行修改
+    var input = window.document.getElementsByName("world")[0];
+        input.onfocus = function(){
+            input.style.outline ="none";
+            input.style.width = "600px";
+            input.style.height = "50px";
+            input.style.border = "3px solid blue";
+            input.style.fontSize = "20px"
+        }
+    }
+//对img标签进行修改
+    var img = window.document.getElementById("icon");
+//    进入图片
+    img.onmouseover = function(){
+        console.log("进入图片");
+    }
+//    在图片上移动
+    img.onmousemove = function(){
+        console.log("在图片上移动");
+    }
+//    离开图片
+    img.onmouseout = function(){
+        console.log("离开图片")
+    }
+
+    var button = window.document.getElementsByTagName("button")[0];
+//    button.onmousedown = function(){
+//        alert("按下按钮");
+//    }
+    button.onmouseup = function(){
+        alert("离开按钮");
+    }
+
+
+
+</script>
+
+</body>
+</html>

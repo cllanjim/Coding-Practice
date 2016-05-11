@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66B43B671BB9545000B33D53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43B661BB9545000B33D53 /* main.m */; };
+		66B43B6A1BB9545000B33D53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43B691BB9545000B33D53 /* AppDelegate.m */; };
+		66B43B6D1BB9545000B33D53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43B6C1BB9545000B33D53 /* ViewController.m */; };
+		66B43B701BB9545000B33D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B43B6E1BB9545000B33D53 /* Main.storyboard */; };
+		66B43B721BB9545000B33D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B43B711BB9545000B33D53 /* Assets.xcassets */; };
+		66B43B751BB9545000B33D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B43B731BB9545000B33D53 /* LaunchScreen.storyboard */; };
+		66B43B801BB9545000B33D53 /* _928__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43B7F1BB9545000B33D53 /* _928__________Tests.m */; };
+		66B43B8B1BB9545000B33D53 /* _928__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43B8A1BB9545000B33D53 /* _928__________UITests.m */; };
+		66B43BBD1BB983D500B33D53 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43B9B1BB983D500B33D53 /* IQNSArray+Sort.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BBE1BB983D500B33D53 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43B9D1BB983D500B33D53 /* IQUITextFieldView+Additions.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BBF1BB983D500B33D53 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43B9F1BB983D500B33D53 /* IQUIView+Hierarchy.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC01BB983D500B33D53 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BA11BB983D500B33D53 /* IQUIViewController+Additions.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC11BB983D500B33D53 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BA31BB983D500B33D53 /* IQUIWindow+Hierarchy.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC21BB983D500B33D53 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BA81BB983D500B33D53 /* IQKeyboardManager.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC31BB983D500B33D53 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BAA1BB983D500B33D53 /* IQKeyboardReturnKeyHandler.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC41BB983D500B33D53 /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BAD1BB983D500B33D53 /* IQSegmentedNextPrevious.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC51BB983D500B33D53 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BB01BB983D500B33D53 /* IQTextView.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC61BB983D500B33D53 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BB31BB983D500B33D53 /* IQBarButtonItem.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC71BB983D500B33D53 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BB51BB983D500B33D53 /* IQTitleBarButtonItem.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC81BB983D500B33D53 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BB71BB983D500B33D53 /* IQToolbar.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BC91BB983D500B33D53 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B43BB91BB983D500B33D53 /* IQUIView+IQKeyboardToolbar.m */; settings = {ASSET_TAGS = (); }; };
+		66B43BCA1BB983D500B33D53 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66B43BBC1BB983D500B33D53 /* IQKeyboardManager.bundle */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66B43B7C1BB9545000B33D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66B43B5A1BB9545000B33D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B43B611BB9545000B33D53;
+			remoteInfo = "0928 键盘处理-多文本框";
+		};
+		66B43B871BB9545000B33D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66B43B5A1BB9545000B33D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B43B611BB9545000B33D53;
+			remoteInfo = "0928 键盘处理-多文本框";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66B43B621BB9545000B33D53 /* 0928 键盘处理-多文本框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0928 键盘处理-多文本框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B43B661BB9545000B33D53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66B43B681BB9545000B33D53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66B43B691BB9545000B33D53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66B43B6B1BB9545000B33D53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66B43B6C1BB9545000B33D53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66B43B711BB9545000B33D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66B43B761BB9545000B33D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B43B7B1BB9545000B33D53 /* 0928 键盘处理-多文本框Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0928 键盘处理-多文本框Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B43B7F1BB9545000B33D53 /* _928__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_928__________Tests.m"; sourceTree = "<group>"; };
+		66B43B811BB9545000B33D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B43B861BB9545000B33D53 /* 0928 键盘处理-多文本框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0928 键盘处理-多文本框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B43B8A1BB9545000B33D53 /* _928__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_928__________UITests.m"; sourceTree = "<group>"; };
+		66B43B8C1BB9545000B33D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B43B9A1BB983D500B33D53 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		66B43B9B1BB983D500B33D53 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		66B43B9C1BB983D500B33D53 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		66B43B9D1BB983D500B33D53 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		66B43B9E1BB983D500B33D53 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		66B43B9F1BB983D500B33D53 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		66B43BA01BB983D500B33D53 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		66B43BA11BB983D500B33D53 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		66B43BA21BB983D500B33D53 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		66B43BA31BB983D500B33D53 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		66B43BA51BB983D500B33D53 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		66B43BA61BB983D500B33D53 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		66B43BA71BB983D500B33D53 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		66B43BA81BB983D500B33D53 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		66B43BA91BB983D500B33D53 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		66B43BAA1BB983D500B33D53 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		66B43BAC1BB983D500B33D53 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		66B43BAD1BB983D500B33D53 /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		66B43BAF1BB983D500B33D53 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		66B43BB01BB983D500B33D53 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		66B43BB21BB983D500B33D53 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		66B43BB31BB983D500B33D53 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		66B43BB41BB983D500B33D53 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		66B43BB51BB983D500B33D53 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		66B43BB61BB983D500B33D53 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		66B43BB71BB983D500B33D53 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		66B43BB81BB983D500B33D53 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		66B43BB91BB983D500B33D53 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		66B43BBA1BB983D500B33D53 /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		66B43BBC1BB983D500B33D53 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		66B43BDD1BB9A11D00B33D53 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		66B43BDF1BB9A11D00B33D53 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		66B43BE31BB9A13600B33D53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66B43BE41BB9A13600B33D53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66B43B5F1BB9545000B33D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B43B781BB9545000B33D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B43B831BB9545000B33D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66B43B591BB9545000B33D53 = {
+			isa = PBXGroup;
+			children = (
+				66B43B641BB9545000B33D53 /* 0928 键盘处理-多文本框 */,
+				66B43B7E1BB9545000B33D53 /* 0928 键盘处理-多文本框Tests */,
+				66B43B891BB9545000B33D53 /* 0928 键盘处理-多文本框UITests */,
+				66B43B631BB9545000B33D53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66B43B631BB9545000B33D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B43B621BB9545000B33D53 /* 0928 键盘处理-多文本框.app */,
+				66B43B7B1BB9545000B33D53 /* 0928 键盘处理-多文本框Tests.xctest */,
+				66B43B861BB9545000B33D53 /* 0928 键盘处理-多文本框UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B43B641BB9545000B33D53 /* 0928 键盘处理-多文本框 */ = {
+			isa = PBXGroup;
+			children = (
+				66B43B981BB983D500B33D53 /* IQKeyBoardManager */,
+				66B43B681BB9545000B33D53 /* AppDelegate.h */,
+				66B43B691BB9545000B33D53 /* AppDelegate.m */,
+				66B43B6B1BB9545000B33D53 /* ViewController.h */,
+				66B43B6C1BB9545000B33D53 /* ViewController.m */,
+				66B43B6E1BB9545000B33D53 /* Main.storyboard */,
+				66B43B711BB9545000B33D53 /* Assets.xcassets */,
+				66B43B731BB9545000B33D53 /* LaunchScreen.storyboard */,
+				66B43B761BB9545000B33D53 /* Info.plist */,
+				66B43B651BB9545000B33D53 /* Supporting Files */,
+			);
+			path = "0928 键盘处理-多文本框";
+			sourceTree = "<group>";
+		};
+		66B43B651BB9545000B33D53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B43B661BB9545000B33D53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66B43B7E1BB9545000B33D53 /* 0928 键盘处理-多文本框Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66B43B7F1BB9545000B33D53 /* _928__________Tests.m */,
+				66B43B811BB9545000B33D53 /* Info.plist */,
+			);
+			path = "0928 键盘处理-多文本框Tests";
+			sourceTree = "<group>";
+		};
+		66B43B891BB9545000B33D53 /* 0928 键盘处理-多文本框UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66B43B8A1BB9545000B33D53 /* _928__________UITests.m */,
+				66B43B8C1BB9545000B33D53 /* Info.plist */,
+			);
+			path = "0928 键盘处理-多文本框UITests";
+			sourceTree = "<group>";
+		};
+		66B43B981BB983D500B33D53 /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				66B43B991BB983D500B33D53 /* Categories */,
+				66B43BA41BB983D500B33D53 /* Constants */,
+				66B43BA71BB983D500B33D53 /* IQKeyboardManager.h */,
+				66B43BA81BB983D500B33D53 /* IQKeyboardManager.m */,
+				66B43BA91BB983D500B33D53 /* IQKeyboardReturnKeyHandler.h */,
+				66B43BAA1BB983D500B33D53 /* IQKeyboardReturnKeyHandler.m */,
+				66B43BAB1BB983D500B33D53 /* IQSegmentedNextPrevious */,
+				66B43BAE1BB983D500B33D53 /* IQTextView */,
+				66B43BB11BB983D500B33D53 /* IQToolbar */,
+				66B43BBA1BB983D500B33D53 /* KeyboardManager.h */,
+				66B43BBB1BB983D500B33D53 /* Resources */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		66B43B991BB983D500B33D53 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				66B43B9A1BB983D500B33D53 /* IQNSArray+Sort.h */,
+				66B43B9B1BB983D500B33D53 /* IQNSArray+Sort.m */,
+				66B43B9C1BB983D500B33D53 /* IQUITextFieldView+Additions.h */,
+				66B43B9D1BB983D500B33D53 /* IQUITextFieldView+Additions.m */,
+				66B43B9E1BB983D500B33D53 /* IQUIView+Hierarchy.h */,
+				66B43B9F1BB983D500B33D53 /* IQUIView+Hierarchy.m */,
+				66B43BA01BB983D500B33D53 /* IQUIViewController+Additions.h */,
+				66B43BA11BB983D500B33D53 /* IQUIViewController+Additions.m */,
+				66B43BA21BB983D500B33D53 /* IQUIWindow+Hierarchy.h */,
+				66B43BA31BB983D500B33D53 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		66B43BA41BB983D500B33D53 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				66B43BA51BB983D500B33D53 /* IQKeyboardManagerConstants.h */,
+				66B43BA61BB983D500B33D53 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		66B43BAB1BB983D500B33D53 /* IQSegmentedNextPrevious */ = {
+			isa = PBXGroup;
+			children = (
+				66B43BAC1BB983D500B33D53 /* IQSegmentedNextPrevious.h */,
+				66B43BAD1BB983D500B33D53 /* IQSegmentedNextPrevious.m */,
+			);
+			path = IQSegmentedNextPrevious;
+			sourceTree = "<group>";
+		};
+		66B43BAE1BB983D500B33D53 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				66B43BAF1BB983D500B33D53 /* IQTextView.h */,
+				66B43BB01BB983D500B33D53 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		66B43BB11BB983D500B33D53 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				66B43BB21BB983D500B33D53 /* IQBarButtonItem.h */,
+				66B43BB31BB983D500B33D53 /* IQBarButtonItem.m */,
+				66B43BB41BB983D500B33D53 /* IQTitleBarButtonItem.h */,
+				66B43BB51BB983D500B33D53 /* IQTitleBarButtonItem.m */,
+				66B43BB61BB983D500B33D53 /* IQToolbar.h */,
+				66B43BB71BB983D500B33D53 /* IQToolbar.m */,
+				66B43BB81BB983D500B33D53 /* IQUIView+IQKeyboardToolbar.h */,
+				66B43BB91BB983D500B33D53 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		66B43BBB1BB983D500B33D53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66B43BBC1BB983D500B33D53 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66B43B611BB9545000B33D53 /* 0928 键盘处理-多文本框 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B43B8F1BB9545000B33D53 /* Build configuration list for PBXNativeTarget "0928 键盘处理-多文本框" */;
+			buildPhases = (
+				66B43B5E1BB9545000B33D53 /* Sources */,
+				66B43B5F1BB9545000B33D53 /* Frameworks */,
+				66B43B601BB9545000B33D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0928 键盘处理-多文本框";
+			productName = "0928 键盘处理-多文本框";
+			productReference = 66B43B621BB9545000B33D53 /* 0928 键盘处理-多文本框.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66B43B7A1BB9545000B33D53 /* 0928 键盘处理-多文本框Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B43B921BB9545000B33D53 /* Build configuration list for PBXNativeTarget "0928 键盘处理-多文本框Tests" */;
+			buildPhases = (
+				66B43B771BB9545000B33D53 /* Sources */,
+				66B43B781BB9545000B33D53 /* Frameworks */,
+				66B43B791BB9545000B33D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B43B7D1BB9545000B33D53 /* PBXTargetDependency */,
+			);
+			name = "0928 键盘处理-多文本框Tests";
+			productName = "0928 键盘处理-多文本框Tests";
+			productReference = 66B43B7B1BB9545000B33D53 /* 0928 键盘处理-多文本框Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66B43B851BB9545000B33D53 /* 0928 键盘处理-多文本框UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B43B951BB9545000B33D53 /* Build configuration list for PBXNativeTarget "0928 键盘处理-多文本框UITests" */;
+			buildPhases = (
+				66B43B821BB9545000B33D53 /* Sources */,
+				66B43B831BB9545000B33D53 /* Frameworks */,
+				66B43B841BB9545000B33D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B43B881BB9545000B33D53 /* PBXTargetDependency */,
+			);
+			name = "0928 键盘处理-多文本框UITests";
+			productName = "0928 键盘处理-多文本框UITests";
+			productReference = 66B43B861BB9545000B33D53 /* 0928 键盘处理-多文本框UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66B43B5A1BB9545000B33D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					66B43B611BB9545000B33D53 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					66B43B7A1BB9545000B33D53 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66B43B611BB9545000B33D53;
+					};
+					66B43B851BB9545000B33D53 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66B43B611BB9545000B33D53;
+					};
+				};
+			};
+			buildConfigurationList = 66B43B5D1BB9545000B33D53 /* Build configuration list for PBXProject "0928 键盘处理-多文本框" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66B43B591BB9545000B33D53;
+			productRefGroup = 66B43B631BB9545000B33D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66B43B611BB9545000B33D53 /* 0928 键盘处理-多文本框 */,
+				66B43B7A1BB9545000B33D53 /* 0928 键盘处理-多文本框Tests */,
+				66B43B851BB9545000B33D53 /* 0928 键盘处理-多文本框UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66B43B601BB9545000B33D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B43B751BB9545000B33D53 /* LaunchScreen.storyboard in Resources */,
+				66B43B721BB9545000B33D53 /* Assets.xcassets in Resources */,
+				66B43BCA1BB983D500B33D53 /* IQKeyboardManager.bundle in Resources */,
+				66B43B701BB9545000B33D53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B43B791BB9545000B33D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B43B841BB9545000B33D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B43B5E1BB9545000B33D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B43BC21BB983D500B33D53 /* IQKeyboardManager.m in Sources */,
+				66B43BC71BB983D500B33D53 /* IQTitleBarButtonItem.m in Sources */,
+				66B43BC51BB983D500B33D53 /* IQTextView.m in Sources */,
+				66B43BC91BB983D500B33D53 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				66B43BBD1BB983D500B33D53 /* IQNSArray+Sort.m in Sources */,
+				66B43B6D1BB9545000B33D53 /* ViewController.m in Sources */,
+				66B43BC81BB983D500B33D53 /* IQToolbar.m in Sources */,
+				66B43BC01BB983D500B33D53 /* IQUIViewController+Additions.m in Sources */,
+				66B43BC11BB983D500B33D53 /* IQUIWindow+Hierarchy.m in Sources */,
+				66B43BC31BB983D500B33D53 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				66B43BC61BB983D500B33D53 /* IQBarButtonItem.m in Sources */,
+				66B43B6A1BB9545000B33D53 /* AppDelegate.m in Sources */,
+				66B43B671BB9545000B33D53 /* main.m in Sources */,
+				66B43BBF1BB983D500B33D53 /* IQUIView+Hierarchy.m in Sources */,
+				66B43BBE1BB983D500B33D53 /* IQUITextFieldView+Additions.m in Sources */,
+				66B43BC41BB983D500B33D53 /* IQSegmentedNextPrevious.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B43B771BB9545000B33D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B43B801BB9545000B33D53 /* _928__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B43B821BB9545000B33D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B43B8B1BB9545000B33D53 /* _928__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66B43B7D1BB9545000B33D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B43B611BB9545000B33D53 /* 0928 键盘处理-多文本框 */;
+			targetProxy = 66B43B7C1BB9545000B33D53 /* PBXContainerItemProxy */;
+		};
+		66B43B881BB9545000B33D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B43B611BB9545000B33D53 /* 0928 键盘处理-多文本框 */;
+			targetProxy = 66B43B871BB9545000B33D53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66B43B6E1BB9545000B33D53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B43BDD1BB9A11D00B33D53 /* zh-Hans */,
+				66B43BE31BB9A13600B33D53 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66B43B731BB9545000B33D53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B43BDF1BB9A11D00B33D53 /* zh-Hans */,
+				66B43BE41BB9A13600B33D53 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66B43B8D1BB9545000B33D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66B43B8E1BB9545000B33D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66B43B901BB9545000B33D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0928 键盘处理-多文本框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-928----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66B43B911BB9545000B33D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0928 键盘处理-多文本框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-928----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66B43B931BB9545000B33D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0928 键盘处理-多文本框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-928----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0928 键盘处理-多文本框.app/0928 键盘处理-多文本框";
+			};
+			name = Debug;
+		};
+		66B43B941BB9545000B33D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0928 键盘处理-多文本框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-928----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0928 键盘处理-多文本框.app/0928 键盘处理-多文本框";
+			};
+			name = Release;
+		};
+		66B43B961BB9545000B33D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0928 键盘处理-多文本框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-928----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0928 键盘处理-多文本框";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66B43B971BB9545000B33D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0928 键盘处理-多文本框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-928----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0928 键盘处理-多文本框";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B43B5D1BB9545000B33D53 /* Build configuration list for PBXProject "0928 键盘处理-多文本框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B43B8D1BB9545000B33D53 /* Debug */,
+				66B43B8E1BB9545000B33D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B43B8F1BB9545000B33D53 /* Build configuration list for PBXNativeTarget "0928 键盘处理-多文本框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B43B901BB9545000B33D53 /* Debug */,
+				66B43B911BB9545000B33D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B43B921BB9545000B33D53 /* Build configuration list for PBXNativeTarget "0928 键盘处理-多文本框Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B43B931BB9545000B33D53 /* Debug */,
+				66B43B941BB9545000B33D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B43B951BB9545000B33D53 /* Build configuration list for PBXNativeTarget "0928 键盘处理-多文本框UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B43B961BB9545000B33D53 /* Debug */,
+				66B43B971BB9545000B33D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66B43B5A1BB9545000B33D53 /* Project object */;
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="edo-CG-Wj4">
+                                <rect key="frame" x="210" y="199" width="169" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBm-n6-GzD">
+                                <rect key="frame" x="210" y="285" width="169" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="登陆"/>
+                                <connections>
+                                    <action selector="loginIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5WW-6s-L6k"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sPE-Lt-GNd">
+                                <rect key="frame" x="210" y="140" width="169" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="KGi-p4-AF2"/>
+                                    <constraint firstAttribute="height" constant="30" id="xXv-36-l9w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bBm-n6-GzD" firstAttribute="width" secondItem="edo-CG-Wj4" secondAttribute="width" id="INb-Ej-Tcs"/>
+                            <constraint firstItem="bBm-n6-GzD" firstAttribute="centerX" secondItem="edo-CG-Wj4" secondAttribute="centerX" id="JEA-9e-lmm"/>
+                            <constraint firstItem="edo-CG-Wj4" firstAttribute="height" secondItem="sPE-Lt-GNd" secondAttribute="height" id="KJx-9Q-ilg"/>
+                            <constraint firstItem="sPE-Lt-GNd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-5.5" id="NOH-10-Sn9"/>
+                            <constraint firstItem="sPE-Lt-GNd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-145" id="Q5A-Tz-7z6"/>
+                            <constraint firstItem="edo-CG-Wj4" firstAttribute="centerX" secondItem="sPE-Lt-GNd" secondAttribute="centerX" id="btD-s6-nXv"/>
+                            <constraint firstItem="bBm-n6-GzD" firstAttribute="top" secondItem="edo-CG-Wj4" secondAttribute="bottom" constant="56" id="bxs-tq-jO4"/>
+                            <constraint firstItem="bBm-n6-GzD" firstAttribute="height" secondItem="edo-CG-Wj4" secondAttribute="height" id="jco-5b-7SK"/>
+                            <constraint firstItem="edo-CG-Wj4" firstAttribute="top" secondItem="sPE-Lt-GNd" secondAttribute="bottom" constant="29" id="qPv-gb-1gr"/>
+                            <constraint firstItem="edo-CG-Wj4" firstAttribute="width" secondItem="sPE-Lt-GNd" secondAttribute="width" id="rK9-vU-BCi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="bBm-n6-GzD" id="kgj-uI-Se2"/>
+                        <outlet property="nameLabel" destination="sPE-Lt-GNd" id="Apv-f2-Zu6"/>
+                        <outlet property="passCodeLabel" destination="edo-CG-Wj4" id="L6c-jt-zhd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="307"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661E86711BE1023E005D3DF6 /* NSDictionary+ChineseTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E86701BE1023E005D3DF6 /* NSDictionary+ChineseTranslate.m */; };
+		661E86741BE10253005D3DF6 /* NSArray+ChineseTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E86731BE10253005D3DF6 /* NSArray+ChineseTranslate.m */; };
+		66F408801BDF0A0C00825FED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F4087F1BDF0A0C00825FED /* main.m */; };
+		66F408831BDF0A0C00825FED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F408821BDF0A0C00825FED /* AppDelegate.m */; };
+		66F408861BDF0A0C00825FED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F408851BDF0A0C00825FED /* ViewController.m */; };
+		66F408891BDF0A0C00825FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F408871BDF0A0C00825FED /* Main.storyboard */; };
+		66F4088B1BDF0A0C00825FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F4088A1BDF0A0C00825FED /* Assets.xcassets */; };
+		66F4088E1BDF0A0C00825FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F4088C1BDF0A0C00825FED /* LaunchScreen.storyboard */; };
+		66F408991BDF0A0D00825FED /* _027____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F408981BDF0A0D00825FED /* _027____________Tests.m */; };
+		66F408A41BDF0A0D00825FED /* _027____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F408A31BDF0A0D00825FED /* _027____________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F408951BDF0A0D00825FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F408731BDF0A0C00825FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F4087A1BDF0A0C00825FED;
+			remoteInfo = "1027 字典和数组中的中文问题";
+		};
+		66F408A01BDF0A0D00825FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F408731BDF0A0C00825FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F4087A1BDF0A0C00825FED;
+			remoteInfo = "1027 字典和数组中的中文问题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		661E866F1BE1023E005D3DF6 /* NSDictionary+ChineseTranslate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ChineseTranslate.h"; sourceTree = "<group>"; };
+		661E86701BE1023E005D3DF6 /* NSDictionary+ChineseTranslate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ChineseTranslate.m"; sourceTree = "<group>"; };
+		661E86721BE10253005D3DF6 /* NSArray+ChineseTranslate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ChineseTranslate.h"; sourceTree = "<group>"; };
+		661E86731BE10253005D3DF6 /* NSArray+ChineseTranslate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ChineseTranslate.m"; sourceTree = "<group>"; };
+		66F4087B1BDF0A0C00825FED /* 1027 字典和数组中的中文问题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1027 字典和数组中的中文问题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F4087F1BDF0A0C00825FED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F408811BDF0A0C00825FED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F408821BDF0A0C00825FED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F408841BDF0A0C00825FED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66F408851BDF0A0C00825FED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66F408881BDF0A0C00825FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F4088A1BDF0A0C00825FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F4088D1BDF0A0C00825FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66F4088F1BDF0A0C00825FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F408941BDF0A0D00825FED /* 1027 字典和数组中的中文问题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1027 字典和数组中的中文问题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F408981BDF0A0D00825FED /* _027____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_027____________Tests.m"; sourceTree = "<group>"; };
+		66F4089A1BDF0A0D00825FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F4089F1BDF0A0D00825FED /* 1027 字典和数组中的中文问题UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1027 字典和数组中的中文问题UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F408A31BDF0A0D00825FED /* _027____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_027____________UITests.m"; sourceTree = "<group>"; };
+		66F408A51BDF0A0D00825FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F408781BDF0A0C00825FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F408911BDF0A0D00825FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F4089C1BDF0A0D00825FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F408721BDF0A0C00825FED = {
+			isa = PBXGroup;
+			children = (
+				66F4087D1BDF0A0C00825FED /* 1027 字典和数组中的中文问题 */,
+				66F408971BDF0A0D00825FED /* 1027 字典和数组中的中文问题Tests */,
+				66F408A21BDF0A0D00825FED /* 1027 字典和数组中的中文问题UITests */,
+				66F4087C1BDF0A0C00825FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F4087C1BDF0A0C00825FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F4087B1BDF0A0C00825FED /* 1027 字典和数组中的中文问题.app */,
+				66F408941BDF0A0D00825FED /* 1027 字典和数组中的中文问题Tests.xctest */,
+				66F4089F1BDF0A0D00825FED /* 1027 字典和数组中的中文问题UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F4087D1BDF0A0C00825FED /* 1027 字典和数组中的中文问题 */ = {
+			isa = PBXGroup;
+			children = (
+				66F408811BDF0A0C00825FED /* AppDelegate.h */,
+				66F408821BDF0A0C00825FED /* AppDelegate.m */,
+				66F408841BDF0A0C00825FED /* ViewController.h */,
+				66F408851BDF0A0C00825FED /* ViewController.m */,
+				661E866F1BE1023E005D3DF6 /* NSDictionary+ChineseTranslate.h */,
+				661E86701BE1023E005D3DF6 /* NSDictionary+ChineseTranslate.m */,
+				661E86721BE10253005D3DF6 /* NSArray+ChineseTranslate.h */,
+				661E86731BE10253005D3DF6 /* NSArray+ChineseTranslate.m */,
+				66F408871BDF0A0C00825FED /* Main.storyboard */,
+				66F4088A1BDF0A0C00825FED /* Assets.xcassets */,
+				66F4088C1BDF0A0C00825FED /* LaunchScreen.storyboard */,
+				66F4088F1BDF0A0C00825FED /* Info.plist */,
+				66F4087E1BDF0A0C00825FED /* Supporting Files */,
+			);
+			path = "1027 字典和数组中的中文问题";
+			sourceTree = "<group>";
+		};
+		66F4087E1BDF0A0C00825FED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F4087F1BDF0A0C00825FED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F408971BDF0A0D00825FED /* 1027 字典和数组中的中文问题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66F408981BDF0A0D00825FED /* _027____________Tests.m */,
+				66F4089A1BDF0A0D00825FED /* Info.plist */,
+			);
+			path = "1027 字典和数组中的中文问题Tests";
+			sourceTree = "<group>";
+		};
+		66F408A21BDF0A0D00825FED /* 1027 字典和数组中的中文问题UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66F408A31BDF0A0D00825FED /* _027____________UITests.m */,
+				66F408A51BDF0A0D00825FED /* Info.plist */,
+			);
+			path = "1027 字典和数组中的中文问题UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F4087A1BDF0A0C00825FED /* 1027 字典和数组中的中文问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F408A81BDF0A0D00825FED /* Build configuration list for PBXNativeTarget "1027 字典和数组中的中文问题" */;
+			buildPhases = (
+				66F408771BDF0A0C00825FED /* Sources */,
+				66F408781BDF0A0C00825FED /* Frameworks */,
+				66F408791BDF0A0C00825FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1027 字典和数组中的中文问题";
+			productName = "1027 字典和数组中的中文问题";
+			productReference = 66F4087B1BDF0A0C00825FED /* 1027 字典和数组中的中文问题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F408931BDF0A0D00825FED /* 1027 字典和数组中的中文问题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F408AB1BDF0A0D00825FED /* Build configuration list for PBXNativeTarget "1027 字典和数组中的中文问题Tests" */;
+			buildPhases = (
+				66F408901BDF0A0D00825FED /* Sources */,
+				66F408911BDF0A0D00825FED /* Frameworks */,
+				66F408921BDF0A0D00825FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F408961BDF0A0D00825FED /* PBXTargetDependency */,
+			);
+			name = "1027 字典和数组中的中文问题Tests";
+			productName = "1027 字典和数组中的中文问题Tests";
+			productReference = 66F408941BDF0A0D00825FED /* 1027 字典和数组中的中文问题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66F4089E1BDF0A0D00825FED /* 1027 字典和数组中的中文问题UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F408AE1BDF0A0D00825FED /* Build configuration list for PBXNativeTarget "1027 字典和数组中的中文问题UITests" */;
+			buildPhases = (
+				66F4089B1BDF0A0D00825FED /* Sources */,
+				66F4089C1BDF0A0D00825FED /* Frameworks */,
+				66F4089D1BDF0A0D00825FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F408A11BDF0A0D00825FED /* PBXTargetDependency */,
+			);
+			name = "1027 字典和数组中的中文问题UITests";
+			productName = "1027 字典和数组中的中文问题UITests";
+			productReference = 66F4089F1BDF0A0D00825FED /* 1027 字典和数组中的中文问题UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F408731BDF0A0C00825FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					66F4087A1BDF0A0C00825FED = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					66F408931BDF0A0D00825FED = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66F4087A1BDF0A0C00825FED;
+					};
+					66F4089E1BDF0A0D00825FED = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66F4087A1BDF0A0C00825FED;
+					};
+				};
+			};
+			buildConfigurationList = 66F408761BDF0A0C00825FED /* Build configuration list for PBXProject "1027 字典和数组中的中文问题" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F408721BDF0A0C00825FED;
+			productRefGroup = 66F4087C1BDF0A0C00825FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F4087A1BDF0A0C00825FED /* 1027 字典和数组中的中文问题 */,
+				66F408931BDF0A0D00825FED /* 1027 字典和数组中的中文问题Tests */,
+				66F4089E1BDF0A0D00825FED /* 1027 字典和数组中的中文问题UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F408791BDF0A0C00825FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F4088E1BDF0A0C00825FED /* LaunchScreen.storyboard in Resources */,
+				66F4088B1BDF0A0C00825FED /* Assets.xcassets in Resources */,
+				66F408891BDF0A0C00825FED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F408921BDF0A0D00825FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F4089D1BDF0A0D00825FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F408771BDF0A0C00825FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F408861BDF0A0C00825FED /* ViewController.m in Sources */,
+				661E86711BE1023E005D3DF6 /* NSDictionary+ChineseTranslate.m in Sources */,
+				66F408831BDF0A0C00825FED /* AppDelegate.m in Sources */,
+				661E86741BE10253005D3DF6 /* NSArray+ChineseTranslate.m in Sources */,
+				66F408801BDF0A0C00825FED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F408901BDF0A0D00825FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F408991BDF0A0D00825FED /* _027____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F4089B1BDF0A0D00825FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F408A41BDF0A0D00825FED /* _027____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F408961BDF0A0D00825FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F4087A1BDF0A0C00825FED /* 1027 字典和数组中的中文问题 */;
+			targetProxy = 66F408951BDF0A0D00825FED /* PBXContainerItemProxy */;
+		};
+		66F408A11BDF0A0D00825FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F4087A1BDF0A0C00825FED /* 1027 字典和数组中的中文问题 */;
+			targetProxy = 66F408A01BDF0A0D00825FED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66F408871BDF0A0C00825FED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F408881BDF0A0C00825FED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66F4088C1BDF0A0C00825FED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F4088D1BDF0A0C00825FED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F408A61BDF0A0D00825FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66F408A71BDF0A0D00825FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F408A91BDF0A0D00825FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1027 字典和数组中的中文问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-027------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66F408AA1BDF0A0D00825FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1027 字典和数组中的中文问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-027------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66F408AC1BDF0A0D00825FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1027 字典和数组中的中文问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-027------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1027 字典和数组中的中文问题.app/1027 字典和数组中的中文问题";
+			};
+			name = Debug;
+		};
+		66F408AD1BDF0A0D00825FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1027 字典和数组中的中文问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-027------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1027 字典和数组中的中文问题.app/1027 字典和数组中的中文问题";
+			};
+			name = Release;
+		};
+		66F408AF1BDF0A0D00825FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1027 字典和数组中的中文问题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-027------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1027 字典和数组中的中文问题";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66F408B01BDF0A0D00825FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1027 字典和数组中的中文问题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-027------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1027 字典和数组中的中文问题";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F408761BDF0A0C00825FED /* Build configuration list for PBXProject "1027 字典和数组中的中文问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F408A61BDF0A0D00825FED /* Debug */,
+				66F408A71BDF0A0D00825FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F408A81BDF0A0D00825FED /* Build configuration list for PBXNativeTarget "1027 字典和数组中的中文问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F408A91BDF0A0D00825FED /* Debug */,
+				66F408AA1BDF0A0D00825FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F408AB1BDF0A0D00825FED /* Build configuration list for PBXNativeTarget "1027 字典和数组中的中文问题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F408AC1BDF0A0D00825FED /* Debug */,
+				66F408AD1BDF0A0D00825FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F408AE1BDF0A0D00825FED /* Build configuration list for PBXNativeTarget "1027 字典和数组中的中文问题UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F408AF1BDF0A0D00825FED /* Debug */,
+				66F408B01BDF0A0D00825FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F408731BDF0A0C00825FED /* Project object */;
+}

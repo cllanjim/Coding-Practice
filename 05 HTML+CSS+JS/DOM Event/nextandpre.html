@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--布局页面-->
+<img id="img" src="images/icon_01.png" alt="图片">
+<p></p>
+<button id="pre">前一个</button>
+<button id="next">后一个</button>
+
+<!--javascript的设定-->
+<script type="application/javascript">
+    //获取标签
+    var img = window.document.getElementById("img");
+    var pre = window.document.getElementById("pre");
+    var next = window.document.getElementById("next");
+    //设定全局变量
+    var maxCount = 9;
+    var minCount = 1;
+    var currentCount = minCount;
+
+    //设定动态效果
+    pre.onclick = function(){
+        if(currentCount == minCount){
+            currentCount = minCount;
+        }else{
+            currentCount -= 1;
+        }
+        img.src = "images/icon_0" + currentCount + ".png";
+        console.log(img.src);
+    };
+
+    next.onclick = function(){
+        if(currentCount == maxCount){
+            currentCount = maxCount;
+        }else{
+            currentCount += 1;
+        }
+        img.src = "images/icon_0" + currentCount + ".png";
+        console.log(img.src);
+    };
+
+</script>
+
+</body>
+</html>

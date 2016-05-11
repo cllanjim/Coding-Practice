@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>0131 scrollView的几种布局.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>667DC09D1C5DD4990010B5F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>667DC0B61C5DD4990010B5F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>667DC0C11C5DD4990010B5F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

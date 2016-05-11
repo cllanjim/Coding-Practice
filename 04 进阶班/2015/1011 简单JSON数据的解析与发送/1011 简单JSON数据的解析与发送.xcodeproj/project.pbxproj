@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66186B801BCA8C7300C15590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66186B7F1BCA8C7300C15590 /* main.m */; };
+		66186B831BCA8C7300C15590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66186B821BCA8C7300C15590 /* AppDelegate.m */; };
+		66186B861BCA8C7300C15590 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66186B851BCA8C7300C15590 /* ViewController.m */; };
+		66186B891BCA8C7300C15590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66186B871BCA8C7300C15590 /* Main.storyboard */; };
+		66186B8B1BCA8C7300C15590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66186B8A1BCA8C7300C15590 /* Assets.xcassets */; };
+		66186B8E1BCA8C7300C15590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66186B8C1BCA8C7300C15590 /* LaunchScreen.storyboard */; };
+		66186B991BCA8C7300C15590 /* _011___JSON________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66186B981BCA8C7300C15590 /* _011___JSON________Tests.m */; };
+		66186BA41BCA8C7300C15590 /* _011___JSON________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66186BA31BCA8C7300C15590 /* _011___JSON________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66186B951BCA8C7300C15590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66186B731BCA8C7300C15590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66186B7A1BCA8C7300C15590;
+			remoteInfo = "1011 简单JSON数据的解析与发送";
+		};
+		66186BA01BCA8C7300C15590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66186B731BCA8C7300C15590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66186B7A1BCA8C7300C15590;
+			remoteInfo = "1011 简单JSON数据的解析与发送";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66186B7B1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1011 简单JSON数据的解析与发送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66186B7F1BCA8C7300C15590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66186B811BCA8C7300C15590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66186B821BCA8C7300C15590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66186B841BCA8C7300C15590 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66186B851BCA8C7300C15590 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66186B881BCA8C7300C15590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66186B8A1BCA8C7300C15590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66186B8D1BCA8C7300C15590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66186B8F1BCA8C7300C15590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66186B941BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1011 简单JSON数据的解析与发送Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66186B981BCA8C7300C15590 /* _011___JSON________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_011___JSON________Tests.m"; sourceTree = "<group>"; };
+		66186B9A1BCA8C7300C15590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66186B9F1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1011 简单JSON数据的解析与发送UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66186BA31BCA8C7300C15590 /* _011___JSON________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_011___JSON________UITests.m"; sourceTree = "<group>"; };
+		66186BA51BCA8C7300C15590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66186B781BCA8C7300C15590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66186B911BCA8C7300C15590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66186B9C1BCA8C7300C15590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66186B721BCA8C7300C15590 = {
+			isa = PBXGroup;
+			children = (
+				66186B7D1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送 */,
+				66186B971BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送Tests */,
+				66186BA21BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送UITests */,
+				66186B7C1BCA8C7300C15590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66186B7C1BCA8C7300C15590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66186B7B1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送.app */,
+				66186B941BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送Tests.xctest */,
+				66186B9F1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66186B7D1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送 */ = {
+			isa = PBXGroup;
+			children = (
+				66186B811BCA8C7300C15590 /* AppDelegate.h */,
+				66186B821BCA8C7300C15590 /* AppDelegate.m */,
+				66186B841BCA8C7300C15590 /* ViewController.h */,
+				66186B851BCA8C7300C15590 /* ViewController.m */,
+				66186B871BCA8C7300C15590 /* Main.storyboard */,
+				66186B8A1BCA8C7300C15590 /* Assets.xcassets */,
+				66186B8C1BCA8C7300C15590 /* LaunchScreen.storyboard */,
+				66186B8F1BCA8C7300C15590 /* Info.plist */,
+				66186B7E1BCA8C7300C15590 /* Supporting Files */,
+			);
+			path = "1011 简单JSON数据的解析与发送";
+			sourceTree = "<group>";
+		};
+		66186B7E1BCA8C7300C15590 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66186B7F1BCA8C7300C15590 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66186B971BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66186B981BCA8C7300C15590 /* _011___JSON________Tests.m */,
+				66186B9A1BCA8C7300C15590 /* Info.plist */,
+			);
+			path = "1011 简单JSON数据的解析与发送Tests";
+			sourceTree = "<group>";
+		};
+		66186BA21BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66186BA31BCA8C7300C15590 /* _011___JSON________UITests.m */,
+				66186BA51BCA8C7300C15590 /* Info.plist */,
+			);
+			path = "1011 简单JSON数据的解析与发送UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66186B7A1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66186BA81BCA8C7300C15590 /* Build configuration list for PBXNativeTarget "1011 简单JSON数据的解析与发送" */;
+			buildPhases = (
+				66186B771BCA8C7300C15590 /* Sources */,
+				66186B781BCA8C7300C15590 /* Frameworks */,
+				66186B791BCA8C7300C15590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1011 简单JSON数据的解析与发送";
+			productName = "1011 简单JSON数据的解析与发送";
+			productReference = 66186B7B1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66186B931BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66186BAB1BCA8C7300C15590 /* Build configuration list for PBXNativeTarget "1011 简单JSON数据的解析与发送Tests" */;
+			buildPhases = (
+				66186B901BCA8C7300C15590 /* Sources */,
+				66186B911BCA8C7300C15590 /* Frameworks */,
+				66186B921BCA8C7300C15590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66186B961BCA8C7300C15590 /* PBXTargetDependency */,
+			);
+			name = "1011 简单JSON数据的解析与发送Tests";
+			productName = "1011 简单JSON数据的解析与发送Tests";
+			productReference = 66186B941BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66186B9E1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66186BAE1BCA8C7300C15590 /* Build configuration list for PBXNativeTarget "1011 简单JSON数据的解析与发送UITests" */;
+			buildPhases = (
+				66186B9B1BCA8C7300C15590 /* Sources */,
+				66186B9C1BCA8C7300C15590 /* Frameworks */,
+				66186B9D1BCA8C7300C15590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66186BA11BCA8C7300C15590 /* PBXTargetDependency */,
+			);
+			name = "1011 简单JSON数据的解析与发送UITests";
+			productName = "1011 简单JSON数据的解析与发送UITests";
+			productReference = 66186B9F1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66186B731BCA8C7300C15590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					66186B7A1BCA8C7300C15590 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					66186B931BCA8C7300C15590 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66186B7A1BCA8C7300C15590;
+					};
+					66186B9E1BCA8C7300C15590 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66186B7A1BCA8C7300C15590;
+					};
+				};
+			};
+			buildConfigurationList = 66186B761BCA8C7300C15590 /* Build configuration list for PBXProject "1011 简单JSON数据的解析与发送" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66186B721BCA8C7300C15590;
+			productRefGroup = 66186B7C1BCA8C7300C15590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66186B7A1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送 */,
+				66186B931BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送Tests */,
+				66186B9E1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66186B791BCA8C7300C15590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66186B8E1BCA8C7300C15590 /* LaunchScreen.storyboard in Resources */,
+				66186B8B1BCA8C7300C15590 /* Assets.xcassets in Resources */,
+				66186B891BCA8C7300C15590 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66186B921BCA8C7300C15590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66186B9D1BCA8C7300C15590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66186B771BCA8C7300C15590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66186B861BCA8C7300C15590 /* ViewController.m in Sources */,
+				66186B831BCA8C7300C15590 /* AppDelegate.m in Sources */,
+				66186B801BCA8C7300C15590 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66186B901BCA8C7300C15590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66186B991BCA8C7300C15590 /* _011___JSON________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66186B9B1BCA8C7300C15590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66186BA41BCA8C7300C15590 /* _011___JSON________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66186B961BCA8C7300C15590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66186B7A1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送 */;
+			targetProxy = 66186B951BCA8C7300C15590 /* PBXContainerItemProxy */;
+		};
+		66186BA11BCA8C7300C15590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66186B7A1BCA8C7300C15590 /* 1011 简单JSON数据的解析与发送 */;
+			targetProxy = 66186BA01BCA8C7300C15590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66186B871BCA8C7300C15590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66186B881BCA8C7300C15590 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66186B8C1BCA8C7300C15590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66186B8D1BCA8C7300C15590 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66186BA61BCA8C7300C15590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66186BA71BCA8C7300C15590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66186BA91BCA8C7300C15590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1011 简单JSON数据的解析与发送/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-011---JSON--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66186BAA1BCA8C7300C15590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1011 简单JSON数据的解析与发送/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-011---JSON--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66186BAC1BCA8C7300C15590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1011 简单JSON数据的解析与发送Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-011---JSON--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1011 简单JSON数据的解析与发送.app/1011 简单JSON数据的解析与发送";
+			};
+			name = Debug;
+		};
+		66186BAD1BCA8C7300C15590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1011 简单JSON数据的解析与发送Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-011---JSON--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1011 简单JSON数据的解析与发送.app/1011 简单JSON数据的解析与发送";
+			};
+			name = Release;
+		};
+		66186BAF1BCA8C7300C15590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1011 简单JSON数据的解析与发送UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-011---JSON--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1011 简单JSON数据的解析与发送";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66186BB01BCA8C7300C15590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1011 简单JSON数据的解析与发送UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-011---JSON--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1011 简单JSON数据的解析与发送";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66186B761BCA8C7300C15590 /* Build configuration list for PBXProject "1011 简单JSON数据的解析与发送" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66186BA61BCA8C7300C15590 /* Debug */,
+				66186BA71BCA8C7300C15590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66186BA81BCA8C7300C15590 /* Build configuration list for PBXNativeTarget "1011 简单JSON数据的解析与发送" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66186BA91BCA8C7300C15590 /* Debug */,
+				66186BAA1BCA8C7300C15590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66186BAB1BCA8C7300C15590 /* Build configuration list for PBXNativeTarget "1011 简单JSON数据的解析与发送Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66186BAC1BCA8C7300C15590 /* Debug */,
+				66186BAD1BCA8C7300C15590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66186BAE1BCA8C7300C15590 /* Build configuration list for PBXNativeTarget "1011 简单JSON数据的解析与发送UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66186BAF1BCA8C7300C15590 /* Debug */,
+				66186BB01BCA8C7300C15590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66186B731BCA8C7300C15590 /* Project object */;
+}

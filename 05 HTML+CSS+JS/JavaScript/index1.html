@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        //常用的数据类型
+        var age = 19;
+        var money = 1.99;
+        var name = 'jack';
+        var name2 = 'rose';
+        var result = true;
+        var number = null;
+
+
+        console.log(age, money);
+        console.log(typeof age, typeof money);
+
+        //
+        var arrNumber = [10, -0.99, age, money, result, number,['百度','谷歌']];
+        for(var i = 0; i < arrNumber.length; i++ ){
+            console.log(arrNumber[i]);
+        }
+        for(x in arrNumber){
+            console.log(arrNumber[x]);
+
+        }
+
+        var score = [10,9,100,1111];
+        var minScore = Math.max.apply(self,score);
+        console.log(minScore);
+    </script>
+</head>
+<body>
+    <!--<button onclick="alert('你说啥')">百度一下,你就知道</button>-->
+</body>
+</html>

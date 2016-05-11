@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--设置标签-->
+<canvas id="canvas"></canvas>
+
+<!--JS-->
+<script type="text/javascript">
+    //获取标签
+    var canvas = window.document.getElementById('canvas');
+    canvas.width = 2000;
+    canvas.height = 1000;
+    //获取上下文
+    var context = canvas.getContext('2d');
+
+    //设置参数
+    context.lineWidth = 10;
+    context.strokeStyle = 'red';
+    context.fillStyle = 'green';
+
+    for(var i = 0; i < 10; i++){
+        //设置开始状态
+        context.beginPath();
+        //绘制弧线
+        context.arc(100 + 100 * i , 100, 50, 0, 2.0*Math.PI*(i+1)/10);
+        //设置结束状态
+//        context.closePath();
+        context.stroke()
+    }
+
+</script>
+</body>
+</html>

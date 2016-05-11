@@ -1,0 +1,65 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body{
+    padding-top: 50px;
+}
+/*#bs-example-navbar-collapse-1 ul li{*/
+    /*outline-color: rgb(157, 157, 157);*/
+    /*outline-offset: 0;*/
+    /*/!*background-color: yellow;*!/*/
+/*}*/
+
+
+#main{
+    margin: 30px;
+    text-align: center;
+}
+
+/*#main .container-fluid{*/
+    /*text-align: center;*/
+/*}*/
+
+
+#main .container-fluid img{
+    width: 140px;
+    height: 140px;
+}
+
+#main .container-fluid h2,p{
+    margin: 10px;
+}
+
+#main .container-fluid .intro{
+    text-align: left;
+}
+
+#tab{
+    margin-top: 10px;
+}
+
+#tab .tab-content .feature-word{
+    margin-top: 130px;
+}
+
+#tab .tab-content h2{
+    color: #428bca;
+    font-size: 45px;
+}
+
+#tab .tab-content span{
+
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 1000px){
+    #tab .tab-content .feature-word{
+        margin-top: 20px;
+    }
+
+}

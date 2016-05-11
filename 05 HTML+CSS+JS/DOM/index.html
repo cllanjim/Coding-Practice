@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM操作</title>
+</head>
+<body>
+<img class="imageView" src="images/img_01.jpg" alt="照片1">
+<p></p>
+<button class="button">切换图片</button>
+
+<!--加入script-->
+<script>
+    //获得标签
+    var imageView = document.getElementsByClassName("imageView")[0];
+    var button = document.getElementsByClassName("button")[0];
+    //监听点击事件
+    button.onclick = function() {
+        //indexOf lastIndexOf 如果有,则返回任意正数,如何没有则返回-1;
+        console.log(imageView.src);
+        if (imageView.src.lastIndexOf("images/img_01.jpg") != -1) {
+            imageView.src = "images/img_02.jpg";
+            imageView.style.
+//            imageView.alt = "照片2"
+        } else {
+            imageView.src = "images/img_01.jpg";
+//            imageView.alt = "照片1"
+
+        }
+    }
+</script>
+
+
+
+</body>
+</html>

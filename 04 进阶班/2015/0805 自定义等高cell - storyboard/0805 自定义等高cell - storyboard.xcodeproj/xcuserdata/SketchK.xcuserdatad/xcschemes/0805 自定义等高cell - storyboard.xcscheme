@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0640"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "669D29EB1B76552F006408A0"
+               BuildableName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.app"
+               BlueprintName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard"
+               ReferencedContainer = "container:0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "669D2A041B76552F006408A0"
+               BuildableName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboardTests.xctest"
+               BlueprintName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboardTests"
+               ReferencedContainer = "container:0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "669D2A041B76552F006408A0"
+               BuildableName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboardTests.xctest"
+               BlueprintName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboardTests"
+               ReferencedContainer = "container:0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "669D29EB1B76552F006408A0"
+            BuildableName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.app"
+            BlueprintName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard"
+            ReferencedContainer = "container:0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "669D29EB1B76552F006408A0"
+            BuildableName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.app"
+            BlueprintName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard"
+            ReferencedContainer = "container:0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "669D29EB1B76552F006408A0"
+            BuildableName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.app"
+            BlueprintName = "0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard"
+            ReferencedContainer = "container:0805 &#x81ea;&#x5b9a;&#x4e49;&#x7b49;&#x9ad8;cell - storyboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

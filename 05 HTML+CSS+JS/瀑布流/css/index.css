@@ -1,0 +1,36 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var
+{
+    /*内边距*/
+    padding: 0;
+    /*外边距*/
+    margin: 0;
+}
+
+body{
+
+}
+
+#main {
+    background-color: lightgray;
+    position: relative;
+
+}
+
+#main .box{
+    background-color: #c12e2a;
+    padding: 15px 0 0 15px;
+    float: left;
+}
+
+#main .box .pic{
+    background-color: #0000cc;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px #ddd;
+    border-radius: 5px;
+}
+
+#main .box .pic img{
+    width: 165px;
+    height: auto;
+}

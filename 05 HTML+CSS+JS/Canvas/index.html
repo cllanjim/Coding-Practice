@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--如果浏览器版本过低或者不支持canvas,将会显示标签里面的内容-->
+    <canvas id="canvas">浏览器版本过低,建议升级!</canvas>
+
+
+<!--导入js-->
+    <script type="text/javascript">
+        var canvas = document.getElementById('canvas');
+        canvas.width = 1000;
+        canvas.height = 900;
+
+        //获取上下文
+        var context = canvas.getContext('2d');
+
+        //设置开始状态
+        context.beginPath();
+        //设置样式和线条的宽度
+        context.strokeStyle = 'red';
+        context.lineHeight = 6;
+        //起点
+        context.moveTo(100,100);
+        context.lineTo(500,100);
+        //设置结束状态
+        context.closePath();
+        //绘制
+        context.stroke();
+
+        //绘制另一条线
+        context.beginPath();
+        //设置样式和线条宽度
+        context.strokeStyle = 'blue';
+        context.lineHeight = 10;
+        //设置起点和终点
+        context.moveTo(250,10);
+        context.lineTo(250,250);
+        //设置结束状态
+        context.closePath();
+        //绘制
+        context.stroke();
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FE4DCA1B81FBFC001F54E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE4DC91B81FBFC001F54E7 /* main.m */; };
+		66FE4DD01B81FBFC001F54E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE4DCF1B81FBFC001F54E7 /* ViewController.m */; };
+		66FE4DD31B81FBFC001F54E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FE4DD11B81FBFC001F54E7 /* Main.storyboard */; };
+		66FE4DD51B81FBFC001F54E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FE4DD41B81FBFC001F54E7 /* Images.xcassets */; };
+		66FE4DD81B81FBFC001F54E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FE4DD61B81FBFC001F54E7 /* LaunchScreen.xib */; };
+		66FE4DE41B81FBFC001F54E7 /* _817_UITableBarController_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE4DE31B81FBFC001F54E7 /* _817_UITableBarController_____Tests.m */; };
+		66FE4DEE1B82038B001F54E7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FE4DED1B82038B001F54E7 /* ViewController.xib */; };
+		66FE4DF01B8209C2001F54E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE4DEF1B8209C2001F54E7 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66FE4DDE1B81FBFC001F54E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FE4DBC1B81FBFC001F54E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FE4DC31B81FBFC001F54E7;
+			remoteInfo = "0817 UITableBarController的基本使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66FE4DC41B81FBFC001F54E7 /* 0817 UITableBarController的基本使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0817 UITableBarController的基本使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FE4DC81B81FBFC001F54E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FE4DC91B81FBFC001F54E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66FE4DCB1B81FBFC001F54E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66FE4DCE1B81FBFC001F54E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66FE4DCF1B81FBFC001F54E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66FE4DD21B81FBFC001F54E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66FE4DD41B81FBFC001F54E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66FE4DD71B81FBFC001F54E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		66FE4DDD1B81FBFC001F54E7 /* 0817 UITableBarController的基本使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0817 UITableBarController的基本使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FE4DE21B81FBFC001F54E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FE4DE31B81FBFC001F54E7 /* _817_UITableBarController_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_817_UITableBarController_____Tests.m"; sourceTree = "<group>"; };
+		66FE4DED1B82038B001F54E7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		66FE4DEF1B8209C2001F54E7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66FE4DC11B81FBFC001F54E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE4DDA1B81FBFC001F54E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66FE4DBB1B81FBFC001F54E7 = {
+			isa = PBXGroup;
+			children = (
+				66FE4DC61B81FBFC001F54E7 /* 0817 UITableBarController的基本使用 */,
+				66FE4DE01B81FBFC001F54E7 /* 0817 UITableBarController的基本使用Tests */,
+				66FE4DC51B81FBFC001F54E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66FE4DC51B81FBFC001F54E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66FE4DC41B81FBFC001F54E7 /* 0817 UITableBarController的基本使用.app */,
+				66FE4DDD1B81FBFC001F54E7 /* 0817 UITableBarController的基本使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66FE4DC61B81FBFC001F54E7 /* 0817 UITableBarController的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				66FE4DCB1B81FBFC001F54E7 /* AppDelegate.h */,
+				66FE4DEF1B8209C2001F54E7 /* AppDelegate.m */,
+				66FE4DCE1B81FBFC001F54E7 /* ViewController.h */,
+				66FE4DCF1B81FBFC001F54E7 /* ViewController.m */,
+				66FE4DED1B82038B001F54E7 /* ViewController.xib */,
+				66FE4DD41B81FBFC001F54E7 /* Images.xcassets */,
+				66FE4DD11B81FBFC001F54E7 /* Main.storyboard */,
+				66FE4DD61B81FBFC001F54E7 /* LaunchScreen.xib */,
+				66FE4DC71B81FBFC001F54E7 /* Supporting Files */,
+			);
+			path = "0817 UITableBarController的基本使用";
+			sourceTree = "<group>";
+		};
+		66FE4DC71B81FBFC001F54E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66FE4DC81B81FBFC001F54E7 /* Info.plist */,
+				66FE4DC91B81FBFC001F54E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66FE4DE01B81FBFC001F54E7 /* 0817 UITableBarController的基本使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66FE4DE31B81FBFC001F54E7 /* _817_UITableBarController_____Tests.m */,
+				66FE4DE11B81FBFC001F54E7 /* Supporting Files */,
+			);
+			path = "0817 UITableBarController的基本使用Tests";
+			sourceTree = "<group>";
+		};
+		66FE4DE11B81FBFC001F54E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66FE4DE21B81FBFC001F54E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FE4DC31B81FBFC001F54E7 /* 0817 UITableBarController的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FE4DE71B81FBFC001F54E7 /* Build configuration list for PBXNativeTarget "0817 UITableBarController的基本使用" */;
+			buildPhases = (
+				66FE4DC01B81FBFC001F54E7 /* Sources */,
+				66FE4DC11B81FBFC001F54E7 /* Frameworks */,
+				66FE4DC21B81FBFC001F54E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0817 UITableBarController的基本使用";
+			productName = "0817 UITableBarController的基本使用";
+			productReference = 66FE4DC41B81FBFC001F54E7 /* 0817 UITableBarController的基本使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66FE4DDC1B81FBFC001F54E7 /* 0817 UITableBarController的基本使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FE4DEA1B81FBFC001F54E7 /* Build configuration list for PBXNativeTarget "0817 UITableBarController的基本使用Tests" */;
+			buildPhases = (
+				66FE4DD91B81FBFC001F54E7 /* Sources */,
+				66FE4DDA1B81FBFC001F54E7 /* Frameworks */,
+				66FE4DDB1B81FBFC001F54E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FE4DDF1B81FBFC001F54E7 /* PBXTargetDependency */,
+			);
+			name = "0817 UITableBarController的基本使用Tests";
+			productName = "0817 UITableBarController的基本使用Tests";
+			productReference = 66FE4DDD1B81FBFC001F54E7 /* 0817 UITableBarController的基本使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66FE4DBC1B81FBFC001F54E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					66FE4DC31B81FBFC001F54E7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					66FE4DDC1B81FBFC001F54E7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 66FE4DC31B81FBFC001F54E7;
+					};
+				};
+			};
+			buildConfigurationList = 66FE4DBF1B81FBFC001F54E7 /* Build configuration list for PBXProject "0817 UITableBarController的基本使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66FE4DBB1B81FBFC001F54E7;
+			productRefGroup = 66FE4DC51B81FBFC001F54E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FE4DC31B81FBFC001F54E7 /* 0817 UITableBarController的基本使用 */,
+				66FE4DDC1B81FBFC001F54E7 /* 0817 UITableBarController的基本使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66FE4DC21B81FBFC001F54E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE4DD31B81FBFC001F54E7 /* Main.storyboard in Resources */,
+				66FE4DD81B81FBFC001F54E7 /* LaunchScreen.xib in Resources */,
+				66FE4DEE1B82038B001F54E7 /* ViewController.xib in Resources */,
+				66FE4DD51B81FBFC001F54E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE4DDB1B81FBFC001F54E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FE4DC01B81FBFC001F54E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE4DD01B81FBFC001F54E7 /* ViewController.m in Sources */,
+				66FE4DCA1B81FBFC001F54E7 /* main.m in Sources */,
+				66FE4DF01B8209C2001F54E7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE4DD91B81FBFC001F54E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE4DE41B81FBFC001F54E7 /* _817_UITableBarController_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66FE4DDF1B81FBFC001F54E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FE4DC31B81FBFC001F54E7 /* 0817 UITableBarController的基本使用 */;
+			targetProxy = 66FE4DDE1B81FBFC001F54E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66FE4DD11B81FBFC001F54E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FE4DD21B81FBFC001F54E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66FE4DD61B81FBFC001F54E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FE4DD71B81FBFC001F54E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66FE4DE51B81FBFC001F54E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66FE4DE61B81FBFC001F54E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66FE4DE81B81FBFC001F54E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0817 UITableBarController的基本使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66FE4DE91B81FBFC001F54E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0817 UITableBarController的基本使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66FE4DEB1B81FBFC001F54E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "0817 UITableBarController的基本使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0817 UITableBarController的基本使用.app/0817 UITableBarController的基本使用";
+			};
+			name = Debug;
+		};
+		66FE4DEC1B81FBFC001F54E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "0817 UITableBarController的基本使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0817 UITableBarController的基本使用.app/0817 UITableBarController的基本使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66FE4DBF1B81FBFC001F54E7 /* Build configuration list for PBXProject "0817 UITableBarController的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE4DE51B81FBFC001F54E7 /* Debug */,
+				66FE4DE61B81FBFC001F54E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FE4DE71B81FBFC001F54E7 /* Build configuration list for PBXNativeTarget "0817 UITableBarController的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE4DE81B81FBFC001F54E7 /* Debug */,
+				66FE4DE91B81FBFC001F54E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66FE4DEA1B81FBFC001F54E7 /* Build configuration list for PBXNativeTarget "0817 UITableBarController的基本使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE4DEB1B81FBFC001F54E7 /* Debug */,
+				66FE4DEC1B81FBFC001F54E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66FE4DBC1B81FBFC001F54E7 /* Project object */;
+}

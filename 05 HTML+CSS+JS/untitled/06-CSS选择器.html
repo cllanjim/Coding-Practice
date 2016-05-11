@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试一下你就知道!</title>
+    <link href="css/textCSS.css" rel="stylesheet">
+
+    <style>
+        /*/!*标签选择器*!/*/
+        /*div{*/
+            /*color:darkred;*/
+        /*}*/
+        /*/!*类选择器*!/*/
+        /*.high {*/
+            /*color: aqua;*/
+        /*}*/
+
+        /*/!*id选择器*!/*/
+        /*#main{*/
+            /*color: darkslateblue;*/
+        /*}*/
+
+        /*/!*并列选择器*!/*/
+        /*div , .ptag{*/
+            /*color:rosybrown;*/
+        /*}*/
+
+        /*/!*复合选择器*!/*/
+        /*p.tagp{*/
+            /*color: darkorange;*/
+        /*}*/
+
+        /*后代选择器*/
+        /*div p{*/
+            /*color: darkblue;*/
+        /*}*/
+
+        /*/!*直接后代选择器*!/*/
+        /*div > p{*/
+            /*color: darkorange;*/
+        /*}*/
+
+        /*相邻兄弟选择器*/
+        /*div + p{*/
+            /*color:teal;*/
+        /*}*/
+
+        /*/!*属性选择器*!/*/
+        /*div[name]{*/
+            /*color: darkorange;*/
+        /*}*/
+        /*div[name][sex]{*/
+            /*color: gray;*/
+        /*}*/
+        /*div[name="sq"]{*/
+            /*color: darkslateblue;*/
+        /*}*/
+
+        /*伪类选择器*/
+        div:hover{
+            color: darkorange;
+        }
+
+        input:focus{
+            border: 4px dashed green;
+        }
+    </style>
+
+
+
+</head>
+<body>
+   <!--标签选择器-->
+    <!--<div>div1</div>-->
+    <!--<div>div2</div>-->
+
+   <!--类选择器-->
+    <!--<p class="high">test1</p>-->
+    <!--<p>test2</p>-->
+
+    <!--id选择器-->
+    <!--<p id="main">unique</p>-->
+
+    <!-- 并列选择器-->
+    <!--<p class="ptag">这是一个p标签</p>-->
+    <!--<p>这是一个p标签</p>-->
+   <!--<div class="divtag">这是一个div标签</div>-->
+
+    <!-- 复合选择器-->
+   <!--<p class="tagp">这是一个p标签</p>-->
+   <!--<p>这是一个p标签</p>-->
+   <!--<div class="tagdiv">这是一个div标签</div>-->
+   <!--<div>这是一个div标签</div>-->
+
+    <!--&lt;!&ndash; 后代选择器&ndash;&gt;-->
+    <!--<div>-->
+        <!--<p>div里面的p</p>-->
+        <!--<span>-->
+            <!--<p>div里面span里面的p</p>-->
+        <!--</span>-->
+    <!--</div>-->
+   <!--<p>外面的p</p>-->
+   <!-- -->
+    <!--&lt;!&ndash; 直接后代选择器&ndash;&gt;-->
+   <!--<div>-->
+       <!--<p>div里面的p</p>-->
+        <!--<span>-->
+            <!--<p>div里面span里面的p</p>-->
+        <!--</span>-->
+   <!--</div>-->
+   <!--<p>外面的p</p>-->
+   
+    <!-- 相邻兄弟选择器-->
+   <!--<div>-->
+       <!--<p>div里面的p</p>-->
+        <!--<span>-->
+            <!--<p>div里面span里面的p</p>-->
+        <!--</span>-->
+   <!--</div>-->
+   <!--<p>外面的p</p>-->
+   <!--<div>这里又有一个div</div>-->
+
+    <!-- 属性选择器-->
+   <!--<div name="zsq">div1</div>-->
+   <!--<div name="sq">div2</div>-->
+   <!--<div name="sq" sex="girl">div3</div>-->
+
+    <!-- 伪类选择器-->
+    <div>点击有惊喜</div>
+    <input>
+</body>
+</html>

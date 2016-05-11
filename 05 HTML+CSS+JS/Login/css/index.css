@@ -1,0 +1,81 @@
+/*设置背景颜色*/
+body{
+    background-color: #F2F2F2;
+}
+
+/*设置*/
+#main{
+    /*background-color: aqua;*/
+    text-align: center;
+    margin-top: 120px;
+}
+
+/*设置整个上部panel的样式*/
+#main .panel{
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    /*设置边框*/
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #ddd;
+
+}
+
+/*panel中label的样式*/
+#main .panel label{
+    display: block;
+    margin: 5px;
+    text-align: left
+}
+
+/*panel中input的样式*/
+#main .panel input{
+    width: 270px;
+    height: 33px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#main .panel input:focus{
+    outline:none;
+}
+
+/*panel中的button样式*/
+#main .panel .reg button{
+    /*padding: 0;*/
+    /*margin: 0;*/
+    margin-top: 15px;
+    background-color: #CC865E;
+    border :0;
+    width: 250px;
+    height: 33px;
+    color: white;
+    font-size: 15px;
+}
+
+#main .panel .reg button:hover{
+    background-color: white;
+    border:1px solid #CC865E;
+    color: #CC865E ;
+}
+
+
+
+#main .new button{
+    margin-top: 25px;
+    background-color: #466BAF;
+    border :0;
+    width: 250px;
+    height: 33px;
+    color: white;
+    font-size: 15px
+}
+
+#main .new button:hover {
+    background-color: white;
+    border: 1px solid #466BAF;
+    color: #466BAF;
+}

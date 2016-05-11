@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6658840D1C02A8B8001E80FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658840C1C02A8B8001E80FA /* main.m */; };
+		665884101C02A8B8001E80FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658840F1C02A8B8001E80FA /* AppDelegate.m */; };
+		665884131C02A8B8001E80FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665884121C02A8B8001E80FA /* ViewController.m */; };
+		665884161C02A8B8001E80FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665884141C02A8B8001E80FA /* Main.storyboard */; };
+		665884181C02A8B8001E80FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665884171C02A8B8001E80FA /* Assets.xcassets */; };
+		6658841B1C02A8B8001E80FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665884191C02A8B8001E80FA /* LaunchScreen.storyboard */; };
+		665884261C02A8B8001E80FA /* _123__HTML___OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 665884251C02A8B8001E80FA /* _123__HTML___OCTests.m */; };
+		665884311C02A8B8001E80FA /* _123__HTML___OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 665884301C02A8B8001E80FA /* _123__HTML___OCUITests.m */; };
+		665884411C02AC83001E80FA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 665884401C02AC83001E80FA /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		665884221C02A8B8001E80FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665884001C02A8B8001E80FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665884071C02A8B8001E80FA;
+			remoteInfo = "1123 在HTML中调用OC";
+		};
+		6658842D1C02A8B8001E80FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665884001C02A8B8001E80FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665884071C02A8B8001E80FA;
+			remoteInfo = "1123 在HTML中调用OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		665884081C02A8B8001E80FA /* 1123 在HTML中调用OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1123 在HTML中调用OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6658840C1C02A8B8001E80FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6658840E1C02A8B8001E80FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6658840F1C02A8B8001E80FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		665884111C02A8B8001E80FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		665884121C02A8B8001E80FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		665884151C02A8B8001E80FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665884171C02A8B8001E80FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6658841A1C02A8B8001E80FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6658841C1C02A8B8001E80FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665884211C02A8B8001E80FA /* 1123 在HTML中调用OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1123 在HTML中调用OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665884251C02A8B8001E80FA /* _123__HTML___OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_123__HTML___OCTests.m"; sourceTree = "<group>"; };
+		665884271C02A8B8001E80FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6658842C1C02A8B8001E80FA /* 1123 在HTML中调用OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1123 在HTML中调用OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665884301C02A8B8001E80FA /* _123__HTML___OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_123__HTML___OCUITests.m"; sourceTree = "<group>"; };
+		665884321C02A8B8001E80FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665884401C02AC83001E80FA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665884051C02A8B8001E80FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6658841E1C02A8B8001E80FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665884291C02A8B8001E80FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665883FF1C02A8B8001E80FA = {
+			isa = PBXGroup;
+			children = (
+				6658840A1C02A8B8001E80FA /* 1123 在HTML中调用OC */,
+				665884241C02A8B8001E80FA /* 1123 在HTML中调用OCTests */,
+				6658842F1C02A8B8001E80FA /* 1123 在HTML中调用OCUITests */,
+				665884091C02A8B8001E80FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		665884091C02A8B8001E80FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665884081C02A8B8001E80FA /* 1123 在HTML中调用OC.app */,
+				665884211C02A8B8001E80FA /* 1123 在HTML中调用OCTests.xctest */,
+				6658842C1C02A8B8001E80FA /* 1123 在HTML中调用OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6658840A1C02A8B8001E80FA /* 1123 在HTML中调用OC */ = {
+			isa = PBXGroup;
+			children = (
+				6658840E1C02A8B8001E80FA /* AppDelegate.h */,
+				6658840F1C02A8B8001E80FA /* AppDelegate.m */,
+				665884401C02AC83001E80FA /* index.html */,
+				665884111C02A8B8001E80FA /* ViewController.h */,
+				665884121C02A8B8001E80FA /* ViewController.m */,
+				665884141C02A8B8001E80FA /* Main.storyboard */,
+				665884171C02A8B8001E80FA /* Assets.xcassets */,
+				665884191C02A8B8001E80FA /* LaunchScreen.storyboard */,
+				6658841C1C02A8B8001E80FA /* Info.plist */,
+				6658840B1C02A8B8001E80FA /* Supporting Files */,
+			);
+			path = "1123 在HTML中调用OC";
+			sourceTree = "<group>";
+		};
+		6658840B1C02A8B8001E80FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6658840C1C02A8B8001E80FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		665884241C02A8B8001E80FA /* 1123 在HTML中调用OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				665884251C02A8B8001E80FA /* _123__HTML___OCTests.m */,
+				665884271C02A8B8001E80FA /* Info.plist */,
+			);
+			path = "1123 在HTML中调用OCTests";
+			sourceTree = "<group>";
+		};
+		6658842F1C02A8B8001E80FA /* 1123 在HTML中调用OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				665884301C02A8B8001E80FA /* _123__HTML___OCUITests.m */,
+				665884321C02A8B8001E80FA /* Info.plist */,
+			);
+			path = "1123 在HTML中调用OCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665884071C02A8B8001E80FA /* 1123 在HTML中调用OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665884351C02A8B8001E80FA /* Build configuration list for PBXNativeTarget "1123 在HTML中调用OC" */;
+			buildPhases = (
+				665884041C02A8B8001E80FA /* Sources */,
+				665884051C02A8B8001E80FA /* Frameworks */,
+				665884061C02A8B8001E80FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1123 在HTML中调用OC";
+			productName = "1123 在HTML中调用OC";
+			productReference = 665884081C02A8B8001E80FA /* 1123 在HTML中调用OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		665884201C02A8B8001E80FA /* 1123 在HTML中调用OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665884381C02A8B8001E80FA /* Build configuration list for PBXNativeTarget "1123 在HTML中调用OCTests" */;
+			buildPhases = (
+				6658841D1C02A8B8001E80FA /* Sources */,
+				6658841E1C02A8B8001E80FA /* Frameworks */,
+				6658841F1C02A8B8001E80FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				665884231C02A8B8001E80FA /* PBXTargetDependency */,
+			);
+			name = "1123 在HTML中调用OCTests";
+			productName = "1123 在HTML中调用OCTests";
+			productReference = 665884211C02A8B8001E80FA /* 1123 在HTML中调用OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6658842B1C02A8B8001E80FA /* 1123 在HTML中调用OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6658843B1C02A8B8001E80FA /* Build configuration list for PBXNativeTarget "1123 在HTML中调用OCUITests" */;
+			buildPhases = (
+				665884281C02A8B8001E80FA /* Sources */,
+				665884291C02A8B8001E80FA /* Frameworks */,
+				6658842A1C02A8B8001E80FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6658842E1C02A8B8001E80FA /* PBXTargetDependency */,
+			);
+			name = "1123 在HTML中调用OCUITests";
+			productName = "1123 在HTML中调用OCUITests";
+			productReference = 6658842C1C02A8B8001E80FA /* 1123 在HTML中调用OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665884001C02A8B8001E80FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "SQ Software Group";
+				TargetAttributes = {
+					665884071C02A8B8001E80FA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					665884201C02A8B8001E80FA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 665884071C02A8B8001E80FA;
+					};
+					6658842B1C02A8B8001E80FA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 665884071C02A8B8001E80FA;
+					};
+				};
+			};
+			buildConfigurationList = 665884031C02A8B8001E80FA /* Build configuration list for PBXProject "1123 在HTML中调用OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665883FF1C02A8B8001E80FA;
+			productRefGroup = 665884091C02A8B8001E80FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665884071C02A8B8001E80FA /* 1123 在HTML中调用OC */,
+				665884201C02A8B8001E80FA /* 1123 在HTML中调用OCTests */,
+				6658842B1C02A8B8001E80FA /* 1123 在HTML中调用OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665884061C02A8B8001E80FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6658841B1C02A8B8001E80FA /* LaunchScreen.storyboard in Resources */,
+				665884411C02AC83001E80FA /* index.html in Resources */,
+				665884181C02A8B8001E80FA /* Assets.xcassets in Resources */,
+				665884161C02A8B8001E80FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6658841F1C02A8B8001E80FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6658842A1C02A8B8001E80FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665884041C02A8B8001E80FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665884131C02A8B8001E80FA /* ViewController.m in Sources */,
+				665884101C02A8B8001E80FA /* AppDelegate.m in Sources */,
+				6658840D1C02A8B8001E80FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6658841D1C02A8B8001E80FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665884261C02A8B8001E80FA /* _123__HTML___OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665884281C02A8B8001E80FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665884311C02A8B8001E80FA /* _123__HTML___OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		665884231C02A8B8001E80FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665884071C02A8B8001E80FA /* 1123 在HTML中调用OC */;
+			targetProxy = 665884221C02A8B8001E80FA /* PBXContainerItemProxy */;
+		};
+		6658842E1C02A8B8001E80FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665884071C02A8B8001E80FA /* 1123 在HTML中调用OC */;
+			targetProxy = 6658842D1C02A8B8001E80FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		665884141C02A8B8001E80FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665884151C02A8B8001E80FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		665884191C02A8B8001E80FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6658841A1C02A8B8001E80FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665884331C02A8B8001E80FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		665884341C02A8B8001E80FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665884361C02A8B8001E80FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1123 在HTML中调用OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-123--HTML---OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		665884371C02A8B8001E80FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1123 在HTML中调用OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-123--HTML---OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		665884391C02A8B8001E80FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1123 在HTML中调用OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-123--HTML---OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1123 在HTML中调用OC.app/1123 在HTML中调用OC";
+			};
+			name = Debug;
+		};
+		6658843A1C02A8B8001E80FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1123 在HTML中调用OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-123--HTML---OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1123 在HTML中调用OC.app/1123 在HTML中调用OC";
+			};
+			name = Release;
+		};
+		6658843C1C02A8B8001E80FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1123 在HTML中调用OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-123--HTML---OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1123 在HTML中调用OC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6658843D1C02A8B8001E80FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1123 在HTML中调用OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Software-Grooup.-123--HTML---OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1123 在HTML中调用OC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665884031C02A8B8001E80FA /* Build configuration list for PBXProject "1123 在HTML中调用OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665884331C02A8B8001E80FA /* Debug */,
+				665884341C02A8B8001E80FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665884351C02A8B8001E80FA /* Build configuration list for PBXNativeTarget "1123 在HTML中调用OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665884361C02A8B8001E80FA /* Debug */,
+				665884371C02A8B8001E80FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		665884381C02A8B8001E80FA /* Build configuration list for PBXNativeTarget "1123 在HTML中调用OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665884391C02A8B8001E80FA /* Debug */,
+				6658843A1C02A8B8001E80FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6658843B1C02A8B8001E80FA /* Build configuration list for PBXNativeTarget "1123 在HTML中调用OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6658843C1C02A8B8001E80FA /* Debug */,
+				6658843D1C02A8B8001E80FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665884001C02A8B8001E80FA /* Project object */;
+}

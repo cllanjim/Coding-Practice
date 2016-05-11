@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  1105 BaiSiBuDeJie
+//
+//  Created by 张思琦 on 15/11/5.
+//  Copyright © 2015年 SQ Software Group. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+//导入常用的类
+#import "UIView+SQViewExtension.h"
+#import "UITextField+SQTextFieldExtension.h"
+#import "UIBarButtonItem+SQBarButtonItemExtension.h"
+#import "UIImage+SQImageExtension.h"
+#import "UIImageView+SQImageViewExtension.h"
+#import "NSCalendar+SQCalendarExtension.h"
+#import "NSString+SQExtension.h"
+#import "NSDate+SQDateExtension.h"
+#import "SQConst.h"
+
+//NSLog的的配置
+#ifdef DEBUG
+#define SQLOG(...) NSLog(__VA_ARGS__)
+#else
+#define SQLOG(...)
+#endif
+
+//判别系统版本的宏
+#define SQiOS(version) ([UIDevice currentDevice].systemVersion.doubleValue >= (version))
+
+//将服务器返回的数据写入到桌面的plist文件中
+#define SQWriteToPlist(data, fileName) [data writeToFile:[NSString stringWithFormat:@"/Users/SketchK/Desktop/%@.plist", fileName] atomically:YES];
+
+//自定义输出当前方法
+#define SQLOGFUNC SQLOG(@"%s", __func__)
+
+//配置评论界面中section的字体大小
+#define SQCommentSectionHeaderFont [UIFont systemFontOfSize:15]
+
+
+
+//配置颜色
+#define SQColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define SQColor(r, g, b) SQColorA((r), (g), (b), 255)
+#define SQRandomColor SQColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define SQGrayColor(v) SQColor((v), (v), (v))
+#define SQCommonBgColor SQGrayColor(206)
+#define StatesBarHeight 20
+#define NavigationBarHeight 44
+#define TitleViewHeight 35
+#define TabBarHeight 49
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
