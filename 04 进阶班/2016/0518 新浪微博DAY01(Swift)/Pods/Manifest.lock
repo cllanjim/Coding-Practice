@@ -1,0 +1,13 @@
+PODS:
+  - QorumLogs (0.7.2)
+  - SnapKit (0.21.0)
+
+DEPENDENCIES:
+  - QorumLogs
+  - SnapKit
+
+SPEC CHECKSUMS:
+  QorumLogs: c3178520a46dc940c1070388134524ab5996b55a
+  SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
+
+COCOAPODS: 0.39.0
