@@ -1,0 +1,10 @@
+platform :ios, '8.0' 
+use_frameworks!
+
+pod 'QorumLogs'
+pod 'SnapKit'
+pod 'SVProgressHUD'
+pod 'AFNetworking'
+pod 'SwiftyJSON'
+pod 'Alamofire'
+pod 'SDWebImage'
