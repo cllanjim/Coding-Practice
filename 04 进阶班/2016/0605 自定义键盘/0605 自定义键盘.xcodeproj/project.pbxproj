@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667C8E141D045A3200C1C900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E131D045A3200C1C900 /* AppDelegate.swift */; };
+		667C8E161D045A3200C1C900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E151D045A3200C1C900 /* ViewController.swift */; };
+		667C8E191D045A3200C1C900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667C8E171D045A3200C1C900 /* Main.storyboard */; };
+		667C8E1B1D045A3200C1C900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667C8E1A1D045A3200C1C900 /* Assets.xcassets */; };
+		667C8E1E1D045A3200C1C900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667C8E1C1D045A3200C1C900 /* LaunchScreen.storyboard */; };
+		667C8E291D045A3200C1C900 /* _605______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E281D045A3200C1C900 /* _605______Tests.swift */; };
+		667C8E341D045A3200C1C900 /* _605______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E331D045A3200C1C900 /* _605______UITests.swift */; };
+		667C8E421D045CAC00C1C900 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 667C8E411D045CAC00C1C900 /* Emoticons.bundle */; };
+		667C8E441D045D1400C1C900 /* SQKeyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E431D045D1400C1C900 /* SQKeyBoardViewController.swift */; };
+		667C8E461D045F1100C1C900 /* SQKeyBoardEmoticonPackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E451D045F1100C1C900 /* SQKeyBoardEmoticonPackageModel.swift */; };
+		667C8E481D045F4A00C1C900 /* SQKeyBoardEmoticonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E471D045F4A00C1C900 /* SQKeyBoardEmoticonModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		667C8E251D045A3200C1C900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667C8E081D045A3200C1C900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667C8E0F1D045A3200C1C900;
+			remoteInfo = "0605 自定义键盘";
+		};
+		667C8E301D045A3200C1C900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667C8E081D045A3200C1C900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667C8E0F1D045A3200C1C900;
+			remoteInfo = "0605 自定义键盘";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		667C8E101D045A3200C1C900 /* 0605 自定义键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0605 自定义键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		667C8E131D045A3200C1C900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		667C8E151D045A3200C1C900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		667C8E181D045A3200C1C900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		667C8E1A1D045A3200C1C900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		667C8E1D1D045A3200C1C900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		667C8E1F1D045A3200C1C900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667C8E241D045A3200C1C900 /* 0605 自定义键盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0605 自定义键盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		667C8E281D045A3200C1C900 /* _605______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_605______Tests.swift"; sourceTree = "<group>"; };
+		667C8E2A1D045A3200C1C900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667C8E2F1D045A3200C1C900 /* 0605 自定义键盘UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0605 自定义键盘UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		667C8E331D045A3200C1C900 /* _605______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_605______UITests.swift"; sourceTree = "<group>"; };
+		667C8E351D045A3200C1C900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667C8E411D045CAC00C1C900 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		667C8E431D045D1400C1C900 /* SQKeyBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQKeyBoardViewController.swift; sourceTree = "<group>"; };
+		667C8E451D045F1100C1C900 /* SQKeyBoardEmoticonPackageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQKeyBoardEmoticonPackageModel.swift; sourceTree = "<group>"; };
+		667C8E471D045F4A00C1C900 /* SQKeyBoardEmoticonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQKeyBoardEmoticonModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667C8E0D1D045A3200C1C900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667C8E211D045A3200C1C900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667C8E2C1D045A3200C1C900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667C8E071D045A3200C1C900 = {
+			isa = PBXGroup;
+			children = (
+				667C8E121D045A3200C1C900 /* 0605 自定义键盘 */,
+				667C8E271D045A3200C1C900 /* 0605 自定义键盘Tests */,
+				667C8E321D045A3200C1C900 /* 0605 自定义键盘UITests */,
+				667C8E111D045A3200C1C900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		667C8E111D045A3200C1C900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667C8E101D045A3200C1C900 /* 0605 自定义键盘.app */,
+				667C8E241D045A3200C1C900 /* 0605 自定义键盘Tests.xctest */,
+				667C8E2F1D045A3200C1C900 /* 0605 自定义键盘UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667C8E121D045A3200C1C900 /* 0605 自定义键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				667C8E131D045A3200C1C900 /* AppDelegate.swift */,
+				667C8E151D045A3200C1C900 /* ViewController.swift */,
+				667C8E171D045A3200C1C900 /* Main.storyboard */,
+				667C8E1A1D045A3200C1C900 /* Assets.xcassets */,
+				667C8E1C1D045A3200C1C900 /* LaunchScreen.storyboard */,
+				667C8E1F1D045A3200C1C900 /* Info.plist */,
+				667C8E411D045CAC00C1C900 /* Emoticons.bundle */,
+				667C8E431D045D1400C1C900 /* SQKeyBoardViewController.swift */,
+				667C8E451D045F1100C1C900 /* SQKeyBoardEmoticonPackageModel.swift */,
+				667C8E471D045F4A00C1C900 /* SQKeyBoardEmoticonModel.swift */,
+			);
+			path = "0605 自定义键盘";
+			sourceTree = "<group>";
+		};
+		667C8E271D045A3200C1C900 /* 0605 自定义键盘Tests */ = {
+			isa = PBXGroup;
+			children = (
+				667C8E281D045A3200C1C900 /* _605______Tests.swift */,
+				667C8E2A1D045A3200C1C900 /* Info.plist */,
+			);
+			path = "0605 自定义键盘Tests";
+			sourceTree = "<group>";
+		};
+		667C8E321D045A3200C1C900 /* 0605 自定义键盘UITests */ = {
+			isa = PBXGroup;
+			children = (
+				667C8E331D045A3200C1C900 /* _605______UITests.swift */,
+				667C8E351D045A3200C1C900 /* Info.plist */,
+			);
+			path = "0605 自定义键盘UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		667C8E0F1D045A3200C1C900 /* 0605 自定义键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667C8E381D045A3200C1C900 /* Build configuration list for PBXNativeTarget "0605 自定义键盘" */;
+			buildPhases = (
+				667C8E0C1D045A3200C1C900 /* Sources */,
+				667C8E0D1D045A3200C1C900 /* Frameworks */,
+				667C8E0E1D045A3200C1C900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0605 自定义键盘";
+			productName = "0605 自定义键盘";
+			productReference = 667C8E101D045A3200C1C900 /* 0605 自定义键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+		667C8E231D045A3200C1C900 /* 0605 自定义键盘Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667C8E3B1D045A3200C1C900 /* Build configuration list for PBXNativeTarget "0605 自定义键盘Tests" */;
+			buildPhases = (
+				667C8E201D045A3200C1C900 /* Sources */,
+				667C8E211D045A3200C1C900 /* Frameworks */,
+				667C8E221D045A3200C1C900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667C8E261D045A3200C1C900 /* PBXTargetDependency */,
+			);
+			name = "0605 自定义键盘Tests";
+			productName = "0605 自定义键盘Tests";
+			productReference = 667C8E241D045A3200C1C900 /* 0605 自定义键盘Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		667C8E2E1D045A3200C1C900 /* 0605 自定义键盘UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667C8E3E1D045A3200C1C900 /* Build configuration list for PBXNativeTarget "0605 自定义键盘UITests" */;
+			buildPhases = (
+				667C8E2B1D045A3200C1C900 /* Sources */,
+				667C8E2C1D045A3200C1C900 /* Frameworks */,
+				667C8E2D1D045A3200C1C900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667C8E311D045A3200C1C900 /* PBXTargetDependency */,
+			);
+			name = "0605 自定义键盘UITests";
+			productName = "0605 自定义键盘UITests";
+			productReference = 667C8E2F1D045A3200C1C900 /* 0605 自定义键盘UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		667C8E081D045A3200C1C900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SketchK;
+				TargetAttributes = {
+					667C8E0F1D045A3200C1C900 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					667C8E231D045A3200C1C900 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 667C8E0F1D045A3200C1C900;
+					};
+					667C8E2E1D045A3200C1C900 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 667C8E0F1D045A3200C1C900;
+					};
+				};
+			};
+			buildConfigurationList = 667C8E0B1D045A3200C1C900 /* Build configuration list for PBXProject "0605 自定义键盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 667C8E071D045A3200C1C900;
+			productRefGroup = 667C8E111D045A3200C1C900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667C8E0F1D045A3200C1C900 /* 0605 自定义键盘 */,
+				667C8E231D045A3200C1C900 /* 0605 自定义键盘Tests */,
+				667C8E2E1D045A3200C1C900 /* 0605 自定义键盘UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		667C8E0E1D045A3200C1C900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667C8E1E1D045A3200C1C900 /* LaunchScreen.storyboard in Resources */,
+				667C8E421D045CAC00C1C900 /* Emoticons.bundle in Resources */,
+				667C8E1B1D045A3200C1C900 /* Assets.xcassets in Resources */,
+				667C8E191D045A3200C1C900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667C8E221D045A3200C1C900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667C8E2D1D045A3200C1C900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		667C8E0C1D045A3200C1C900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667C8E481D045F4A00C1C900 /* SQKeyBoardEmoticonModel.swift in Sources */,
+				667C8E441D045D1400C1C900 /* SQKeyBoardViewController.swift in Sources */,
+				667C8E461D045F1100C1C900 /* SQKeyBoardEmoticonPackageModel.swift in Sources */,
+				667C8E161D045A3200C1C900 /* ViewController.swift in Sources */,
+				667C8E141D045A3200C1C900 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667C8E201D045A3200C1C900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667C8E291D045A3200C1C900 /* _605______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667C8E2B1D045A3200C1C900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667C8E341D045A3200C1C900 /* _605______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		667C8E261D045A3200C1C900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 667C8E0F1D045A3200C1C900 /* 0605 自定义键盘 */;
+			targetProxy = 667C8E251D045A3200C1C900 /* PBXContainerItemProxy */;
+		};
+		667C8E311D045A3200C1C900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 667C8E0F1D045A3200C1C900 /* 0605 自定义键盘 */;
+			targetProxy = 667C8E301D045A3200C1C900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		667C8E171D045A3200C1C900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667C8E181D045A3200C1C900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		667C8E1C1D045A3200C1C900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667C8E1D1D045A3200C1C900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		667C8E361D045A3200C1C900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		667C8E371D045A3200C1C900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		667C8E391D045A3200C1C900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0605 自定义键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-605------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		667C8E3A1D045A3200C1C900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0605 自定义键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-605------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		667C8E3C1D045A3200C1C900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0605 自定义键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-605------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0605 自定义键盘.app/0605 自定义键盘";
+			};
+			name = Debug;
+		};
+		667C8E3D1D045A3200C1C900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0605 自定义键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-605------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0605 自定义键盘.app/0605 自定义键盘";
+			};
+			name = Release;
+		};
+		667C8E3F1D045A3200C1C900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0605 自定义键盘UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-605------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0605 自定义键盘";
+			};
+			name = Debug;
+		};
+		667C8E401D045A3200C1C900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0605 自定义键盘UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-605------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0605 自定义键盘";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		667C8E0B1D045A3200C1C900 /* Build configuration list for PBXProject "0605 自定义键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667C8E361D045A3200C1C900 /* Debug */,
+				667C8E371D045A3200C1C900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667C8E381D045A3200C1C900 /* Build configuration list for PBXNativeTarget "0605 自定义键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667C8E391D045A3200C1C900 /* Debug */,
+				667C8E3A1D045A3200C1C900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		667C8E3B1D045A3200C1C900 /* Build configuration list for PBXNativeTarget "0605 自定义键盘Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667C8E3C1D045A3200C1C900 /* Debug */,
+				667C8E3D1D045A3200C1C900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		667C8E3E1D045A3200C1C900 /* Build configuration list for PBXNativeTarget "0605 自定义键盘UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667C8E3F1D045A3200C1C900 /* Debug */,
+				667C8E401D045A3200C1C900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 667C8E081D045A3200C1C900 /* Project object */;
+}
