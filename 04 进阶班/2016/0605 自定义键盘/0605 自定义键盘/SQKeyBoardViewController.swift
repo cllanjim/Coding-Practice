@@ -59,6 +59,17 @@ class SQKeyBoardViewController: UIViewController {
     
     private lazy var allEmoticonPackage:[SQKeyBoardEmoticonPackage]? = SQKeyBoardEmoticonPackage.loadAllEmoticonPackages()
     
+    var emoticonCallBack: (emoticon: SQKeyBoardEmoticonModel)->()
+
+    init(callBack: (emoticon: SQKeyBoardEmoticonModel) -> ()) {
+        emoticonCallBack = callBack
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     //MARK: - 生命周期
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -109,6 +120,7 @@ extension SQKeyBoardViewController {
 
 //MARK: - UICollectionViewDataSource
 extension SQKeyBoardViewController: UICollectionViewDataSource{
+    
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return allEmoticonPackage?.count ?? 0
     }
@@ -132,6 +144,25 @@ extension SQKeyBoardViewController: UICollectionViewDataSource{
 
 //MARK: - UICollectionViewDelegate
 extension SQKeyBoardViewController: UICollectionViewDelegate{
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        // 1.拿到当前点击的表情
+        let emoticon = allEmoticonPackage![indexPath.section].groupOfEmoticons![indexPath.item]
+        // 2.判断是否是删除按钮
+        if emoticon.isRemoveButton {
+            
+        }else {
+            // 不是删除按钮, 需要添加到最近组中
+            emoticon.count += 1
+            // 2.1拿到最近组
+            allEmoticonPackage!.first!.addFavoriteEmoticon(emoticon)
+            // 2.2刷新表格
+            collectionView.reloadSections(NSIndexSet(index: 0))
+        }
+        
+        // 3.执行闭包, 通知外界插入表情
+        emoticonCallBack(emoticon: emoticon)
+    }
     
 }
 
@@ -171,20 +202,24 @@ class SQKeyboardEmoticonsCell: UICollectionViewCell {
         btn.userInteractionEnabled = false
         return btn
     }()
+    
     // 表情模型
     var emoticon: SQKeyBoardEmoticonModel? {
         didSet {
-            // 1.设置图片表情
-            let image = UIImage(contentsOfFile: emoticon!.imagePath ?? "")
-            emoticonButton.setImage(image, forState: .Normal)
-            
-            // 2.设置emoji表情
-            emoticonButton.setTitle(emoticon?.emojiStr, forState: .Normal)
             
             // 3.判断是否是删除按钮
             if emoticon!.isRemoveButton {
                 emoticonButton.setImage(UIImage(named: "compose_emotion_delete"), forState: .Normal)
+                emoticonButton.setTitle(nil, forState: .Normal)
+            } else {
+                
+                let image = UIImage(contentsOfFile: emoticon!.imagePath ?? "")
+                let title = emoticon?.emojiStr
+                
+                emoticonButton.setImage(image, forState: .Normal)
+                emoticonButton.setTitle(title, forState: .Normal)
             }
+            
         }
     }
     

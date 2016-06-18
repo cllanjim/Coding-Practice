@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66A9482B1D0E669D003BD133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9482A1D0E669D003BD133 /* AppDelegate.swift */; };
+		66A9482D1D0E669D003BD133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9482C1D0E669D003BD133 /* ViewController.swift */; };
+		66A948301D0E669D003BD133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A9482E1D0E669D003BD133 /* Main.storyboard */; };
+		66A948321D0E669D003BD133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A948311D0E669D003BD133 /* Assets.xcassets */; };
+		66A948351D0E669D003BD133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A948331D0E669D003BD133 /* LaunchScreen.storyboard */; };
+		66A948401D0E669D003BD133 /* _613_________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9483F1D0E669D003BD133 /* _613_________Tests.swift */; };
+		66A9484B1D0E669D003BD133 /* _613_________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9484A1D0E669D003BD133 /* _613_________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66A9483C1D0E669D003BD133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A9481F1D0E669D003BD133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A948261D0E669D003BD133;
+			remoteInfo = "0613 匹配微博表情文本";
+		};
+		66A948471D0E669D003BD133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A9481F1D0E669D003BD133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A948261D0E669D003BD133;
+			remoteInfo = "0613 匹配微博表情文本";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66A948271D0E669D003BD133 /* 0613 匹配微博表情文本.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0613 匹配微博表情文本.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A9482A1D0E669D003BD133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66A9482C1D0E669D003BD133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66A9482F1D0E669D003BD133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66A948311D0E669D003BD133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66A948341D0E669D003BD133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66A948361D0E669D003BD133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A9483B1D0E669D003BD133 /* 0613 匹配微博表情文本Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0613 匹配微博表情文本Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A9483F1D0E669D003BD133 /* _613_________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_613_________Tests.swift"; sourceTree = "<group>"; };
+		66A948411D0E669D003BD133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A948461D0E669D003BD133 /* 0613 匹配微博表情文本UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0613 匹配微博表情文本UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A9484A1D0E669D003BD133 /* _613_________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_613_________UITests.swift"; sourceTree = "<group>"; };
+		66A9484C1D0E669D003BD133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A948241D0E669D003BD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A948381D0E669D003BD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A948431D0E669D003BD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66A9481E1D0E669D003BD133 = {
+			isa = PBXGroup;
+			children = (
+				66A948291D0E669D003BD133 /* 0613 匹配微博表情文本 */,
+				66A9483E1D0E669D003BD133 /* 0613 匹配微博表情文本Tests */,
+				66A948491D0E669D003BD133 /* 0613 匹配微博表情文本UITests */,
+				66A948281D0E669D003BD133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66A948281D0E669D003BD133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A948271D0E669D003BD133 /* 0613 匹配微博表情文本.app */,
+				66A9483B1D0E669D003BD133 /* 0613 匹配微博表情文本Tests.xctest */,
+				66A948461D0E669D003BD133 /* 0613 匹配微博表情文本UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A948291D0E669D003BD133 /* 0613 匹配微博表情文本 */ = {
+			isa = PBXGroup;
+			children = (
+				66A9482A1D0E669D003BD133 /* AppDelegate.swift */,
+				66A9482C1D0E669D003BD133 /* ViewController.swift */,
+				66A9482E1D0E669D003BD133 /* Main.storyboard */,
+				66A948311D0E669D003BD133 /* Assets.xcassets */,
+				66A948331D0E669D003BD133 /* LaunchScreen.storyboard */,
+				66A948361D0E669D003BD133 /* Info.plist */,
+			);
+			path = "0613 匹配微博表情文本";
+			sourceTree = "<group>";
+		};
+		66A9483E1D0E669D003BD133 /* 0613 匹配微博表情文本Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66A9483F1D0E669D003BD133 /* _613_________Tests.swift */,
+				66A948411D0E669D003BD133 /* Info.plist */,
+			);
+			path = "0613 匹配微博表情文本Tests";
+			sourceTree = "<group>";
+		};
+		66A948491D0E669D003BD133 /* 0613 匹配微博表情文本UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66A9484A1D0E669D003BD133 /* _613_________UITests.swift */,
+				66A9484C1D0E669D003BD133 /* Info.plist */,
+			);
+			path = "0613 匹配微博表情文本UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66A948261D0E669D003BD133 /* 0613 匹配微博表情文本 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A9484F1D0E669D003BD133 /* Build configuration list for PBXNativeTarget "0613 匹配微博表情文本" */;
+			buildPhases = (
+				66A948231D0E669D003BD133 /* Sources */,
+				66A948241D0E669D003BD133 /* Frameworks */,
+				66A948251D0E669D003BD133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0613 匹配微博表情文本";
+			productName = "0613 匹配微博表情文本";
+			productReference = 66A948271D0E669D003BD133 /* 0613 匹配微博表情文本.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66A9483A1D0E669D003BD133 /* 0613 匹配微博表情文本Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A948521D0E669D003BD133 /* Build configuration list for PBXNativeTarget "0613 匹配微博表情文本Tests" */;
+			buildPhases = (
+				66A948371D0E669D003BD133 /* Sources */,
+				66A948381D0E669D003BD133 /* Frameworks */,
+				66A948391D0E669D003BD133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A9483D1D0E669D003BD133 /* PBXTargetDependency */,
+			);
+			name = "0613 匹配微博表情文本Tests";
+			productName = "0613 匹配微博表情文本Tests";
+			productReference = 66A9483B1D0E669D003BD133 /* 0613 匹配微博表情文本Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66A948451D0E669D003BD133 /* 0613 匹配微博表情文本UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A948551D0E669D003BD133 /* Build configuration list for PBXNativeTarget "0613 匹配微博表情文本UITests" */;
+			buildPhases = (
+				66A948421D0E669D003BD133 /* Sources */,
+				66A948431D0E669D003BD133 /* Frameworks */,
+				66A948441D0E669D003BD133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A948481D0E669D003BD133 /* PBXTargetDependency */,
+			);
+			name = "0613 匹配微博表情文本UITests";
+			productName = "0613 匹配微博表情文本UITests";
+			productReference = 66A948461D0E669D003BD133 /* 0613 匹配微博表情文本UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66A9481F1D0E669D003BD133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SketchK;
+				TargetAttributes = {
+					66A948261D0E669D003BD133 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					66A9483A1D0E669D003BD133 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66A948261D0E669D003BD133;
+					};
+					66A948451D0E669D003BD133 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66A948261D0E669D003BD133;
+					};
+				};
+			};
+			buildConfigurationList = 66A948221D0E669D003BD133 /* Build configuration list for PBXProject "0613 匹配微博表情文本" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66A9481E1D0E669D003BD133;
+			productRefGroup = 66A948281D0E669D003BD133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66A948261D0E669D003BD133 /* 0613 匹配微博表情文本 */,
+				66A9483A1D0E669D003BD133 /* 0613 匹配微博表情文本Tests */,
+				66A948451D0E669D003BD133 /* 0613 匹配微博表情文本UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66A948251D0E669D003BD133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A948351D0E669D003BD133 /* LaunchScreen.storyboard in Resources */,
+				66A948321D0E669D003BD133 /* Assets.xcassets in Resources */,
+				66A948301D0E669D003BD133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A948391D0E669D003BD133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A948441D0E669D003BD133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A948231D0E669D003BD133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A9482D1D0E669D003BD133 /* ViewController.swift in Sources */,
+				66A9482B1D0E669D003BD133 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A948371D0E669D003BD133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A948401D0E669D003BD133 /* _613_________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A948421D0E669D003BD133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A9484B1D0E669D003BD133 /* _613_________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66A9483D1D0E669D003BD133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A948261D0E669D003BD133 /* 0613 匹配微博表情文本 */;
+			targetProxy = 66A9483C1D0E669D003BD133 /* PBXContainerItemProxy */;
+		};
+		66A948481D0E669D003BD133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A948261D0E669D003BD133 /* 0613 匹配微博表情文本 */;
+			targetProxy = 66A948471D0E669D003BD133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66A9482E1D0E669D003BD133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A9482F1D0E669D003BD133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66A948331D0E669D003BD133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A948341D0E669D003BD133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66A9484D1D0E669D003BD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66A9484E1D0E669D003BD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66A948501D0E669D003BD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0613 匹配微博表情文本/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66A948511D0E669D003BD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0613 匹配微博表情文本/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66A948531D0E669D003BD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0613 匹配微博表情文本Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0613 匹配微博表情文本.app/0613 匹配微博表情文本";
+			};
+			name = Debug;
+		};
+		66A948541D0E669D003BD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0613 匹配微博表情文本Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0613 匹配微博表情文本.app/0613 匹配微博表情文本";
+			};
+			name = Release;
+		};
+		66A948561D0E669D003BD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0613 匹配微博表情文本UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0613 匹配微博表情文本";
+			};
+			name = Debug;
+		};
+		66A948571D0E669D003BD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0613 匹配微博表情文本UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0613 匹配微博表情文本";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66A948221D0E669D003BD133 /* Build configuration list for PBXProject "0613 匹配微博表情文本" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A9484D1D0E669D003BD133 /* Debug */,
+				66A9484E1D0E669D003BD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A9484F1D0E669D003BD133 /* Build configuration list for PBXNativeTarget "0613 匹配微博表情文本" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A948501D0E669D003BD133 /* Debug */,
+				66A948511D0E669D003BD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66A948521D0E669D003BD133 /* Build configuration list for PBXNativeTarget "0613 匹配微博表情文本Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A948531D0E669D003BD133 /* Debug */,
+				66A948541D0E669D003BD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66A948551D0E669D003BD133 /* Build configuration list for PBXNativeTarget "0613 匹配微博表情文本UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A948561D0E669D003BD133 /* Debug */,
+				66A948571D0E669D003BD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66A9481F1D0E669D003BD133 /* Project object */;
+}

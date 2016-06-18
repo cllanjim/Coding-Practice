@@ -66,6 +66,12 @@
         [self.view addSubview:exampleOfGroupView];
 
     }
+    
+    NSDictionary *dict = @{
+        @"name": @"ZSQ"
+    };
+    dict
+    
 }
 
 

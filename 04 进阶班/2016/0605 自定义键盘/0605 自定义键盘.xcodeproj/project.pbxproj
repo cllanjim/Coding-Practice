@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6613B0821D07F6DC0011679B /* SQKeyboardEmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613B0811D07F6DC0011679B /* SQKeyboardEmoticonAttachment.swift */; };
+		6613B0841D080B980011679B /* SQKeyboardEmoticonTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613B0831D080B980011679B /* SQKeyboardEmoticonTextView.swift */; };
 		667C8E141D045A3200C1C900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E131D045A3200C1C900 /* AppDelegate.swift */; };
 		667C8E161D045A3200C1C900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C8E151D045A3200C1C900 /* ViewController.swift */; };
 		667C8E191D045A3200C1C900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667C8E171D045A3200C1C900 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6613B0811D07F6DC0011679B /* SQKeyboardEmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQKeyboardEmoticonAttachment.swift; sourceTree = "<group>"; };
+		6613B0831D080B980011679B /* SQKeyboardEmoticonTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQKeyboardEmoticonTextView.swift; sourceTree = "<group>"; };
 		667C8E101D045A3200C1C900 /* 0605 自定义键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0605 自定义键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		667C8E131D045A3200C1C900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667C8E151D045A3200C1C900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,8 +117,10 @@
 				667C8E1F1D045A3200C1C900 /* Info.plist */,
 				667C8E411D045CAC00C1C900 /* Emoticons.bundle */,
 				667C8E431D045D1400C1C900 /* SQKeyBoardViewController.swift */,
+				6613B0811D07F6DC0011679B /* SQKeyboardEmoticonAttachment.swift */,
 				667C8E451D045F1100C1C900 /* SQKeyBoardEmoticonPackageModel.swift */,
 				667C8E471D045F4A00C1C900 /* SQKeyBoardEmoticonModel.swift */,
+				6613B0831D080B980011679B /* SQKeyboardEmoticonTextView.swift */,
 			);
 			path = "0605 自定义键盘";
 			sourceTree = "<group>";
@@ -273,7 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				667C8E481D045F4A00C1C900 /* SQKeyBoardEmoticonModel.swift in Sources */,
+				6613B0821D07F6DC0011679B /* SQKeyboardEmoticonAttachment.swift in Sources */,
 				667C8E441D045D1400C1C900 /* SQKeyBoardViewController.swift in Sources */,
+				6613B0841D080B980011679B /* SQKeyboardEmoticonTextView.swift in Sources */,
 				667C8E461D045F1100C1C900 /* SQKeyBoardEmoticonPackageModel.swift in Sources */,
 				667C8E161D045A3200C1C900 /* ViewController.swift in Sources */,
 				667C8E141D045A3200C1C900 /* AppDelegate.swift in Sources */,
@@ -503,6 +511,7 @@
 				667C8E3A1D045A3200C1C900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		667C8E3B1D045A3200C1C900 /* Build configuration list for PBXNativeTarget "0605 自定义键盘Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				667C8E3D1D045A3200C1C900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		667C8E3E1D045A3200C1C900 /* Build configuration list for PBXNativeTarget "0605 自定义键盘UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				667C8E401D045A3200C1C900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

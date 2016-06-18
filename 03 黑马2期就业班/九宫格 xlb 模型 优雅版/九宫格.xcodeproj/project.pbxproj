@@ -70,6 +70,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66736DCA1D05A959007D4ECB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66185FBA1B5920F1005B4EB7 /* GroupView.xib */,
+				6696F9721B5A29D800463626 /* GroupView.h */,
+				6696F9731B5A29D800463626 /* GroupView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		66736DCB1D05A968007D4ECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6615F1661B57ADCB00917678 /* GroupViewInfo.h */,
+				6615F1671B57ADCB00917678 /* GroupViewInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		66736DCC1D05A97D007D4ECB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66DEB0531B553087000A146E /* ViewController.h */,
+				66DEB0541B553087000A146E /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		66DEB0401B553087000A146E = {
 			isa = PBXGroup;
 			children = (
@@ -91,15 +119,11 @@
 		66DEB04B1B553087000A146E /* 九宫格 */ = {
 			isa = PBXGroup;
 			children = (
+				66736DCC1D05A97D007D4ECB /* Controller */,
+				66736DCB1D05A968007D4ECB /* Model */,
+				66736DCA1D05A959007D4ECB /* View */,
 				66DEB0501B553087000A146E /* AppDelegate.h */,
 				66DEB0511B553087000A146E /* AppDelegate.m */,
-				66DEB0531B553087000A146E /* ViewController.h */,
-				66DEB0541B553087000A146E /* ViewController.m */,
-				6615F1661B57ADCB00917678 /* GroupViewInfo.h */,
-				6615F1671B57ADCB00917678 /* GroupViewInfo.m */,
-				66185FBA1B5920F1005B4EB7 /* GroupView.xib */,
-				6696F9721B5A29D800463626 /* GroupView.h */,
-				6696F9731B5A29D800463626 /* GroupView.m */,
 				66DEB0561B553087000A146E /* Main.storyboard */,
 				66DEB0591B553087000A146E /* Images.xcassets */,
 				66DEB05B1B553087000A146E /* LaunchScreen.xib */,

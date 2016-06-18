@@ -10,15 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var textView: SQKeyboardEmoticonTextView!
     
-    private lazy var customKeyboardView: SQKeyBoardViewController = SQKeyBoardViewController()
+    @IBOutlet weak var publish: UIButton!
+    
+    private lazy var customKeyboardView: SQKeyBoardViewController = SQKeyBoardViewController { [unowned self] (emoticon) in
+        self.textView.insertEmoticon(emoticon)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         addChildViewController(customKeyboardView)
         textView.inputView = customKeyboardView.view
+        
         textView.alwaysBounceVertical = true
         textView.keyboardDismissMode = .OnDrag
         
@@ -29,6 +34,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func publishBtnClick(sender: AnyObject) {
+        let result = textView.emoticonString()
+        print(result)
+    }
 
 }
 

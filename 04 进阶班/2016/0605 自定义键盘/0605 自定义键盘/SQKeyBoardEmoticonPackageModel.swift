@@ -35,6 +35,7 @@ class SQKeyBoardEmoticonPackage: NSObject {
 
 
 extension SQKeyBoardEmoticonPackage {
+    
     class func loadAllEmoticonPackages() -> [SQKeyBoardEmoticonPackage]? {
         //创建用于保存SQKeyBoardEmoticonPackage的数组
         var models = [SQKeyBoardEmoticonPackage]()
@@ -99,7 +100,7 @@ extension SQKeyBoardEmoticonPackage {
      */
     private func loadEmoticons() {
         // 1.生成当前组表情所在文件夹的路径
-        guard let path: NSString = NSBundle.mainBundle().pathForResource(id!, ofType: nil, inDirectory: "Emoticons.bundle") else {
+        guard let path: NSString = NSBundle.mainBundle().pathForResource(id, ofType: nil, inDirectory: "Emoticons.bundle") else {
             return
         }
         // 2.生成当前组表情中info.plist的路径

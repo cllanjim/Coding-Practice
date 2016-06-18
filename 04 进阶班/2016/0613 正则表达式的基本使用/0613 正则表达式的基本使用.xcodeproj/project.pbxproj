@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66A947F11D0E5748003BD133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A947F01D0E5748003BD133 /* AppDelegate.swift */; };
+		66A947F31D0E5748003BD133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A947F21D0E5748003BD133 /* ViewController.swift */; };
+		66A947F61D0E5748003BD133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A947F41D0E5748003BD133 /* Main.storyboard */; };
+		66A947F81D0E5748003BD133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A947F71D0E5748003BD133 /* Assets.xcassets */; };
+		66A947FB1D0E5748003BD133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A947F91D0E5748003BD133 /* LaunchScreen.storyboard */; };
+		66A948061D0E5749003BD133 /* _613___________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A948051D0E5749003BD133 /* _613___________Tests.swift */; };
+		66A948111D0E5749003BD133 /* _613___________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A948101D0E5749003BD133 /* _613___________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66A948021D0E5749003BD133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A947E51D0E5748003BD133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A947EC1D0E5748003BD133;
+			remoteInfo = "0613 正则表达式的基本使用";
+		};
+		66A9480D1D0E5749003BD133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A947E51D0E5748003BD133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A947EC1D0E5748003BD133;
+			remoteInfo = "0613 正则表达式的基本使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66A947ED1D0E5748003BD133 /* 0613 正则表达式的基本使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0613 正则表达式的基本使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A947F01D0E5748003BD133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66A947F21D0E5748003BD133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66A947F51D0E5748003BD133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66A947F71D0E5748003BD133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66A947FA1D0E5748003BD133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66A947FC1D0E5748003BD133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A948011D0E5749003BD133 /* 0613 正则表达式的基本使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0613 正则表达式的基本使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A948051D0E5749003BD133 /* _613___________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_613___________Tests.swift"; sourceTree = "<group>"; };
+		66A948071D0E5749003BD133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A9480C1D0E5749003BD133 /* 0613 正则表达式的基本使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0613 正则表达式的基本使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A948101D0E5749003BD133 /* _613___________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_613___________UITests.swift"; sourceTree = "<group>"; };
+		66A948121D0E5749003BD133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A947EA1D0E5748003BD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A947FE1D0E5749003BD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A948091D0E5749003BD133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66A947E41D0E5748003BD133 = {
+			isa = PBXGroup;
+			children = (
+				66A947EF1D0E5748003BD133 /* 0613 正则表达式的基本使用 */,
+				66A948041D0E5749003BD133 /* 0613 正则表达式的基本使用Tests */,
+				66A9480F1D0E5749003BD133 /* 0613 正则表达式的基本使用UITests */,
+				66A947EE1D0E5748003BD133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66A947EE1D0E5748003BD133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A947ED1D0E5748003BD133 /* 0613 正则表达式的基本使用.app */,
+				66A948011D0E5749003BD133 /* 0613 正则表达式的基本使用Tests.xctest */,
+				66A9480C1D0E5749003BD133 /* 0613 正则表达式的基本使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A947EF1D0E5748003BD133 /* 0613 正则表达式的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				66A947F01D0E5748003BD133 /* AppDelegate.swift */,
+				66A947F21D0E5748003BD133 /* ViewController.swift */,
+				66A947F41D0E5748003BD133 /* Main.storyboard */,
+				66A947F71D0E5748003BD133 /* Assets.xcassets */,
+				66A947F91D0E5748003BD133 /* LaunchScreen.storyboard */,
+				66A947FC1D0E5748003BD133 /* Info.plist */,
+			);
+			path = "0613 正则表达式的基本使用";
+			sourceTree = "<group>";
+		};
+		66A948041D0E5749003BD133 /* 0613 正则表达式的基本使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66A948051D0E5749003BD133 /* _613___________Tests.swift */,
+				66A948071D0E5749003BD133 /* Info.plist */,
+			);
+			path = "0613 正则表达式的基本使用Tests";
+			sourceTree = "<group>";
+		};
+		66A9480F1D0E5749003BD133 /* 0613 正则表达式的基本使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66A948101D0E5749003BD133 /* _613___________UITests.swift */,
+				66A948121D0E5749003BD133 /* Info.plist */,
+			);
+			path = "0613 正则表达式的基本使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66A947EC1D0E5748003BD133 /* 0613 正则表达式的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A948151D0E5749003BD133 /* Build configuration list for PBXNativeTarget "0613 正则表达式的基本使用" */;
+			buildPhases = (
+				66A947E91D0E5748003BD133 /* Sources */,
+				66A947EA1D0E5748003BD133 /* Frameworks */,
+				66A947EB1D0E5748003BD133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0613 正则表达式的基本使用";
+			productName = "0613 正则表达式的基本使用";
+			productReference = 66A947ED1D0E5748003BD133 /* 0613 正则表达式的基本使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66A948001D0E5749003BD133 /* 0613 正则表达式的基本使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A948181D0E5749003BD133 /* Build configuration list for PBXNativeTarget "0613 正则表达式的基本使用Tests" */;
+			buildPhases = (
+				66A947FD1D0E5749003BD133 /* Sources */,
+				66A947FE1D0E5749003BD133 /* Frameworks */,
+				66A947FF1D0E5749003BD133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A948031D0E5749003BD133 /* PBXTargetDependency */,
+			);
+			name = "0613 正则表达式的基本使用Tests";
+			productName = "0613 正则表达式的基本使用Tests";
+			productReference = 66A948011D0E5749003BD133 /* 0613 正则表达式的基本使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66A9480B1D0E5749003BD133 /* 0613 正则表达式的基本使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A9481B1D0E5749003BD133 /* Build configuration list for PBXNativeTarget "0613 正则表达式的基本使用UITests" */;
+			buildPhases = (
+				66A948081D0E5749003BD133 /* Sources */,
+				66A948091D0E5749003BD133 /* Frameworks */,
+				66A9480A1D0E5749003BD133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A9480E1D0E5749003BD133 /* PBXTargetDependency */,
+			);
+			name = "0613 正则表达式的基本使用UITests";
+			productName = "0613 正则表达式的基本使用UITests";
+			productReference = 66A9480C1D0E5749003BD133 /* 0613 正则表达式的基本使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66A947E51D0E5748003BD133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SketchK;
+				TargetAttributes = {
+					66A947EC1D0E5748003BD133 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+					};
+					66A948001D0E5749003BD133 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66A947EC1D0E5748003BD133;
+					};
+					66A9480B1D0E5749003BD133 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AVGQC4G38V;
+						TestTargetID = 66A947EC1D0E5748003BD133;
+					};
+				};
+			};
+			buildConfigurationList = 66A947E81D0E5748003BD133 /* Build configuration list for PBXProject "0613 正则表达式的基本使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66A947E41D0E5748003BD133;
+			productRefGroup = 66A947EE1D0E5748003BD133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66A947EC1D0E5748003BD133 /* 0613 正则表达式的基本使用 */,
+				66A948001D0E5749003BD133 /* 0613 正则表达式的基本使用Tests */,
+				66A9480B1D0E5749003BD133 /* 0613 正则表达式的基本使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66A947EB1D0E5748003BD133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A947FB1D0E5748003BD133 /* LaunchScreen.storyboard in Resources */,
+				66A947F81D0E5748003BD133 /* Assets.xcassets in Resources */,
+				66A947F61D0E5748003BD133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A947FF1D0E5749003BD133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A9480A1D0E5749003BD133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A947E91D0E5748003BD133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A947F31D0E5748003BD133 /* ViewController.swift in Sources */,
+				66A947F11D0E5748003BD133 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A947FD1D0E5749003BD133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A948061D0E5749003BD133 /* _613___________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A948081D0E5749003BD133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A948111D0E5749003BD133 /* _613___________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66A948031D0E5749003BD133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A947EC1D0E5748003BD133 /* 0613 正则表达式的基本使用 */;
+			targetProxy = 66A948021D0E5749003BD133 /* PBXContainerItemProxy */;
+		};
+		66A9480E1D0E5749003BD133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A947EC1D0E5748003BD133 /* 0613 正则表达式的基本使用 */;
+			targetProxy = 66A9480D1D0E5749003BD133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66A947F41D0E5748003BD133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A947F51D0E5748003BD133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66A947F91D0E5748003BD133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A947FA1D0E5748003BD133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66A948131D0E5749003BD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66A948141D0E5749003BD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66A948161D0E5749003BD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0613 正则表达式的基本使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66A948171D0E5749003BD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0613 正则表达式的基本使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66A948191D0E5749003BD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0613 正则表达式的基本使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0613 正则表达式的基本使用.app/0613 正则表达式的基本使用";
+			};
+			name = Debug;
+		};
+		66A9481A1D0E5749003BD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0613 正则表达式的基本使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0613 正则表达式的基本使用.app/0613 正则表达式的基本使用";
+			};
+			name = Release;
+		};
+		66A9481C1D0E5749003BD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0613 正则表达式的基本使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0613 正则表达式的基本使用";
+			};
+			name = Debug;
+		};
+		66A9481D1D0E5749003BD133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0613 正则表达式的基本使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchk.-613-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0613 正则表达式的基本使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66A947E81D0E5748003BD133 /* Build configuration list for PBXProject "0613 正则表达式的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A948131D0E5749003BD133 /* Debug */,
+				66A948141D0E5749003BD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A948151D0E5749003BD133 /* Build configuration list for PBXNativeTarget "0613 正则表达式的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A948161D0E5749003BD133 /* Debug */,
+				66A948171D0E5749003BD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66A948181D0E5749003BD133 /* Build configuration list for PBXNativeTarget "0613 正则表达式的基本使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A948191D0E5749003BD133 /* Debug */,
+				66A9481A1D0E5749003BD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66A9481B1D0E5749003BD133 /* Build configuration list for PBXNativeTarget "0613 正则表达式的基本使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A9481C1D0E5749003BD133 /* Debug */,
+				66A9481D1D0E5749003BD133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66A947E51D0E5748003BD133 /* Project object */;
+}
