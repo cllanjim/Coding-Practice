@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66C081C21D52EC5200FB4010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C081C11D52EC5200FB4010 /* main.m */; };
+		66C081C51D52EC5200FB4010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C081C41D52EC5200FB4010 /* AppDelegate.m */; };
+		66C081C81D52EC5200FB4010 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C081C71D52EC5200FB4010 /* ViewController.m */; };
+		66C081CB1D52EC5200FB4010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C081C91D52EC5200FB4010 /* Main.storyboard */; };
+		66C081CD1D52EC5200FB4010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C081CC1D52EC5200FB4010 /* Assets.xcassets */; };
+		66C081D01D52EC5200FB4010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C081CE1D52EC5200FB4010 /* LaunchScreen.storyboard */; };
+		66C081DB1D52EC5200FB4010 /* _804_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C081DA1D52EC5200FB4010 /* _804_________Tests.m */; };
+		66C081E61D52EC5200FB4010 /* _804_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C081E51D52EC5200FB4010 /* _804_________UITests.m */; };
+		66C081F41D537B6200FB4010 /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66C081F31D537B6200FB4010 /* buyao.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C081D71D52EC5200FB4010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C081B51D52EC5200FB4010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C081BC1D52EC5200FB4010;
+			remoteInfo = "0804 本地通知推送练习";
+		};
+		66C081E21D52EC5200FB4010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C081B51D52EC5200FB4010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C081BC1D52EC5200FB4010;
+			remoteInfo = "0804 本地通知推送练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66C081BD1D52EC5200FB4010 /* 0804 本地通知推送练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0804 本地通知推送练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C081C11D52EC5200FB4010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66C081C31D52EC5200FB4010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66C081C41D52EC5200FB4010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66C081C61D52EC5200FB4010 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66C081C71D52EC5200FB4010 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66C081CA1D52EC5200FB4010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66C081CC1D52EC5200FB4010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C081CF1D52EC5200FB4010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66C081D11D52EC5200FB4010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C081D61D52EC5200FB4010 /* 0804 本地通知推送练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0804 本地通知推送练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C081DA1D52EC5200FB4010 /* _804_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_804_________Tests.m"; sourceTree = "<group>"; };
+		66C081DC1D52EC5200FB4010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C081E11D52EC5200FB4010 /* 0804 本地通知推送练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0804 本地通知推送练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C081E51D52EC5200FB4010 /* _804_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_804_________UITests.m"; sourceTree = "<group>"; };
+		66C081E71D52EC5200FB4010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C081F31D537B6200FB4010 /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C081BA1D52EC5200FB4010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C081D31D52EC5200FB4010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C081DE1D52EC5200FB4010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66C081B41D52EC5200FB4010 = {
+			isa = PBXGroup;
+			children = (
+				66C081BF1D52EC5200FB4010 /* 0804 本地通知推送练习 */,
+				66C081D91D52EC5200FB4010 /* 0804 本地通知推送练习Tests */,
+				66C081E41D52EC5200FB4010 /* 0804 本地通知推送练习UITests */,
+				66C081BE1D52EC5200FB4010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66C081BE1D52EC5200FB4010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C081BD1D52EC5200FB4010 /* 0804 本地通知推送练习.app */,
+				66C081D61D52EC5200FB4010 /* 0804 本地通知推送练习Tests.xctest */,
+				66C081E11D52EC5200FB4010 /* 0804 本地通知推送练习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C081BF1D52EC5200FB4010 /* 0804 本地通知推送练习 */ = {
+			isa = PBXGroup;
+			children = (
+				66C081C31D52EC5200FB4010 /* AppDelegate.h */,
+				66C081C41D52EC5200FB4010 /* AppDelegate.m */,
+				66C081C61D52EC5200FB4010 /* ViewController.h */,
+				66C081C71D52EC5200FB4010 /* ViewController.m */,
+				66C081C91D52EC5200FB4010 /* Main.storyboard */,
+				66C081CC1D52EC5200FB4010 /* Assets.xcassets */,
+				66C081CE1D52EC5200FB4010 /* LaunchScreen.storyboard */,
+				66C081F31D537B6200FB4010 /* buyao.wav */,
+				66C081D11D52EC5200FB4010 /* Info.plist */,
+				66C081C01D52EC5200FB4010 /* Supporting Files */,
+			);
+			path = "0804 本地通知推送练习";
+			sourceTree = "<group>";
+		};
+		66C081C01D52EC5200FB4010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66C081C11D52EC5200FB4010 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66C081D91D52EC5200FB4010 /* 0804 本地通知推送练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66C081DA1D52EC5200FB4010 /* _804_________Tests.m */,
+				66C081DC1D52EC5200FB4010 /* Info.plist */,
+			);
+			path = "0804 本地通知推送练习Tests";
+			sourceTree = "<group>";
+		};
+		66C081E41D52EC5200FB4010 /* 0804 本地通知推送练习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66C081E51D52EC5200FB4010 /* _804_________UITests.m */,
+				66C081E71D52EC5200FB4010 /* Info.plist */,
+			);
+			path = "0804 本地通知推送练习UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C081BC1D52EC5200FB4010 /* 0804 本地通知推送练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C081EA1D52EC5200FB4010 /* Build configuration list for PBXNativeTarget "0804 本地通知推送练习" */;
+			buildPhases = (
+				66C081B91D52EC5200FB4010 /* Sources */,
+				66C081BA1D52EC5200FB4010 /* Frameworks */,
+				66C081BB1D52EC5200FB4010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0804 本地通知推送练习";
+			productName = "0804 本地通知推送练习";
+			productReference = 66C081BD1D52EC5200FB4010 /* 0804 本地通知推送练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66C081D51D52EC5200FB4010 /* 0804 本地通知推送练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C081ED1D52EC5200FB4010 /* Build configuration list for PBXNativeTarget "0804 本地通知推送练习Tests" */;
+			buildPhases = (
+				66C081D21D52EC5200FB4010 /* Sources */,
+				66C081D31D52EC5200FB4010 /* Frameworks */,
+				66C081D41D52EC5200FB4010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C081D81D52EC5200FB4010 /* PBXTargetDependency */,
+			);
+			name = "0804 本地通知推送练习Tests";
+			productName = "0804 本地通知推送练习Tests";
+			productReference = 66C081D61D52EC5200FB4010 /* 0804 本地通知推送练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66C081E01D52EC5200FB4010 /* 0804 本地通知推送练习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C081F01D52EC5200FB4010 /* Build configuration list for PBXNativeTarget "0804 本地通知推送练习UITests" */;
+			buildPhases = (
+				66C081DD1D52EC5200FB4010 /* Sources */,
+				66C081DE1D52EC5200FB4010 /* Frameworks */,
+				66C081DF1D52EC5200FB4010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C081E31D52EC5200FB4010 /* PBXTargetDependency */,
+			);
+			name = "0804 本地通知推送练习UITests";
+			productName = "0804 本地通知推送练习UITests";
+			productReference = 66C081E11D52EC5200FB4010 /* 0804 本地通知推送练习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C081B51D52EC5200FB4010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "SQ-Studio";
+				TargetAttributes = {
+					66C081BC1D52EC5200FB4010 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					66C081D51D52EC5200FB4010 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 66C081BC1D52EC5200FB4010;
+					};
+					66C081E01D52EC5200FB4010 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 66C081BC1D52EC5200FB4010;
+					};
+				};
+			};
+			buildConfigurationList = 66C081B81D52EC5200FB4010 /* Build configuration list for PBXProject "0804 本地通知推送练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C081B41D52EC5200FB4010;
+			productRefGroup = 66C081BE1D52EC5200FB4010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C081BC1D52EC5200FB4010 /* 0804 本地通知推送练习 */,
+				66C081D51D52EC5200FB4010 /* 0804 本地通知推送练习Tests */,
+				66C081E01D52EC5200FB4010 /* 0804 本地通知推送练习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C081BB1D52EC5200FB4010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C081D01D52EC5200FB4010 /* LaunchScreen.storyboard in Resources */,
+				66C081F41D537B6200FB4010 /* buyao.wav in Resources */,
+				66C081CD1D52EC5200FB4010 /* Assets.xcassets in Resources */,
+				66C081CB1D52EC5200FB4010 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C081D41D52EC5200FB4010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C081DF1D52EC5200FB4010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C081B91D52EC5200FB4010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C081C81D52EC5200FB4010 /* ViewController.m in Sources */,
+				66C081C51D52EC5200FB4010 /* AppDelegate.m in Sources */,
+				66C081C21D52EC5200FB4010 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C081D21D52EC5200FB4010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C081DB1D52EC5200FB4010 /* _804_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C081DD1D52EC5200FB4010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C081E61D52EC5200FB4010 /* _804_________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66C081D81D52EC5200FB4010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C081BC1D52EC5200FB4010 /* 0804 本地通知推送练习 */;
+			targetProxy = 66C081D71D52EC5200FB4010 /* PBXContainerItemProxy */;
+		};
+		66C081E31D52EC5200FB4010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C081BC1D52EC5200FB4010 /* 0804 本地通知推送练习 */;
+			targetProxy = 66C081E21D52EC5200FB4010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66C081C91D52EC5200FB4010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C081CA1D52EC5200FB4010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66C081CE1D52EC5200FB4010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C081CF1D52EC5200FB4010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C081E81D52EC5200FB4010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66C081E91D52EC5200FB4010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66C081EB1D52EC5200FB4010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0804 本地通知推送练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Studio.-804---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66C081EC1D52EC5200FB4010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0804 本地通知推送练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Studio.-804---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66C081EE1D52EC5200FB4010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0804 本地通知推送练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Studio.-804---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0804 本地通知推送练习.app/0804 本地通知推送练习";
+			};
+			name = Debug;
+		};
+		66C081EF1D52EC5200FB4010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0804 本地通知推送练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Studio.-804---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0804 本地通知推送练习.app/0804 本地通知推送练习";
+			};
+			name = Release;
+		};
+		66C081F11D52EC5200FB4010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0804 本地通知推送练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Studio.-804---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0804 本地通知推送练习";
+			};
+			name = Debug;
+		};
+		66C081F21D52EC5200FB4010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0804 本地通知推送练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SQ-Studio.-804---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0804 本地通知推送练习";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C081B81D52EC5200FB4010 /* Build configuration list for PBXProject "0804 本地通知推送练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C081E81D52EC5200FB4010 /* Debug */,
+				66C081E91D52EC5200FB4010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C081EA1D52EC5200FB4010 /* Build configuration list for PBXNativeTarget "0804 本地通知推送练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C081EB1D52EC5200FB4010 /* Debug */,
+				66C081EC1D52EC5200FB4010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C081ED1D52EC5200FB4010 /* Build configuration list for PBXNativeTarget "0804 本地通知推送练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C081EE1D52EC5200FB4010 /* Debug */,
+				66C081EF1D52EC5200FB4010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C081F01D52EC5200FB4010 /* Build configuration list for PBXNativeTarget "0804 本地通知推送练习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C081F11D52EC5200FB4010 /* Debug */,
+				66C081F21D52EC5200FB4010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C081B51D52EC5200FB4010 /* Project object */;
+}

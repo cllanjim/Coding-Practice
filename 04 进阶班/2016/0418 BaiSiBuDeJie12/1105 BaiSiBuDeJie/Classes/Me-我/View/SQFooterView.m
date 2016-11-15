@@ -94,7 +94,7 @@
         //取模型数据
         SQMeSquareModel *modelData = modelArray[i];
         
-        //创建button
+        //创建s
         SQMeSquareButton *button = [SQMeSquareButton buttonWithType:UIButtonTypeCustom];
         [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
         

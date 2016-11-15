@@ -61,7 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate {
     private func isNewVersion() -> Bool {
         //1.加载当前软件的版本号
-        let newVersion = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String
+        let newVersion = NSBundle.mainBundle().infoDictionary!["N"] as! String
         //2.加载以前的软件版本号
         let currentVersion = NSUserDefaults.standardUserDefaults().stringForKey("currentVersion")
         

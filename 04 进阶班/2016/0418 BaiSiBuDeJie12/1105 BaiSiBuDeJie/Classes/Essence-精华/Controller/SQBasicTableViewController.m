@@ -94,6 +94,7 @@ static NSString * const SQTopicCellId = @"topic";
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
+
 #pragma mark - 设置通知的监听者
 - (void)setupNotification{
     

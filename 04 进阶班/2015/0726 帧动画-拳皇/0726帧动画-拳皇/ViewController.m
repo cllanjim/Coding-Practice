@@ -158,7 +158,7 @@
     
     //7.判断当前动画
     //if ([name isEqualToString:@"stand"])return;
-    [self performSelector:@selector(stand) withObject:nil afterDelay:0.045 * number];
+   // [self performSelector:@selector(stand) withObject:nil afterDelay:0.045 * number];
 
 
 }
